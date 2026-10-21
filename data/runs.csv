@@ -1,2 +1,4 @@
 ts,ok,markets,new_bets,settled,message
 2026-10-21T21:44:31+00:00,1,100,0,0,
+2026-10-21T21:56:34+00:00,0,0,0,0,"ApiError: HTTP 422 для https://gamma-api.polymarket.com/markets?closed=false&limit=100&offset=2100&active=true&end_date_min=2026-10-21T21%3A56%3A17Z&end_date_max=2026-11-21T21%3A56%3A17Z&volume_num_min=5000: {""type"":""validation error"",""error"":""offset too large, use /markets/keyset for deeper pagination""}
+"
