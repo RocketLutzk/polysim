@@ -1,0 +1,737 @@
+<!doctype html>
+<html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex"></head><body>
+<title>Polysim</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: термінал для однієї людини — фільтри зверху, вкладки, підсумок над деталями; phone-first. */
+:root {
+  --bg: #f6f7f6;
+  --surface: #ffffff;
+  --sunken: #eef0ee;
+  --line: #dde1de;
+  --ink: #111614;
+  --ink-2: #4d5652;
+  --ink-3: #7b8480;
+  --accent: #14532d;          /* темно-зелений «стрічки котирувань» — активні елементи */
+  --accent-soft: #e3ede6;
+  --good: #11753a; --good-bg: #e2f2e7;
+  --bad: #b42318;  --bad-bg: #fbe7e5;
+  --warn: #8a5a00; --warn-bg: #fbf0d9;
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100;
+  --s5: #e87ba4; --s6: #008300; --s7: #6250d6; --s8: #e34948;
+  --font-ui: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-num: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+  --r: 10px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121514; --surface: #1a1e1c; --sunken: #232825; --line: #2f3632;
+    --ink: #edf1ee; --ink-2: #b9c2bd; --ink-3: #87918c;
+    --accent: #7fd39b; --accent-soft: #1f3327;
+    --good: #6fd08e; --good-bg: #1c3324; --bad: #ff8a7a; --bad-bg: #3a1f1c;
+    --warn: #e9b44c; --warn-bg: #3a2e14;
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
+    --s5: #d55181; --s6: #008300; --s7: #9085e9; --s8: #e66767;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121514; --surface: #1a1e1c; --sunken: #232825; --line: #2f3632;
+  --ink: #edf1ee; --ink-2: #b9c2bd; --ink-3: #87918c;
+  --accent: #7fd39b; --accent-soft: #1f3327;
+  --good: #6fd08e; --good-bg: #1c3324; --bad: #ff8a7a; --bad-bg: #3a1f1c;
+  --warn: #e9b44c; --warn-bg: #3a2e14;
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
+  --s5: #d55181; --s6: #008300; --s7: #9085e9; --s8: #e66767;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.45 var(--font-ui); -webkit-text-size-adjust: 100%; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
+button, input, select { font: inherit; color: inherit; }
+a { color: var(--accent); }
+.num { font-family: var(--font-num); font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+.wrap { max-width: 1060px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+/* шапка */
+header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line); }
+.top { display: flex; align-items: center; gap: 12px; padding-block: 12px 8px; }
+.brand { font-weight: 700; letter-spacing: -0.02em; font-size: 17px; }
+.brand small { font-weight: 500; color: var(--ink-3); font-size: 12px; margin-left: 6px; letter-spacing: 0.02em; }
+.live { margin-left: auto; display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--ink-2); white-space: nowrap; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ink-3); flex: none; }
+.dot.ok { background: var(--good); } .dot.bad { background: var(--bad); } .dot.warn { background: var(--warn); }
+nav { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
+nav::-webkit-scrollbar { display: none; }
+nav a { text-decoration: none; color: var(--ink-2); padding: 8px 12px 10px; border-bottom: 2px solid transparent; font-weight: 500; white-space: nowrap; }
+nav a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--accent); }
+nav a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, .bet:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.demo { background: var(--warn-bg); color: var(--warn); font-size: 13px; padding-block: 8px; }
+
+/* фільтри */
+.filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding-block: 14px 4px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 5px 11px; font-size: 13px; cursor: pointer; color: var(--ink-2); }
+.chip[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--ink); }
+.chip .sw { width: 9px; height: 9px; border-radius: 3px; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); }
+.seg button { border: 0; background: none; padding: 5px 10px; font-size: 13px; cursor: pointer; color: var(--ink-2); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--surface); }
+.spacer { flex: 1; }
+
+main { padding-block: 10px 48px; }
+section[hidden] { display: none; }
+h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-2); margin: 28px 0 10px; font-weight: 600; }
+.hint { color: var(--ink-3); font-size: 13px; margin: 8px 0 0; max-width: 68ch; }
+
+/* KPI */
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
+.kpi { background: var(--surface); padding: 14px 14px 12px; min-width: 0; }
+.kpi .k { font-size: 12px; color: var(--ink-2); }
+.kpi .v { font-family: var(--font-num); font-size: 24px; font-weight: 500; letter-spacing: -0.02em; margin-top: 2px; white-space: nowrap; }
+.kpi .s { font-size: 12px; color: var(--ink-3); margin-top: 2px; }
+.pos { color: var(--good); } .neg { color: var(--bad); }
+
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px; min-width: 0; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12px; color: var(--ink-2); margin-bottom: 6px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+.legend i.dash { height: 0; border-top: 2px dashed var(--ink-3); border-radius: 0; width: 14px; }
+.chart { position: relative; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart .ax { font: 11px var(--font-num); fill: var(--ink-3); }
+.chart .lab { font: 12px var(--font-ui); fill: var(--ink-2); }
+.tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; font-size: 12px; box-shadow: 0 6px 18px rgb(0 0 0 / 0.14); z-index: 2; min-width: 140px; }
+.tip .t { color: var(--ink-3); margin-bottom: 4px; font-family: var(--font-num); }
+.tip div { display: flex; align-items: center; gap: 6px; white-space: nowrap; }
+.tip i { width: 8px; height: 8px; border-radius: 2px; display: inline-block; }
+.tip b { margin-left: auto; padding-left: 10px; font-family: var(--font-num); font-weight: 500; }
+.empty { color: var(--ink-3); font-size: 14px; padding: 28px 8px; text-align: center; }
+
+/* таблиці */
+.tscroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { font-weight: 600; color: var(--ink-2); font-size: 12px; }
+td.r, th.r { text-align: right; }
+tr:last-child td { border-bottom: 0; }
+.sname { display: inline-flex; align-items: center; gap: 7px; font-weight: 500; }
+.sname i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+.pill { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--sunken); color: var(--ink-2); white-space: nowrap; }
+.pill.good { background: var(--good-bg); color: var(--good); }
+.pill.bad { background: var(--bad-bg); color: var(--bad); }
+.pill.warn { background: var(--warn-bg); color: var(--warn); }
+
+.grid2 { display: grid; grid-template-columns: 1fr; gap: 14px; }
+@media (min-width: 820px) { .grid2 { grid-template-columns: 1fr 1fr; } }
+
+/* ставки */
+.bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 14px 0 10px; }
+.search { flex: 1 1 220px; min-width: 0; border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 7px 10px; }
+select { border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 6px 8px; font-size: 13px; }
+.bets { border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; background: var(--surface); }
+.bet { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; padding: 11px 14px; border-bottom: 1px solid var(--line); cursor: pointer; width: 100%; text-align: left; background: none; border-left: 0; border-right: 0; border-top: 0; }
+.bet:last-child { border-bottom: 0; }
+.bet:hover { background: var(--sunken); }
+.bet .q { font-weight: 500; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.bet .meta { grid-column: 1; font-size: 12px; color: var(--ink-3); display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; }
+.bet .res { grid-column: 2; grid-row: 1 / span 2; text-align: right; align-self: center; }
+.bet .res .num { display: block; font-size: 15px; }
+.bet .res small { font-size: 11px; color: var(--ink-3); }
+.more { display: block; margin: 12px auto 0; border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 8px 16px; cursor: pointer; }
+
+/* деталі ставки */
+.sheet { position: fixed; inset: 0; z-index: 20; display: flex; justify-content: flex-end; background: rgb(0 0 0 / 0.35); }
+.sheet[hidden] { display: none !important; }
+.sheet .card { width: min(560px, 100%); height: 100%; overflow-y: auto; background: var(--surface); padding: calc(16px + env(safe-area-inset-top, 0px)) max(18px, env(safe-area-inset-right, 0px)) calc(24px + env(safe-area-inset-bottom, 0px)) 18px; }
+.sheet h3 { font-size: 18px; line-height: 1.3; margin: 8px 0 6px; text-wrap: balance; }
+.close { border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 6px 12px; cursor: pointer; }
+.facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; margin: 14px 0; }
+.facts div { background: var(--surface); padding: 9px 11px; min-width: 0; }
+.facts .k { font-size: 11px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.05em; }
+.facts .v { font-size: 14px; margin-top: 1px; overflow-wrap: anywhere; }
+
+/* аналіз */
+.calib-note { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--ink-2); margin-top: 6px; }
+
+.errors { list-style: none; margin: 0; padding: 0; font-size: 13px; }
+.errors li { padding: 9px 0; border-bottom: 1px solid var(--line); display: grid; gap: 2px; }
+.errors li:last-child { border-bottom: 0; }
+.errors code { font-family: var(--font-num); font-size: 12px; color: var(--ink-2); overflow-wrap: anywhere; }
+.links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.links a { border: 1px solid var(--line); border-radius: 8px; padding: 7px 12px; text-decoration: none; color: var(--ink); background: var(--surface); font-size: 13px; }
+.howto { font-size: 14px; color: var(--ink-2); max-width: 68ch; }
+.howto p { margin: 0 0 8px; }
+@media (prefers-reduced-motion: no-preference) { .bet, .chip, nav a { transition: background-color .15s, border-color .15s, color .15s; } }
+</style>
+
+<header>
+  <div class="wrap top">
+    <div class="brand">Polysim<small>paper trading</small></div>
+    <div class="live"><span class="dot" id="live-dot"></span><span id="live-text">завантаження…</span></div>
+  </div>
+  <nav class="wrap" aria-label="Розділи">
+    <a href="#overview" data-tab="overview">Огляд</a>
+    <a href="#bets" data-tab="bets">Ставки</a>
+    <a href="#analysis" data-tab="analysis">Аналіз</a>
+    <a href="#bot" data-tab="bot">Бот</a>
+  </nav>
+</header>
+<div class="demo" id="demo" hidden><div class="wrap">Демо: синтетичні дані, щоб показати, як виглядатиме додаток. Реальні цифри з'являться після запуску бота.</div></div>
+
+<main class="wrap">
+  <div class="filters" id="filters">
+    <div id="strat-chips" style="display:flex;flex-wrap:wrap;gap:6px"></div>
+    <span class="spacer"></span>
+    <div class="seg" id="period" role="group" aria-label="Період">
+      <button data-p="1">24 год</button><button data-p="3">3 дні</button><button data-p="7">7 днів</button><button data-p="all" aria-pressed="true">Усе</button>
+    </div>
+  </div>
+
+  <!-- ОГЛЯД -->
+  <section id="tab-overview">
+    <h2>Підсумок</h2>
+    <div class="kpis" id="kpis"></div>
+    <h2>Прибуток у часі</h2>
+    <div class="panel">
+      <div class="legend" id="eq-legend"></div>
+      <div class="chart" id="eq-chart"></div>
+      <p class="hint">Відкриті ставки враховано за поточною ціною ринку, закриті за фактичним результатом. Тому лінія рухається ще до того, як ринки вирішаться.</p>
+    </div>
+    <h2>Стратегії</h2>
+    <div class="panel tscroll" style="padding:0"><table id="strat-table"></table></div>
+    <p class="hint">«Ринок очікував» — середня ціна входу, тобто ймовірність виграшу, яку закладав ринок. Перевага є тоді, коли «Влучність» стабільно вища за неї на 30+ закритих ставках.</p>
+  </section>
+
+  <!-- СТАВКИ -->
+  <section id="tab-bets" hidden>
+    <div class="bar">
+      <input class="search" id="q" type="search" placeholder="Пошук по ринку…" aria-label="Пошук по ринку">
+      <div class="seg" id="bstatus" role="group" aria-label="Статус">
+        <button data-s="all" aria-pressed="true">Усі</button><button data-s="open">Відкриті</button><button data-s="won">Виграні</button><button data-s="lost">Програні</button>
+      </div>
+      <select id="sort" aria-label="Сортування">
+        <option value="new">Спочатку нові</option>
+        <option value="pnl-desc">P&amp;L: більші спочатку</option>
+        <option value="pnl-asc">P&amp;L: менші спочатку</option>
+        <option value="end">Скоро закриття</option>
+        <option value="price">Ціна входу</option>
+      </select>
+    </div>
+    <div class="bets" id="bet-list"></div>
+    <button class="more" id="more" hidden>Показати ще</button>
+  </section>
+
+  <!-- АНАЛІЗ -->
+  <section id="tab-analysis" hidden>
+    <div class="bar">
+      <span style="font-size:13px;color:var(--ink-2)">Групувати за</span>
+      <div class="seg" id="group" role="group" aria-label="Групування">
+        <button data-g="price" aria-pressed="true">Ціною входу</button><button data-g="days">Днями до закриття</button><button data-g="strategy">Стратегією</button>
+      </div>
+    </div>
+    <div class="grid2">
+      <div class="panel">
+        <div class="legend"><span><i style="background:var(--s1)"></i>фактична влучність</span><span><i class="dash"></i>якби ринок був точним</span></div>
+        <div class="chart" id="calib-chart"></div>
+        <p class="hint">Точка вище пунктиру: такі ставки вигравали частіше, ніж обіцяла ціна. Тут шукати перевагу.</p>
+      </div>
+      <div class="panel">
+        <div class="legend"><span><i style="background:var(--s1)"></i>ROI групи, %</span></div>
+        <div class="chart" id="roi-chart"></div>
+        <p class="hint">Прибуток на кожен поставлений долар. Групи з малою кількістю ставок ненадійні.</p>
+      </div>
+    </div>
+    <h2>Деталі</h2>
+    <div class="panel tscroll" style="padding:0"><table id="group-table"></table></div>
+    <p class="hint">Лише закриті ставки обраних стратегій за обраний період.</p>
+  </section>
+
+  <!-- БОТ -->
+  <section id="tab-bot" hidden>
+    <h2>Стан збору даних</h2>
+    <div class="kpis" id="bot-kpis"></div>
+    <h2>Ринків за запуск</h2>
+    <div class="panel"><div class="chart" id="runs-chart"></div>
+      <p class="hint">Кожна точка — один запуск. Провали до нуля означають помилку або недоступність API.</p></div>
+    <div class="grid2" style="margin-top:14px">
+      <div class="panel"><h2 style="margin-top:0">Останні помилки</h2><ul class="errors" id="errors"></ul></div>
+      <div class="panel"><h2 style="margin-top:0">Дані</h2>
+        <div class="howto">
+          <p>Бот кожні ~15 хв робить знімок цін усіх активних ринків, записує віртуальні ставки за стратегіями і розраховує ті, що закрились.</p>
+          <p>Гроші віртуальні: ставка $<span class="num" id="stake-note">10</span>, купівля за ціною ринку на момент рішення.</p>
+        </div>
+        <div class="links" id="links"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="sheet" id="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="sh-q">
+  <div class="card">
+    <button class="close" id="sh-close">Закрити</button>
+    <h3 id="sh-q"></h3>
+    <div id="sh-link"></div>
+    <div class="facts" id="sh-facts"></div>
+    <div class="legend" id="sh-legend"></div>
+    <div class="chart" id="sh-chart"></div>
+    <p class="hint" id="sh-hint"></p>
+  </div>
+</div>
+
+<script>
+(function () {
+"use strict";
+const $ = (s, el = document) => el.querySelector(s);
+const $$ = (s, el = document) => [...el.querySelectorAll(s)];
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const NS = "http://www.w3.org/2000/svg";
+
+let D = null, SERIES = {};
+const state = { strategies: new Set(), period: "all", bstatus: "all", q: "", sort: "new", group: "price", shown: 60 };
+const color = {};       // колір закріплений за стратегією, не за місцем у списку
+
+/* ---------- форматування ---------- */
+const money = (v, sign = true) => v == null || isNaN(v) ? "—" : (sign && v > 0 ? "+" : v < 0 ? "−" : "") + "$" + Math.abs(v).toFixed(2);
+const pct = (v, sign = false) => v == null || isNaN(v) ? "—" : (sign && v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v * 100).toFixed(1) + "%";
+const cents = p => p == null ? "—" : (p * 100).toFixed(p < 0.1 || p > 0.9 ? 1 : 0) + "¢";
+const cls = v => v > 0.005 ? "pos" : v < -0.005 ? "neg" : "";
+const ts = s => s ? Date.parse(s) / 1000 : null;
+const d2 = n => String(n).padStart(2, "0");
+const fmtDate = t => { const d = new Date(t * 1000); return `${d2(d.getDate())}.${d2(d.getMonth() + 1)}`; };
+const fmtDT = t => { const d = new Date(t * 1000); return `${d2(d.getDate())}.${d2(d.getMonth() + 1)} ${d2(d.getHours())}:${d2(d.getMinutes())}`; };
+const ago = t => {
+  const m = Math.floor((Date.now() / 1000 - t) / 60);
+  return m < 1 ? "щойно" : m < 60 ? `${m} хв тому` : m < 2880 ? `${Math.floor(m / 60)} год тому` : `${Math.floor(m / 1440)} дн. тому`;
+};
+
+/* ---------- дані ---------- */
+async function load() {
+  if (window.POLYSIM_DATA) { D = window.POLYSIM_DATA; SERIES = window.POLYSIM_SERIES || {}; return; }
+  const r = await fetch("app-data.json", { cache: "no-store" });
+  if (!r.ok) throw new Error("app-data.json: HTTP " + r.status);
+  D = await r.json();
+  try { const s = await fetch("series.json", { cache: "no-store" }); if (s.ok) SERIES = await s.json(); } catch (e) { SERIES = {}; }
+}
+
+function prep() {
+  D.strategies.forEach((s, i) => color[s.name] = `var(--s${(i % 8) + 1})`);
+  D.bets.forEach(b => {
+    if (!color[b.strategy]) color[b.strategy] = `var(--s${(Object.keys(color).length % 8) + 1})`;
+    b.t = ts(b.placed_at); b.te = ts(b.end_date); b.tsd = ts(b.settled_at);
+    const s = SERIES[b.market_id];
+    b.series = s || [];
+    if (b.status === "open") {
+      const last = s && s.length ? s[s.length - 1][1] : null;
+      b.cur = last == null ? b.entry_price : (b.outcome_index === 0 ? last : 1 - last);
+      b.upnl = b.shares * b.cur - b.stake;      // нереалізований P&L
+    }
+  });
+  D.runs.forEach(r => r.t = ts(r.ts));
+  state.strategies = new Set(D.strategies.map(s => s.name).filter(n => D.bets.some(b => b.strategy === n)));
+  if (!state.strategies.size) state.strategies = new Set(D.strategies.map(s => s.name));
+  try { const p = localStorage.getItem("polysim.period"); if (p) state.period = p; } catch (e) {}
+}
+
+function filtered() {
+  const since = state.period === "all" ? -Infinity : (D.demo ? lastT() : Date.now() / 1000) - (+state.period) * 86400;
+  return D.bets.filter(b => state.strategies.has(b.strategy) && b.t >= since);
+}
+const lastT = () => D.runs.length ? D.runs[D.runs.length - 1].t : Date.now() / 1000;
+
+function stats(bets) {
+  const set = bets.filter(b => b.status === "won" || b.status === "lost");
+  const open = bets.filter(b => b.status === "open");
+  const wins = set.filter(b => b.status === "won").length;
+  const staked = set.reduce((a, b) => a + b.stake, 0);
+  const pnl = set.reduce((a, b) => a + b.pnl, 0);
+  const exp = set.reduce((a, b) => a + b.entry_price, 0);
+  const vr = set.reduce((a, b) => a + b.entry_price * (1 - b.entry_price), 0);
+  const upnl = open.reduce((a, b) => a + (b.upnl || 0), 0);
+  return { n: bets.length, settled: set.length, open: open.length, wins, staked, pnl, upnl,
+    openStake: open.reduce((a, b) => a + b.stake, 0),
+    win: set.length ? wins / set.length : null, implied: set.length ? exp / set.length : null,
+    roi: staked ? pnl / staked : null, z: vr > 0 ? (wins - exp) / Math.sqrt(vr) : 0 };
+}
+function verdict(s) {
+  if (s.settled < 30) return ["мало даних", ""];
+  if (Math.abs(s.z) < 2) return ["схоже на випадковість", ""];
+  return s.z > 0 ? ["є перевага", "good"] : ["стабільно програє", "bad"];
+}
+
+/* ---------- графіки ---------- */
+function niceStep(range, n) { const r = range / n, m = Math.pow(10, Math.floor(Math.log10(r || 1))); return [1, 2, 2.5, 5, 10].map(k => k * m).find(k => k >= r) || m * 10; }
+function timeTicks(a, b, W) {
+  const span = b - a, max = Math.max(2, Math.floor(W / 90)), H = 3600;
+  const steps = [H, 3 * H, 6 * H, 12 * H, 86400, 2 * 86400, 7 * 86400, 14 * 86400, 30 * 86400];
+  const st = steps.find(s => span / s <= max) || steps[steps.length - 1];
+  const off = new Date().getTimezoneOffset() * 60;
+  const out = []; for (let t = Math.ceil((a - off) / st) * st + off; t <= b; t += st) out.push(t);
+  return { ticks: out, fmt: st < 86400 ? (t => { const d = new Date(t * 1000); return d.getHours() === 0 ? fmtDate(t) : `${d2(d.getHours())}:00`; }) : fmtDate };
+}
+function el(tag, attrs, parent) { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+
+/* Лінійний графік за часом. series: [{name, color, pts:[[t,y]], dash?}] */
+function lineChart(box, cfg) {
+  box.innerHTML = "";
+  const all = cfg.series.flatMap(s => s.pts);
+  if (!all.length) { box.innerHTML = `<div class="empty">${cfg.empty || "Немає даних"}</div>`; return; }
+  const W = Math.max(300, box.clientWidth), small = W < 560;
+  const H = cfg.height || (small ? 230 : 300), L = cfg.left || 52, R = cfg.labels === false ? 14 : (small ? 70 : 88), T = 10, B = 26;
+  let x0 = Math.min(...all.map(p => p[0])), x1 = Math.max(...all.map(p => p[0]));
+  if (cfg.xmin != null) x0 = Math.min(x0, cfg.xmin);
+  if (x1 - x0 < 3600) { x0 -= 1800; x1 += 1800; }
+  let y0 = cfg.ymin ?? Math.min(0, ...all.map(p => p[1])), y1 = cfg.ymax ?? Math.max(0, ...all.map(p => p[1]));
+  (cfg.refY || []).forEach(r => { y0 = Math.min(y0, r.y); y1 = Math.max(y1, r.y); });
+  if (cfg.ymin == null || cfg.ymax == null) { const pad = (y1 - y0 || 1) * 0.08; if (cfg.ymin == null) y0 -= pad; if (cfg.ymax == null) y1 += pad; }
+  const X = t => L + (t - x0) / (x1 - x0) * (W - L - R), Y = v => T + (y1 - v) / (y1 - y0) * (H - T - B);
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": cfg.aria || "графік" }, box);
+  const step = niceStep(y1 - y0, small ? 4 : 5);
+  for (let v = Math.ceil(y0 / step) * step; v <= y1 + 1e-9; v += step) {
+    el("line", { x1: L, x2: W - R, y1: Y(v), y2: Y(v), stroke: "var(--line)", "stroke-width": 1 }, svg);
+    el("text", { x: L - 8, y: Y(v) + 4, "text-anchor": "end", class: "ax" }, svg).textContent = cfg.yFmt(v);
+  }
+  if (cfg.zero !== false && y0 < 0 && y1 > 0) el("line", { x1: L, x2: W - R, y1: Y(0), y2: Y(0), stroke: "var(--ink-3)", "stroke-width": 1 }, svg);
+  (cfg.refY || []).forEach(r => {
+    el("line", { x1: L, x2: W - R, y1: Y(r.y), y2: Y(r.y), stroke: "var(--ink-3)", "stroke-dasharray": "4 4", "stroke-width": 1.5 }, svg);
+  });
+  const tt = timeTicks(x0, x1, W - L - R);
+  tt.ticks.forEach(t => el("text", { x: X(t), y: H - 6, "text-anchor": "middle", class: "ax" }, svg).textContent = tt.fmt(t));
+  (cfg.refX || []).forEach(r => el("line", { x1: X(r.x), x2: X(r.x), y1: T, y2: H - B, stroke: "var(--ink-3)", "stroke-width": 1, "stroke-dasharray": "2 3" }, svg));
+  const ends = [];
+  cfg.series.forEach(s => {
+    if (!s.pts.length) return;
+    const d = s.pts.map((p, i) => `${i ? "L" : "M"}${X(p[0]).toFixed(1)},${Y(p[1]).toFixed(1)}`).join("");
+    if (cfg.area && cfg.series.length === 1) el("path", { d: d + `L${X(s.pts[s.pts.length - 1][0])},${Y(Math.max(y0, 0))}L${X(s.pts[0][0])},${Y(Math.max(y0, 0))}Z`, fill: s.color, "fill-opacity": 0.1, stroke: "none" }, svg);
+    el("path", { d, fill: "none", stroke: s.color, "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }, svg);
+    const lp = s.pts[s.pts.length - 1];
+    el("circle", { cx: X(lp[0]), cy: Y(lp[1]), r: 4, fill: s.color, stroke: "var(--surface)", "stroke-width": 2 }, svg);
+    ends.push({ s, x: X(lp[0]), y: Y(lp[1]) });
+  });
+  (cfg.markers || []).forEach(m => el("circle", { cx: X(m.x), cy: Y(m.y), r: 5, fill: "var(--surface)", stroke: m.color, "stroke-width": 2 }, svg));
+  if (cfg.labels !== false && cfg.series.length > 1) {
+    ends.sort((a, b) => a.y - b.y);
+    for (let i = 1; i < ends.length; i++) if (ends[i].y - ends[i - 1].y < 15) ends[i].y = ends[i - 1].y + 15;
+    ends.forEach(e => el("text", { x: e.x + 8, y: e.y + 4, class: "lab" }, svg).textContent = e.s.name);
+  }
+  // наведення: перехрестя + підказка
+  const xs = [...new Set(all.map(p => p[0]))].sort((a, b) => a - b);
+  const vline = el("line", { y1: T, y2: H - B, stroke: "var(--ink-3)", "stroke-dasharray": "3 3", visibility: "hidden" }, svg);
+  const hit = el("rect", { x: L, y: T, width: W - L - R, height: H - T - B, fill: "transparent" }, svg);
+  const tip = document.createElement("div"); tip.className = "tip"; tip.hidden = true; box.appendChild(tip);
+  const at = (pts, t) => { let v = null; for (const p of pts) { if (p[0] <= t) v = p[1]; else break; } return v; };
+  const move = e => {
+    const r = svg.getBoundingClientRect(), sx = (e.clientX - r.left) * W / r.width;
+    const t0 = x0 + (sx - L) / (W - L - R) * (x1 - x0);
+    let best = xs[0]; for (const t of xs) if (Math.abs(t - t0) < Math.abs(best - t0)) best = t;
+    vline.setAttribute("x1", X(best)); vline.setAttribute("x2", X(best)); vline.setAttribute("visibility", "visible");
+    const rows = cfg.series.map(s => [s, at(s.pts, best)]).filter(x => x[1] != null).sort((a, b) => b[1] - a[1]);
+    tip.innerHTML = `<div class="t">${fmtDT(best)}</div>` + rows.map(([s, v]) => `<div><i style="background:${s.color}"></i>${esc(s.name)}<b>${cfg.tipFmt ? cfg.tipFmt(v) : cfg.yFmt(v)}</b></div>`).join("");
+    tip.hidden = false;
+    const bw = box.clientWidth, px = X(best) * bw / W;
+    tip.style.left = Math.max(0, Math.min(px + 12, bw - tip.offsetWidth - 2)) + "px"; tip.style.top = "0px";
+  };
+  hit.addEventListener("pointermove", move); hit.addEventListener("pointerdown", move);
+  hit.addEventListener("pointerleave", () => { tip.hidden = true; vline.setAttribute("visibility", "hidden"); });
+}
+
+/* Стовпчики по групах (одна серія) */
+function barChart(box, rows, cfg) {
+  box.innerHTML = "";
+  if (!rows.length) { box.innerHTML = `<div class="empty">${cfg.empty}</div>`; return; }
+  const W = Math.max(300, box.clientWidth), H = W < 560 ? 220 : 260, L = 48, R = 10, T = 10, B = 30;
+  let y0 = Math.min(0, ...rows.map(r => r.v)), y1 = Math.max(0, ...rows.map(r => r.v));
+  const pad = (y1 - y0 || 1) * 0.12; y0 -= y0 < 0 ? pad : 0; y1 += pad;
+  const Y = v => T + (y1 - v) / (y1 - y0) * (H - T - B);
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": cfg.aria }, box);
+  const step = niceStep(y1 - y0, 4);
+  for (let v = Math.ceil(y0 / step) * step; v <= y1 + 1e-9; v += step) {
+    el("line", { x1: L, x2: W - R, y1: Y(v), y2: Y(v), stroke: "var(--line)" }, svg);
+    el("text", { x: L - 8, y: Y(v) + 4, "text-anchor": "end", class: "ax" }, svg).textContent = cfg.yFmt(v);
+  }
+  const bw = (W - L - R) / rows.length, w = Math.min(44, bw * 0.62);
+  const tip = document.createElement("div"); tip.className = "tip"; tip.hidden = true; box.appendChild(tip);
+  rows.forEach((r, i) => {
+    const cx = L + bw * i + bw / 2, ya = Y(Math.max(0, r.v)), yb = Y(Math.min(0, r.v)), h = Math.max(1, yb - ya);
+    const rad = Math.min(4, h / 2), x = cx - w / 2;
+    const d = r.v >= 0
+      ? `M${x},${yb}V${ya + rad}Q${x},${ya} ${x + rad},${ya}H${x + w - rad}Q${x + w},${ya} ${x + w},${ya + rad}V${yb}Z`
+      : `M${x},${ya}V${yb - rad}Q${x},${yb} ${x + rad},${yb}H${x + w - rad}Q${x + w},${yb} ${x + w},${yb - rad}V${ya}Z`;
+    el("path", { d, fill: r.color || "var(--s1)", "fill-opacity": r.n < 10 ? 0.4 : 1 }, svg);
+    el("text", { x: cx, y: H - 10, "text-anchor": "middle", class: "ax" }, svg).textContent = r.label;
+    const hit = el("rect", { x: L + bw * i, y: T, width: bw, height: H - T - B, fill: "transparent" }, svg);
+    const show = () => {
+      tip.innerHTML = `<div class="t">${esc(r.title || r.label)}</div><div>${cfg.name}<b>${cfg.yFmt(r.v)}</b></div><div>ставок<b>${r.n}</b></div>`;
+      tip.hidden = false; const k = box.clientWidth / W;
+      tip.style.left = Math.max(0, Math.min(cx * k + 10, box.clientWidth - tip.offsetWidth - 2)) + "px"; tip.style.top = "0px";
+    };
+    hit.addEventListener("pointerenter", show); hit.addEventListener("pointerdown", show);
+    hit.addEventListener("pointerleave", () => tip.hidden = true);
+  });
+  if (y0 < 0) el("line", { x1: L, x2: W - R, y1: Y(0), y2: Y(0), stroke: "var(--ink-3)" }, svg);
+}
+
+/* Калібрування: x — що обіцяв ринок, y — що сталося */
+function calibChart(box, rows) {
+  box.innerHTML = "";
+  if (!rows.length) { box.innerHTML = `<div class="empty">Ще немає закритих ставок</div>`; return; }
+  const W = Math.max(300, box.clientWidth), H = Math.min(W, W < 560 ? 280 : 300), L = 44, R = 12, T = 10, B = 30;
+  const X = v => L + v * (W - L - R), Y = v => T + (1 - v) * (H - T - B);
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Калібрування: очікувана і фактична влучність" }, box);
+  [0, .25, .5, .75, 1].forEach(v => {
+    el("line", { x1: L, x2: W - R, y1: Y(v), y2: Y(v), stroke: "var(--line)" }, svg);
+    el("text", { x: L - 8, y: Y(v) + 4, "text-anchor": "end", class: "ax" }, svg).textContent = (v * 100) + "%";
+    el("text", { x: X(v), y: H - 8, "text-anchor": "middle", class: "ax" }, svg).textContent = (v * 100) + "%";
+  });
+  el("line", { x1: X(0), y1: Y(0), x2: X(1), y2: Y(1), stroke: "var(--ink-3)", "stroke-dasharray": "4 4", "stroke-width": 1.5 }, svg);
+  const tip = document.createElement("div"); tip.className = "tip"; tip.hidden = true; box.appendChild(tip);
+  rows.forEach(r => {
+    const cx = X(r.implied), cy = Y(r.win), rad = r.n < 10 ? 5 : r.n < 30 ? 6.5 : 8;
+    el("line", { x1: cx, x2: cx, y1: Y(r.implied), y2: cy, stroke: "var(--s1)", "stroke-width": 1.5, "stroke-opacity": 0.5 }, svg);
+    el("circle", { cx, cy, r: rad, fill: "var(--s1)", "fill-opacity": r.n < 10 ? 0.45 : 1, stroke: "var(--surface)", "stroke-width": 2 }, svg);
+    const hit = el("circle", { cx, cy, r: 16, fill: "transparent" }, svg);
+    const show = () => {
+      tip.innerHTML = `<div class="t">${esc(r.title)}</div><div>ринок очікував<b>${pct(r.implied)}</b></div><div>вийшло<b>${pct(r.win)}</b></div><div>ставок<b>${r.n}</b></div>`;
+      tip.hidden = false; const k = box.clientWidth / W;
+      tip.style.left = Math.max(0, Math.min(cx * k + 12, box.clientWidth - tip.offsetWidth - 2)) + "px"; tip.style.top = Math.max(0, cy * k - 40) + "px";
+    };
+    hit.addEventListener("pointerenter", show); hit.addEventListener("pointerdown", show);
+    hit.addEventListener("pointerleave", () => tip.hidden = true);
+  });
+}
+
+/* ---------- рендер вкладок ---------- */
+function priceAt(pts, t) { let v = null; for (const p of pts) { if (p[0] <= t) v = p[1]; else break; } return v; }
+
+function equity(bets) {
+  const grid = [...new Set(D.runs.filter(r => r.ok && r.markets > 0).map(r => r.t)
+    .concat(bets.filter(b => b.tsd).map(b => b.tsd)))].sort((a, b) => a - b);
+  let g = grid; if (g.length > 300) { const k = Math.ceil(g.length / 300); g = g.filter((_, i) => i % k === 0 || i === grid.length - 1); }
+  const names = [...state.strategies];
+  return names.map(n => {
+    const bs = bets.filter(b => b.strategy === n); if (!bs.length) return null;
+    const first = Math.min(...bs.map(b => b.t));
+    const pts = g.filter(t => t >= first).map(t => {
+      let v = 0;
+      for (const b of bs) {
+        if (b.t > t) continue;
+        if (b.tsd && b.tsd <= t && b.status !== "open") { v += b.pnl || 0; continue; }
+        const p = priceAt(b.series, t);
+        const cur = p == null ? b.entry_price : (b.outcome_index === 0 ? p : 1 - p);
+        v += b.shares * cur - b.stake;
+      }
+      return [t, Math.round(v * 100) / 100];
+    });
+    return { name: n, color: color[n], pts };
+  }).filter(Boolean);
+}
+
+function renderOverview() {
+  const bets = filtered(), s = stats(bets);
+  const total = s.pnl + s.upnl;
+  $("#kpis").innerHTML = [
+    ["Загальний P&L", `<span class="${cls(total)}">${money(total)}</span>`, `реалізований ${money(s.pnl)} · відкриті ${money(s.upnl)}`],
+    ["ROI закритих", `<span class="${cls(s.roi || 0)}">${pct(s.roi, true)}</span>`, `на $${s.staked.toFixed(0)} поставлених`],
+    ["Влучність", pct(s.win), s.settled ? `ринок очікував ${pct(s.implied)}` : "ще немає закритих"],
+    ["Ставок", `<span>${s.n}</span>`, `${s.settled} закрито · ${s.open} відкрито`],
+  ].map(([k, v, sub]) => `<div class="kpi"><div class="k">${k}</div><div class="v">${v}</div><div class="s">${sub}</div></div>`).join("");
+
+  const eq = equity(bets);
+  $("#eq-legend").innerHTML = eq.map(e => `<span><i style="background:${e.color}"></i>${esc(e.name)}</span>`).join("");
+  lineChart($("#eq-chart"), { series: eq, yFmt: v => (v < -0.5 ? "−" : "") + "$" + Math.abs(Math.round(v)), tipFmt: v => money(v), aria: "Накопичений прибуток по стратегіях", empty: "Ставок за цей період немає" });
+
+  const rows = [...state.strategies].map(n => {
+    const bs = bets.filter(b => b.strategy === n), st = stats(bs), [vt, vc] = verdict(st);
+    const desc = (D.strategies.find(x => x.name === n) || {}).description || "";
+    return `<tr><td><span class="sname"><i style="background:${color[n]}"></i>${esc(n)}</span><div style="font-size:12px;color:var(--ink-3);white-space:normal;min-width:150px">${esc(desc)}</div></td>
+      <td class="r num">${st.n}<span style="color:var(--ink-3)"> / ${st.open}</span></td>
+      <td class="r num">${pct(st.win)}</td><td class="r num">${pct(st.implied)}</td>
+      <td class="r num ${cls(st.pnl)}">${money(st.pnl)}</td><td class="r num ${cls(st.roi || 0)}">${pct(st.roi, true)}</td>
+      <td class="r num ${cls(st.upnl)}">${money(st.upnl)}</td><td><span class="pill ${vc}">${vt}</span></td></tr>`;
+  }).join("");
+  $("#strat-table").innerHTML = `<thead><tr><th>Стратегія</th><th class="r">Ставок / відкр.</th><th class="r">Влучність</th><th class="r">Ринок очікував</th><th class="r">P&amp;L закритих</th><th class="r">ROI</th><th class="r">Відкриті зараз</th><th>Висновок</th></tr></thead><tbody>${rows}</tbody>`;
+}
+
+function renderBets() {
+  let bets = filtered();
+  if (state.bstatus !== "all") bets = bets.filter(b => b.status === state.bstatus);
+  if (state.q) { const q = state.q.toLowerCase(); bets = bets.filter(b => (b.question || "").toLowerCase().includes(q)); }
+  const val = b => b.status === "open" ? (b.upnl || 0) : (b.pnl || 0);
+  const sorters = { new: (a, b) => b.t - a.t, "pnl-desc": (a, b) => val(b) - val(a), "pnl-asc": (a, b) => val(a) - val(b),
+    end: (a, b) => (a.te || 9e12) - (b.te || 9e12), price: (a, b) => b.entry_price - a.entry_price };
+  bets.sort(sorters[state.sort]);
+  const list = $("#bet-list");
+  if (!bets.length) { list.innerHTML = `<div class="empty">Нічого не знайдено</div>`; $("#more").hidden = true; return; }
+  list.innerHTML = bets.slice(0, state.shown).map(b => {
+    const open = b.status === "open", v = open ? b.upnl : b.pnl;
+    const st = open ? `<small>відкрита · зараз ${cents(b.cur)}</small>` : b.status === "void" ? `<small>анульовано</small>` : `<small>${b.status === "won" ? "виграш" : "програш"}</small>`;
+    return `<button class="bet" data-id="${b.id}">
+      <span class="q">${esc(b.question)}</span>
+      <span class="res"><span class="num ${cls(v)}">${money(v)}</span>${st}</span>
+      <span class="meta"><span class="sname" style="font-weight:400"><i style="background:${color[b.strategy]}"></i>${esc(b.strategy)}</span>
+        <span>${esc(b.outcome)} за <span class="num">${cents(b.entry_price)}</span></span><span class="num">${fmtDT(b.t)}</span></span>
+    </button>`;
+  }).join("");
+  $("#more").hidden = bets.length <= state.shown;
+  $("#more").textContent = `Показати ще (${bets.length - state.shown})`;
+}
+
+function openBet(id) {
+  const b = D.bets.find(x => String(x.id) === String(id)); if (!b) return;
+  $("#sh-q").textContent = b.question;
+  $("#sh-link").innerHTML = b.url ? `<a href="${esc(b.url)}" target="_blank" rel="noopener">Ринок на Polymarket ↗</a>` : "";
+  const open = b.status === "open";
+  const statusTxt = { open: "відкрита", won: "виграш", lost: "програш", void: "анульовано" }[b.status] || b.status;
+  const facts = [
+    ["Стратегія", `<span class="sname"><i style="background:${color[b.strategy]}"></i>${esc(b.strategy)}</span>`],
+    ["Ставка на", esc(b.outcome)],
+    ["Ціна входу", `<span class="num">${cents(b.entry_price)}</span>`],
+    [open ? "Ціна зараз" : "Результат", open ? `<span class="num">${cents(b.cur)}</span>` : statusTxt],
+    ["Сума / акцій", `<span class="num">$${b.stake.toFixed(2)} / ${b.shares.toFixed(2)}</span>`],
+    ["Виплата при виграші", `<span class="num">$${b.shares.toFixed(2)}</span>`],
+    [open ? "P&L зараз" : "P&L", `<span class="num ${cls(open ? b.upnl : b.pnl)}">${money(open ? b.upnl : b.pnl)}</span>`],
+    ["Статус", `<span class="pill ${b.status === "won" ? "good" : b.status === "lost" ? "bad" : ""}">${statusTxt}</span>`],
+    ["Поставлено", `<span class="num">${fmtDT(b.t)}</span>`],
+    ["Закриття ринку", b.te ? `<span class="num">${fmtDT(b.te)}</span>` : "—"],
+  ];
+  $("#sh-facts").innerHTML = facts.map(([k, v]) => `<div><div class="k">${k}</div><div class="v">${v}</div></div>`).join("") +
+    `<div style="grid-column:1/-1"><div class="k">Чому бот поставив</div><div class="v">${esc(b.reason || "—")}</div></div>`;
+  const pts = b.series.map(p => [p[0], b.outcome_index === 0 ? p[1] : 1 - p[1]]);
+  $("#sh-legend").innerHTML = `<span><i style="background:${color[b.strategy]}"></i>ціна «${esc(b.outcome)}»</span><span><i class="dash"></i>ціна входу</span>`;
+  $("#sheet").hidden = false; document.body.style.overflow = "hidden";
+  requestAnimationFrame(() => {
+    lineChart($("#sh-chart"), { series: [{ name: b.outcome, color: color[b.strategy], pts }], yFmt: v => Math.round(v * 100) + "¢",
+      ymin: 0, ymax: 1, refY: [{ y: b.entry_price }], refX: [{ x: b.t }], labels: false, area: true, zero: false,
+      markers: pts.length ? [] : [], xmin: b.t, aria: "Ціна ринку з моменту ставки",
+      empty: "Історії ціни ще немає — вона накопичується з кожним запуском бота" });
+  });
+  $("#sh-hint").textContent = pts.length ? "Пунктир: ціна, за якою бот «купив». Вертикальна лінія: момент ставки." : "";
+  $("#sh-close").focus();
+}
+function closeBet() { $("#sheet").hidden = true; document.body.style.overflow = ""; }
+
+const GROUPS = {
+  price: { buckets: [[0, .1, "0–10¢"], [.1, .3, "10–30¢"], [.3, .5, "30–50¢"], [.5, .7, "50–70¢"], [.7, .9, "70–90¢"], [.9, 1.01, "90–100¢"]], key: b => b.entry_price, title: "Ціна входу" },
+  days: { buckets: [[0, 1, "<1 дн"], [1, 3, "1–3 дн"], [3, 7, "3–7 дн"], [7, 14, "7–14 дн"], [14, 1e9, "14+ дн"]], key: b => b.te && b.t ? (b.te - b.t) / 86400 : null, title: "До закриття" },
+};
+function renderAnalysis() {
+  const set = filtered().filter(b => b.status === "won" || b.status === "lost");
+  let rows;
+  if (state.group === "strategy") {
+    rows = [...state.strategies].map(n => ({ label: n, title: n, color: color[n], bets: set.filter(b => b.strategy === n) }));
+  } else {
+    const g = GROUPS[state.group];
+    rows = g.buckets.map(([a, b, lab]) => ({ label: lab, title: `${g.title}: ${lab}`, bets: set.filter(x => { const k = g.key(x); return k != null && k >= a && k < b; }) }));
+  }
+  rows = rows.map(r => ({ ...r, ...stats(r.bets) })).filter(r => r.settled > 0);
+  calibChart($("#calib-chart"), rows.map(r => ({ implied: r.implied, win: r.win, n: r.settled, title: r.title })));
+  barChart($("#roi-chart"), rows.map(r => ({ label: r.label, title: r.title, v: r.roi, n: r.settled, color: r.color })),
+    { yFmt: v => Math.round(v * 100) + "%", name: "ROI", aria: "ROI по групах", empty: "Ще немає закритих ставок" });
+  $("#group-table").innerHTML = `<thead><tr><th>Група</th><th class="r">Закрито</th><th class="r">Влучність</th><th class="r">Ринок очікував</th><th class="r">Різниця</th><th class="r">P&amp;L</th><th class="r">ROI</th></tr></thead><tbody>` +
+    (rows.length ? rows.map(r => `<tr><td>${r.color ? `<span class="sname"><i style="background:${r.color}"></i>${esc(r.label)}</span>` : esc(r.label)}</td>
+      <td class="r num">${r.settled}</td><td class="r num">${pct(r.win)}</td><td class="r num">${pct(r.implied)}</td>
+      <td class="r num ${cls(r.win - r.implied)}">${pct(r.win - r.implied, true)}</td>
+      <td class="r num ${cls(r.pnl)}">${money(r.pnl)}</td><td class="r num ${cls(r.roi || 0)}">${pct(r.roi, true)}</td></tr>`).join("")
+      : `<tr><td colspan="7" class="empty">Ще немає закритих ставок за цими фільтрами</td></tr>`) + "</tbody>";
+}
+
+function renderBot() {
+  const st = D.status || {}, runs = D.runs, last = runs[runs.length - 1];
+  const fails = runs.filter(r => !r.ok);
+  const fmtN = n => (n ?? 0).toLocaleString("uk-UA");
+  $("#bot-kpis").innerHTML = [
+    ["Останній запуск", last ? (D.demo ? fmtDT(last.t) : ago(last.t)) : "—", last ? fmtDT(last.t) : "ще не запускався"],
+    ["Запусків", fmtN(st.cycles ?? runs.length), `${fmtN(st.failed_cycles ?? fails.length)} з помилкою`],
+    ["Знімків цін", fmtN(st.snapshots), `ринків побачено: ${fmtN(st.markets_seen)}`],
+    ["Збирає дані з", st.first_snapshot ? fmtDate(ts(st.first_snapshot)) : "—", st.first_snapshot && !D.demo ? ago(ts(st.first_snapshot)).replace(" тому", "") : ""],
+  ].map(([k, v, s]) => `<div class="kpi"><div class="k">${k}</div><div class="v" style="font-size:20px">${v}</div><div class="s">${s}</div></div>`).join("");
+  lineChart($("#runs-chart"), { series: [{ name: "ринків", color: "var(--s1)", pts: runs.map(r => [r.t, r.ok ? r.markets : 0]) }],
+    yFmt: v => Math.round(v), tipFmt: v => fmtN(v), labels: false, area: true, height: 180, ymin: 0, aria: "Кількість ринків за запуск", empty: "Запусків ще не було" });
+  $("#errors").innerHTML = fails.length ? fails.slice(-12).reverse().map(r => `<li><span class="num" style="font-size:12px">${fmtDT(r.t)}</span><code>${esc(r.message)}</code></li>`).join("")
+    : `<li style="color:var(--ink-3)">Помилок не було</li>`;
+  $("#links").innerHTML = (D.links || []).map(([u, t]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a>`).join("");
+  const sk = D.bets[0]; if (sk) $("#stake-note").textContent = sk.stake.toFixed(0);
+}
+
+function header() {
+  const last = D.runs[D.runs.length - 1];
+  const dot = $("#live-dot"), txt = $("#live-text");
+  if (!last) { dot.className = "dot"; txt.textContent = "ще не запускався"; return; }
+  const age = (D.demo ? 0 : Date.now() / 1000 - last.t) / 60;
+  if (!last.ok) { dot.className = "dot bad"; txt.textContent = "помилка · " + (D.demo ? fmtDT(last.t) : ago(last.t)); }
+  else if (age > 90) { dot.className = "dot warn"; txt.textContent = "немає оновлень · " + ago(last.t); }
+  else { dot.className = "dot ok"; txt.textContent = "оновлено " + (D.demo ? fmtDT(last.t) : ago(last.t)); }
+}
+
+/* ---------- керування ---------- */
+const TABS = ["overview", "bets", "analysis", "bot"];
+let tab = "overview";
+function show(t) {
+  tab = TABS.includes(t) ? t : "overview";
+  TABS.forEach(x => $("#tab-" + x).hidden = x !== tab);
+  $$("nav a").forEach(a => a.setAttribute("aria-current", a.dataset.tab === tab ? "page" : "false"));
+  $("#filters").hidden = tab === "bot";
+  render();
+}
+function render() {
+  if (tab === "overview") renderOverview();
+  if (tab === "bets") renderBets();
+  if (tab === "analysis") renderAnalysis();
+  if (tab === "bot") renderBot();
+}
+function chips() {
+  const names = D.strategies.map(s => s.name);
+  $("#strat-chips").innerHTML = names.map(n => `<button class="chip" data-n="${esc(n)}" aria-pressed="${state.strategies.has(n)}"><span class="sw" style="background:${color[n]}"></span>${esc(n)}</button>`).join("");
+}
+function bind() {
+  $$("nav a").forEach(a => a.addEventListener("click", e => { e.preventDefault(); try { history.replaceState(null, "", "#" + a.dataset.tab); } catch (_) {} show(a.dataset.tab); }));
+  $("#strat-chips").addEventListener("click", e => {
+    const c = e.target.closest(".chip"); if (!c) return;
+    const n = c.dataset.n;
+    if (state.strategies.has(n) && state.strategies.size > 1) state.strategies.delete(n); else state.strategies.add(n);
+    chips(); state.shown = 60; render();
+  });
+  $("#period").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    state.period = b.dataset.p; try { localStorage.setItem("polysim.period", state.period); } catch (_) {}
+    $$("#period button").forEach(x => x.setAttribute("aria-pressed", x === b)); state.shown = 60; render();
+  });
+  $("#bstatus").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    state.bstatus = b.dataset.s; $$("#bstatus button").forEach(x => x.setAttribute("aria-pressed", x === b)); state.shown = 60; renderBets();
+  });
+  $("#group").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    state.group = b.dataset.g; $$("#group button").forEach(x => x.setAttribute("aria-pressed", x === b)); renderAnalysis();
+  });
+  let qt; $("#q").addEventListener("input", e => { clearTimeout(qt); qt = setTimeout(() => { state.q = e.target.value.trim(); state.shown = 60; renderBets(); }, 150); });
+  $("#sort").addEventListener("change", e => { state.sort = e.target.value; renderBets(); });
+  $("#more").addEventListener("click", () => { state.shown += 100; renderBets(); });
+  $("#bet-list").addEventListener("click", e => { const b = e.target.closest(".bet"); if (b) openBet(b.dataset.id); });
+  $("#sh-close").addEventListener("click", closeBet);
+  $("#sheet").addEventListener("click", e => { if (e.target.id === "sheet") closeBet(); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && !$("#sheet").hidden) closeBet(); });
+  window.addEventListener("hashchange", () => show(location.hash.slice(1)));
+  let rz; window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(render, 150); });
+}
+
+load().then(() => {
+  prep();
+  $("#demo").hidden = !D.demo;
+  $$("#period button").forEach(x => x.setAttribute("aria-pressed", x.dataset.p === state.period));
+  chips(); bind(); header();
+  show(location.hash.slice(1));
+}).catch(err => {
+  $("#live-dot").className = "dot bad"; $("#live-text").textContent = "дані не завантажились";
+  document.querySelector("main").innerHTML = `<div class="panel" style="margin-top:20px"><b>Не вдалося завантажити дані.</b><p class="hint">${esc(err.message)}. Якщо бот ще жодного разу не запускався, запусти його на вкладці Actions на GitHub і онови сторінку за хвилину.</p></div>`;
+});
+})();
+</script>
+
+</body></html>
