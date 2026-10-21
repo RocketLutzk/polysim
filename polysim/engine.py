@@ -37,10 +37,15 @@ def live_snapshot(m: Market, now: datetime) -> Snapshot:
                     ask_prices=asks)
 
 
-def fetch_open(client: PolyClient, max_markets: int, min_volume: float = 1000) -> list[Market]:
+def fetch_open(client: PolyClient, max_markets: int, min_volume: float = 1000,
+               horizon_days: float | None = None) -> list[Market]:
+    """Відкриті бінарні ринки. horizon_days — лише ті, що закриваються в цей термін
+    (стратегії дивляться максимум на 30 днів уперед, довші ринки не потрібні)."""
     now = datetime.now(timezone.utc)
+    end_max = now + timedelta(days=horizon_days) if horizon_days else None
     return [m for m in client.iter_markets(closed=False, max_markets=max_markets,
-                                           end_date_min=now, min_volume=min_volume)
+                                           end_date_min=now, end_date_max=end_max,
+                                           min_volume=min_volume)
             if m.is_binary]
 
 
@@ -73,10 +78,15 @@ def scan(client: PolyClient, db: BetDB, strategies: list[Strategy], *,
     return placed
 
 
-def settle_open(client: PolyClient, db: BetDB, log: Log = print) -> int:
+def settle_open(client: PolyClient, db: BetDB, log: Log = print,
+                still_open: Optional[set] = None) -> int:
+    """Розрахунок ставок. still_open — id ринків, які щойно прийшли як відкриті:
+    їх не перевіряємо, щоб не робити зайвих запитів (ставок можуть бути тисячі)."""
     done = 0
     cache: dict[str, Market] = {}
     for b in db.open_bets("paper"):
+        if still_open and b["market_id"] in still_open:
+            continue
         m = cache.get(b["market_id"])
         if m is None:
             try:
@@ -103,9 +113,14 @@ def cycle(client: PolyClient, db: BetDB, strategies: list[Strategy], *,
     Помилка в циклі не зупиняє бота — записується в журнал і чекаємо наступного."""
     res = {"markets": 0, "new_bets": 0, "settled": 0}
     try:
-        res["settled"] = settle_open(client, db, log=log)
-        markets = fetch_open(client, max_markets)
+        # знімаємо лише ринки, на які стратегії взагалі можуть поставити —
+        # дрібні й далекі ринки тільки роздувають дані
+        min_vol = min((st.min_volume for st in strategies), default=1000)
+        horizon = max((getattr(st, "max_days", 30) for st in strategies), default=30) + 1
+        markets = fetch_open(client, max_markets, min_volume=min_vol, horizon_days=horizon)
         res["markets"] = len(markets)
+        res["settled"] = settle_open(client, db, log=log,
+                                     still_open={m.id for m in markets})
         db.add_snapshots(now_iso(), markets)
         res["new_bets"] = scan(client, db, strategies, stake=stake, fee=fee,
                                slippage=slippage, max_markets=max_markets,

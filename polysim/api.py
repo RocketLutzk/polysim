@@ -57,8 +57,9 @@ class PolyClient:
                      end_date_min: datetime | None = None,
                      end_date_max: datetime | None = None,
                      min_volume: float = 0) -> Iterator[Market]:
-        page, offset, seen = 500, 0, 0
-        while seen < max_markets:
+        # Polymarket віддає максимум 100 ринків за запит (docs: limit max 100)
+        page, offset, seen = 100, 0, 0
+        while seen < max_markets and offset < 50_000:
             params = {"closed": str(closed).lower(), "limit": page, "offset": offset}
             if not closed:
                 params["active"] = "true"
@@ -84,9 +85,8 @@ class PolyClient:
                 seen += 1
                 if seen >= max_markets:
                     return
-            if len(data) < page:
-                return
-            offset += page
+            # не довіряємо розміру сторінки: йдемо далі, поки API не поверне порожній список
+            offset += len(data)
 
     def get_market(self, market_id: str) -> Market:
         return Market.from_api(self._get(f"{self.gamma}/markets/{market_id}"))
