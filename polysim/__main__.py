@@ -42,7 +42,7 @@ def main(argv=None):
     sub.add_parser("strategies", help="список стратегій")
 
     sc = sub.add_parser("scan", help="записати віртуальні ставки на відкритих ринках")
-    sc.add_argument("--max-markets", type=int, default=3000)
+    sc.add_argument("--max-markets", type=int, default=10000)
     sc.add_argument("--slippage", type=float, default=0.0)
 
     sub.add_parser("settle", help="розрахувати ставки, чиї ринки закрились")
@@ -52,7 +52,7 @@ def main(argv=None):
     gh = sub.add_parser("gh-cycle", help="один цикл для GitHub Actions (дані у файлах)")
     gh.add_argument("--data", default="data")
     gh.add_argument("--site", default="docs")
-    gh.add_argument("--max-markets", type=int, default=3000)
+    gh.add_argument("--max-markets", type=int, default=10000)
     gh.add_argument("--slippage", type=float, default=0.0)
 
     gi = sub.add_parser("gh-import", help="зібрати всі дані з data/ в одну базу SQLite")
@@ -65,7 +65,7 @@ def main(argv=None):
 
     rn = sub.add_parser("run", help="збір даних + віртуальні ставки по колу")
     rn.add_argument("--every", type=int, default=15, help="хвилин між циклами")
-    rn.add_argument("--max-markets", type=int, default=3000)
+    rn.add_argument("--max-markets", type=int, default=10000)
     rn.add_argument("--slippage", type=float, default=0.0)
 
     bt = sub.add_parser("backtest", help="перевірка на закритих ринках з минулого")
