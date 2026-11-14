@@ -162,7 +162,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 1280948,Will the Republican Party win the CA-03 House seat?,https://polymarket.com/market/will-the-republican-party-win-the-ca-03-house-seat,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,1,1
 1280949,Will the Democratic Party win the CA-03 House seat?,https://polymarket.com/market/will-the-democratic-party-win-the-ca-03-house-seat,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,1,0
 1280956,Will the Republican Party win the CA-04 House seat?,https://polymarket.com/market/will-the-republican-party-win-the-ca-04-house-seat,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,0,
-1280957,Will the Democratic Party win the CA-04 House seat?,https://polymarket.com/market/will-the-democratic-party-win-the-ca-04-house-seat,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,0,
+1280957,Will the Democratic Party win the CA-04 House seat?,https://polymarket.com/market/will-the-democratic-party-win-the-ca-04-house-seat,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,1,0
 1280964,Will the Republican Party win the CA-05 House seat?,https://polymarket.com/market/will-the-republican-party-win-the-ca-05-house-seat,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,1,0
 1280965,Will the Democratic Party win the CA-05 House seat?,https://polymarket.com/market/will-the-democratic-party-win-the-ca-05-house-seat,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,1,1
 1280972,Will the Republican Party win the CA-06 House seat?,https://polymarket.com/market/will-the-republican-party-win-the-ca-06-house-seat,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,0,
@@ -3320,11 +3320,11 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 635009,Will Shelley Hughes win the 2026 Alaska governor election?,https://polymarket.com/market/will-shelley-hughes-win-the-2026-alaska-governor-election,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,0,
 635010,Will James Parkin win the 2026 Alaska governor election?,https://polymarket.com/market/will-james-parkin-win-the-2026-alaska-governor-election,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,0,
 635011,Will Treg Taylor win the 2026 Alaska governor election?,https://polymarket.com/market/will-treg-taylor-win-the-2026-alaska-governor-election,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,0,
-635012,Will Bernadette Wilson win the 2026 Alaska governor election?,https://polymarket.com/market/will-bernadette-wilson-win-the-2026-alaska-governor-election,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,0,
+635012,Will Bernadette Wilson win the 2026 Alaska governor election?,https://polymarket.com/market/will-bernadette-wilson-win-the-2026-alaska-governor-election,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,1,1
 635013,Will Lisa Murkowski win the 2026 Alaska governor election?,https://polymarket.com/market/will-lisa-murkowski-win-the-2026-alaska-governor-election,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,0,
 635014,Will Tom Begich win the 2026 Alaska governor election?,https://polymarket.com/market/will-tom-begich-win-the-2026-alaska-governor-election,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,0,
 635015,Will Mary Peltola win the 2026 Alaska governor election?,https://polymarket.com/market/will-mary-peltola-win-the-2026-alaska-governor-election,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,0,
-635016,Will Jonathan Kreiss-Tomkins win the 2026 Alaska governor election?,https://polymarket.com/market/will-jonathan-kreiss-tomkins-win-the-2026-alaska-governor-election,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,0,
+635016,Will Jonathan Kreiss-Tomkins win the 2026 Alaska governor election?,https://polymarket.com/market/will-jonathan-kreiss-tomkins-win-the-2026-alaska-governor-election,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,1,0
 635017,Will Hank Kroll win the 2026 Alaska governor election?,https://polymarket.com/market/will-hank-kroll-win-the-2026-alaska-governor-election,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,0,
 635018,Will Bruce Walden win the 2026 Alaska governor election?,https://polymarket.com/market/will-bruce-walden-win-the-2026-alaska-governor-election,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,0,
 635019,Will Matt Claman win the 2026 Alaska governor election?,https://polymarket.com/market/will-matt-claman-win-the-2026-alaska-governor-election,,"Yes,No",2026-11-04T04:59:00+00:00,2026-10-21T22:00:43+00:00,0,
@@ -11162,7 +11162,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6459775,Exact Score: Any Other Score?,https://polymarket.com/market/fif-ksa-kr-2026-11-13-exact-score-any-other,,"Yes,No",2026-11-13T14:30:00+00:00,2026-11-01T15:03:32+00:00,1,1
 6459821,Exact Score: Any Other Score?,https://polymarket.com/market/fif-qat-aus-2026-11-13-exact-score-any-other,,"Yes,No",2026-11-13T14:45:00+00:00,2026-11-01T15:03:32+00:00,1,1
 6459864,Exact Score: Any Other Score?,https://polymarket.com/market/fif-jor-idn-2026-11-13-exact-score-any-other,,"Yes,No",2026-11-13T17:00:00+00:00,2026-11-01T15:03:32+00:00,1,1
-6459993,Exact Score: Any Other Score?,https://polymarket.com/market/fif-bah1-yem-2026-11-14-exact-score-any-other,,"Yes,No",2026-11-14T06:00:00+00:00,2026-11-01T15:03:32+00:00,0,
+6459993,Exact Score: Any Other Score?,https://polymarket.com/market/fif-bah1-yem-2026-11-14-exact-score-any-other,,"Yes,No",2026-11-14T06:00:00+00:00,2026-11-01T15:03:32+00:00,1,1
 6460036,Exact Score: Any Other Score?,https://polymarket.com/market/fif-jpn-bra-2026-11-14-exact-score-any-other,,"Yes,No",2026-11-14T10:15:00+00:00,2026-11-01T15:03:32+00:00,0,
 6460079,Exact Score: Any Other Score?,https://polymarket.com/market/fif-chn-mas-2026-11-14-exact-score-any-other,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-01T15:03:32+00:00,0,
 6473325,Counter-Strike: DNK vs SINQU - Map 2 Winner,https://polymarket.com/market/cs2-dnk2-sinqu-2026-11-01-game2,,"DNK,SINQU",2026-11-01T18:50:00+00:00,2026-11-01T15:03:32+00:00,0,
@@ -12039,7 +12039,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6367323,Will Rihanna have the second-greatest number of monthly Spotify listeners this month?,https://polymarket.com/market/will-rihanna-have-the-second-greatest-number-of-monthly-spotify-listeners-this-month-20261130,,"Yes,No",2026-11-30T17:00:00+00:00,2026-11-03T02:29:48+00:00,0,
 6440141,Will Trump speak to Emmanuel Macron by November 30?,https://polymarket.com/market/will-trump-speak-to-emmanuel-macron-by-november-30-2026,,"Yes,No",2026-12-01T04:59:00+00:00,2026-11-03T02:29:48+00:00,0,
 6443540,"Will Elon Musk post 320-339 tweets from November 3 to November 10, 2026?",https://polymarket.com/market/elon-musk-of-tweets-november-3-november-10-2026-320-339,,"Yes,No",2026-11-10T17:00:00+00:00,2026-11-03T02:29:48+00:00,1,1
-6459907,Exact Score: Any Other Score?,https://polymarket.com/market/fif-col-chl-2026-11-13-exact-score-any-other,,"Yes,No",2026-11-14T00:00:00+00:00,2026-11-03T02:29:48+00:00,0,
+6459907,Exact Score: Any Other Score?,https://polymarket.com/market/fif-col-chl-2026-11-13-exact-score-any-other,,"Yes,No",2026-11-14T00:00:00+00:00,2026-11-03T02:29:48+00:00,1,1
 6476067,"Will Elon Musk post 90-114 tweets from November 2 to November 4, 2026?",https://polymarket.com/market/elon-musk-of-tweets-november-2-november-4-2026-90-114,,"Yes,No",2026-11-04T17:00:00+00:00,2026-11-03T02:29:48+00:00,1,1
 6476068,"Will Elon Musk post 115-139 tweets from November 2 to November 4, 2026?",https://polymarket.com/market/elon-musk-of-tweets-november-2-november-4-2026-115-139,,"Yes,No",2026-11-04T17:00:00+00:00,2026-11-03T02:29:48+00:00,1,1
 6476069,"Will Elon Musk post 140-164 tweets from November 2 to November 4, 2026?",https://polymarket.com/market/elon-musk-of-tweets-november-2-november-4-2026-140-164,,"Yes,No",2026-11-04T17:00:00+00:00,2026-11-03T02:29:48+00:00,1,1
@@ -12184,7 +12184,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6454205,Rolex Paris Masters: Brandon Nakashima vs Matteo Berrettini,https://polymarket.com/market/atp-nakashi-berrett-2026-11-02,,"Brandon Nakashima,Matteo Berrettini",2026-11-09T09:00:00+00:00,2026-11-03T10:01:21+00:00,1,1
 6454235,Rolex Paris Masters: Alex Michelsen vs Jiri Lehecka,https://polymarket.com/market/atp-michels-lehecka-2026-11-02,,"Alex Michelsen,Jiri Lehecka",2026-11-09T09:00:00+00:00,2026-11-03T10:01:21+00:00,1,0
 6455715,Tsitsipas vs. Tien: Match O/U 22.5,https://polymarket.com/market/atp-tsitsip-tien-2026-11-02-match-total-22pt5,,"Over,Under",2026-11-09T09:00:00+00:00,2026-11-03T10:01:21+00:00,1,
-6459950,Exact Score: Any Other Score?,https://polymarket.com/market/fif-ecu-cri-2026-11-13-exact-score-any-other,,"Yes,No",2026-11-14T00:00:00+00:00,2026-11-03T10:01:21+00:00,0,
+6459950,Exact Score: Any Other Score?,https://polymarket.com/market/fif-ecu-cri-2026-11-13-exact-score-any-other,,"Yes,No",2026-11-14T00:00:00+00:00,2026-11-03T10:01:21+00:00,1,1
 6468970,Will US gas hit $4.10 (Low) in November?,https://polymarket.com/market/will-gas-hit-4pt10-low-by-november-30-2026,,"Yes,No",2026-11-30T15:00:00+00:00,2026-11-03T10:01:21+00:00,1,0
 6476749,Prudential Hong Kong Tennis Open: Sorana Cirstea vs Maria Timofeeva,https://polymarket.com/market/wta-cirstea-timofee-2026-11-01,,"Sorana Cirstea,Maria Timofeeva",2026-11-09T02:00:00+00:00,2026-11-03T10:01:21+00:00,1,0
 6476763,Prudential Hong Kong Tennis Open: Maddison Inglis vs Maya Joint,https://polymarket.com/market/wta-inglis-joint-2026-11-01,,"Maddison Inglis,Maya Joint",2026-11-09T02:00:00+00:00,2026-11-03T10:01:21+00:00,0,
@@ -13005,7 +13005,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6635092,Exact Score: Any Other Score?,https://polymarket.com/market/fif-idn-kuw-2026-11-17-exact-score-any-other,,"Yes,No",2026-11-17T14:00:00+00:00,2026-11-04T18:03:34+00:00,0,
 6635391,Will Al-Taawoun FC win on 2026-11-04?,https://polymarket.com/market/acl2-alt-afa-2026-11-04-alt,,"Yes,No",2026-11-04T18:15:00+00:00,2026-11-04T18:03:34+00:00,0,
 6638350,"Next Astra Model (6.1+) released by November 6, 2026?",https://polymarket.com/market/next-astra-model-6pt1-released-by-november-6-2026,,"Yes,No",2026-11-07T04:59:00+00:00,2026-11-04T18:03:34+00:00,1,1
-6638353,"Next Astra Model (6.1+) released by November 13, 2026?",https://polymarket.com/market/next-astra-model-6pt1-released-by-november-13-2026,,"Yes,No",2026-11-14T04:59:00+00:00,2026-11-04T18:03:34+00:00,0,
+6638353,"Next Astra Model (6.1+) released by November 13, 2026?",https://polymarket.com/market/next-astra-model-6pt1-released-by-november-13-2026,,"Yes,No",2026-11-14T04:59:00+00:00,2026-11-04T18:03:34+00:00,1,1
 6638354,"Next Astra Model (6.1+) released by November 5, 2026?",https://polymarket.com/market/next-astra-model-6pt1-released-by-november-5-2026,,"Yes,No",2026-11-06T04:59:00+00:00,2026-11-04T18:03:34+00:00,1,1
 6638355,"Next Astra Model (6.1+) released by November 4, 2026?",https://polymarket.com/market/next-astra-model-6pt1-released-by-november-4-2026,,"Yes,No",2026-11-05T04:59:00+00:00,2026-11-04T18:03:34+00:00,0,
 6639238,Spread: Senators (-1.5),https://polymarket.com/market/nhl-ott-buf-2026-11-04-spread-away-1pt5,,"Senators,Sabres",2026-11-05T00:30:00+00:00,2026-11-04T18:03:34+00:00,1,1
@@ -16442,7 +16442,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6329978,Games Total: O/U 2.5,https://polymarket.com/market/cs2-lgc-furia-2026-11-10-total-games-2pt5,,"Over,Under",2026-11-11T08:00:00+00:00,2026-11-11T03:16:03+00:00,1,1
 6361844,Will Juventus FC win on 2026-11-11?,https://polymarket.com/market/uwcl-juv-oly-2026-11-11-juv,,"Yes,No",2026-11-11T20:00:00+00:00,2026-11-11T03:16:03+00:00,1,1
 6428657,Wizards vs. Pacers,https://polymarket.com/market/nba-was-ind-2026-11-11,,"Wizards,Pacers",2026-11-12T00:00:00+00:00,2026-11-11T03:16:03+00:00,1,1
-6428683,Warriors vs. Spurs,https://polymarket.com/market/nba-gsw-sas-2026-11-13,,"Warriors,Spurs",2026-11-14T02:30:00+00:00,2026-11-11T03:16:03+00:00,0,
+6428683,Warriors vs. Spurs,https://polymarket.com/market/nba-gsw-sas-2026-11-13,,"Warriors,Spurs",2026-11-14T02:30:00+00:00,2026-11-11T03:16:03+00:00,1,1
 6496557,"UFC 334: Cesar Almeida vs. Donte Johnson (Middleweight, Prelims)",https://polymarket.com/market/ufc-ces2-don13-2026-11-14,,"Cesar Almeida,Donte Johnson",2026-11-15T04:59:59.999000+00:00,2026-11-11T03:16:03+00:00,0,
 6507446,Will Solana dip to $10 in November?,https://polymarket.com/market/will-solana-dip-to-10-in-november-2026,,"Yes,No",2026-12-01T05:00:00+00:00,2026-11-11T03:16:03+00:00,0,
 6512633,Will Bromley FC win on 2026-11-14?,https://polymarket.com/market/el1-bro-not-2026-11-14-bro,,"Yes,No",2026-11-14T15:00:00+00:00,2026-11-11T03:16:03+00:00,0,
@@ -16702,7 +16702,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6889024,LoL: Bilibili Gaming vs Gen.G - Game 2 Winner,https://polymarket.com/market/lol-blg-gen-2026-11-14-game2,,"Bilibili Gaming,Gen.G",2026-11-14T23:00:00+00:00,2026-11-11T18:51:32+00:00,0,
 6891233,"Will Ethereum reach $2,800 November 9-15?",https://polymarket.com/market/will-ethereum-reach-2800-november-9-15-2026,,"Yes,No",2026-11-16T05:00:00+00:00,2026-11-11T18:51:32+00:00,0,
 6896744,Counter-Strike: 9INE Academy vs Teletubisie (BO3) - United21 Group A,https://polymarket.com/market/cs2-9inea-ttbs-2026-11-11,,"9INE Academy,Teletubisie",2026-11-12T20:00:00+00:00,2026-11-11T18:51:32+00:00,1,
-6909743,"Will Elon Musk post 40-64 tweets from November 12 to November 14, 2026?",https://polymarket.com/market/elon-musk-of-tweets-november-12-november-14-2026-40-64,,"Yes,No",2026-11-14T17:00:00+00:00,2026-11-11T18:51:32+00:00,0,
+6909743,"Will Elon Musk post 40-64 tweets from November 12 to November 14, 2026?",https://polymarket.com/market/elon-musk-of-tweets-november-12-november-14-2026-40-64,,"Yes,No",2026-11-14T17:00:00+00:00,2026-11-11T18:51:32+00:00,1,1
 6911929,Total Kills Over/Under 24.5 in Game 1?,https://polymarket.com/market/lol-blg-gen-2026-11-14-game1-kill-over-24pt5,,"Over,Under",2026-11-15T01:00:00+00:00,2026-11-11T18:51:32+00:00,0,
 6916152,Dota 2: Team Lynx vs Team Synapse - Game 1 Winner,https://polymarket.com/market/dota2-lynx-synaps-2026-11-11-game1,,"Team Lynx,Team Synapse",2026-11-11T23:30:00+00:00,2026-11-11T18:51:32+00:00,0,
 6916154,Dota 2: Team Lynx vs Team Synapse (BO3) - Asgard Championship Group B,https://polymarket.com/market/dota2-lynx-synaps-2026-11-11,,"Team Lynx,Team Synapse",2026-11-11T23:30:00+00:00,2026-11-11T18:51:32+00:00,1,1
@@ -16846,7 +16846,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6428673,Hornets vs. Suns,https://polymarket.com/market/nba-cha-phx-2026-11-12,,"Hornets,Suns",2026-11-13T02:00:00+00:00,2026-11-12T01:09:28+00:00,1,1
 6496481,"UFC 334: Luis Gurule vs. Bilal Hasan (Flyweight, Main Card)",https://polymarket.com/market/ufc-lui12-bhasan-2026-11-14,,"Luis Gurule,Bilal Hasan",2026-11-15T04:59:59.999000+00:00,2026-11-12T01:09:28+00:00,0,
 6598485,Will there be fewer than 3 ChatGPT outages in November 2026?,https://polymarket.com/market/will-there-be-fewer-than-3-chatgpt-outages-in-november-2026,,"Yes,No",2026-12-01T04:59:00+00:00,2026-11-12T01:09:28+00:00,0,
-6601966,Houston vs. Colorado: O/U 53.5,https://polymarket.com/market/cfb-hou-col-2026-11-13-total-53pt5,,"Over,Under",2026-11-14T03:15:00+00:00,2026-11-12T01:09:28+00:00,0,
+6601966,Houston vs. Colorado: O/U 53.5,https://polymarket.com/market/cfb-hou-col-2026-11-13-total-53pt5,,"Over,Under",2026-11-14T03:15:00+00:00,2026-11-12T01:09:28+00:00,1,0
 6602224,Duke vs. Miami (FL): O/U 57.5,https://polymarket.com/market/cfb-duke-mia-2026-11-14-total-57pt5,,"Over,Under",2026-11-14T17:00:00+00:00,2026-11-12T01:09:28+00:00,0,
 6604394,Spread: Ole Miss (-1.5),https://polymarket.com/market/cfb-miss-okl-2026-11-14-spread-away-1pt5,,"Ole Miss,Oklahoma",2026-11-14T21:15:00+00:00,2026-11-12T01:09:28+00:00,0,
 6607315,USC vs. Indiana,https://polymarket.com/market/cfb-usc-ind-2026-11-14,,"USC,Indiana",2026-11-14T20:30:00+00:00,2026-11-12T01:09:28+00:00,0,
@@ -16924,13 +16924,13 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6415594,Italy vs. France: O/U 0.5,https://polymarket.com/market/unl-ita-fra-2026-11-12-total-0pt5,,"Over,Under",2026-11-12T19:45:00+00:00,2026-11-12T08:19:33+00:00,1,0
 6415647,Spread: Croatia (-1.5),https://polymarket.com/market/unl-eng-hrv-2026-11-12-spread-away-1pt5,,"Croatia,England",2026-11-12T19:45:00+00:00,2026-11-12T08:19:33+00:00,0,
 6424895,Will Guyana win on 2026-11-12?,https://polymarket.com/market/conl-cay-guy1-2026-11-12-guy1,,"Yes,No",2026-11-12T19:00:00+00:00,2026-11-12T08:19:33+00:00,1,0
-6428686,Thunder vs. Clippers,https://polymarket.com/market/nba-okc-lac-2026-11-13,,"Thunder,Clippers",2026-11-14T03:30:00+00:00,2026-11-12T08:19:33+00:00,0,
+6428686,Thunder vs. Clippers,https://polymarket.com/market/nba-okc-lac-2026-11-13,,"Thunder,Clippers",2026-11-14T03:30:00+00:00,2026-11-12T08:19:33+00:00,1,1
 6459828,Exact Score: Jordan 0 - 0 Indonesia?,https://polymarket.com/market/fif-jor-idn-2026-11-13-exact-score-0-0,,"Yes,No",2026-11-13T17:00:00+00:00,2026-11-12T08:19:33+00:00,0,
 6496488,O/U 1.5 Rounds,https://polymarket.com/market/ufc-lui12-bhasan-2026-11-14-totals-1pt5,,"Over,Under",2026-11-15T04:59:59.999000+00:00,2026-11-12T08:19:33+00:00,0,
 6496508,O/U 2.5 Rounds,https://polymarket.com/market/ufc-ste2-cha29-2026-11-14-totals-2pt5,,"Over,Under",2026-11-15T04:59:59.999000+00:00,2026-11-12T08:19:33+00:00,0,
 6594197,"Will Microsoft be the second-largest company in the world by market cap on November 30, 2026?",https://polymarket.com/market/will-microsoft-be-the-second-largest-company-in-the-world-by-market-cap-on-november-30-2026,,"Yes,No",2026-12-01T04:59:00+00:00,2026-11-12T08:19:33+00:00,0,
 6601522,Memphis vs. South Florida: O/U 49.5,https://polymarket.com/market/cfb-mphs-sfl-2026-11-12-total-49pt5,,"Over,Under",2026-11-13T01:00:00+00:00,2026-11-12T08:19:33+00:00,1,0
-6601821,Spread: UCLA (-10.5),https://polymarket.com/market/cfb-ill-ucla-2026-11-13-spread-home-10pt5,,"UCLA,Illinois",2026-11-14T02:00:00+00:00,2026-11-12T08:19:33+00:00,0,
+6601821,Spread: UCLA (-10.5),https://polymarket.com/market/cfb-ill-ucla-2026-11-13-spread-home-10pt5,,"UCLA,Illinois",2026-11-14T02:00:00+00:00,2026-11-12T08:19:33+00:00,1,1
 6605434,Spread: East Carolina (-10.5),https://polymarket.com/market/cfb-ecar-charlt-2026-11-14-spread-away-10pt5,,"East Carolina,Charlotte",2026-11-14T18:00:00+00:00,2026-11-12T08:19:33+00:00,0,
 6606896,Michigan vs. Oregon: O/U 39.5,https://polymarket.com/market/cfb-mich-ore-2026-11-14-total-39pt5,,"Over,Under",2026-11-14T20:30:00+00:00,2026-11-12T08:19:33+00:00,0,
 6607543,Georgia Southern vs. Georgia State,https://polymarket.com/market/cfb-gas-gast-2026-11-14,,"Georgia Southern,Georgia State",2026-11-14T20:30:00+00:00,2026-11-12T08:19:33+00:00,0,
@@ -17101,7 +17101,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6416153,Türkiye vs. Belgium: 1st Half O/U 1.5,https://polymarket.com/market/unl-tur-bel-2026-11-12-first-half-total-1pt5,,"Over,Under",2026-11-12T17:00:00+00:00,2026-11-12T16:57:45+00:00,0,
 6416458,Armenia vs. Cyprus: O/U 9.5 Total Corners,https://polymarket.com/market/unl-arm-cyp-2026-11-12-corners-total-9pt5,,"Over,Under",2026-11-12T17:00:00+00:00,2026-11-12T16:57:45+00:00,0,
 6424893,Will Cayman Islands win on 2026-11-12?,https://polymarket.com/market/conl-cay-guy1-2026-11-12-cay,,"Yes,No",2026-11-12T19:00:00+00:00,2026-11-12T16:57:45+00:00,0,
-6428682,Jazz vs. Rockets,https://polymarket.com/market/nba-uta-hou-2026-11-13,,"Jazz,Rockets",2026-11-14T01:30:00+00:00,2026-11-12T16:57:45+00:00,0,
+6428682,Jazz vs. Rockets,https://polymarket.com/market/nba-uta-hou-2026-11-13,,"Jazz,Rockets",2026-11-14T01:30:00+00:00,2026-11-12T16:57:45+00:00,1,1
 6436448,Will NVIDIA (NVDA) close above $170 end of November?,https://polymarket.com/market/nvda-above-170-on-november-30-2026,,"Yes,No",2026-11-30T21:00:00+00:00,2026-11-12T16:57:45+00:00,0,
 6436451,Will NVIDIA (NVDA) close above $180 end of November?,https://polymarket.com/market/nvda-above-180-on-november-30-2026,,"Yes,No",2026-11-30T21:00:00+00:00,2026-11-12T16:57:45+00:00,0,
 6452140,Will Netherlands win on 2026-11-13?,https://polymarket.com/market/unl-nld-grc-2026-11-13-nld,,"Yes,No",2026-11-13T19:45:00+00:00,2026-11-12T16:57:45+00:00,1,0
@@ -17110,7 +17110,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6595333,Will Elon Musk’s net worth be between $900B and $1.00T on November 30?,https://polymarket.com/market/will-elon-musks-net-worth-be-between-900b-and-1pt00t-on-november-30-2026,,"Yes,No",2026-12-01T04:59:00+00:00,2026-11-12T16:57:45+00:00,0,
 6601484,Memphis vs. South Florida,https://polymarket.com/market/cfb-mphs-sfl-2026-11-12,,"Memphis,South Florida",2026-11-13T01:00:00+00:00,2026-11-12T16:57:45+00:00,1,0
 6601626,Louisiana vs. Louisiana-Monroe: O/U 49.5,https://polymarket.com/market/cfb-loulaf-lamon-2026-11-12-total-49pt5,,"Over,Under",2026-11-13T02:00:00+00:00,2026-11-12T16:57:45+00:00,1,0
-6601692,Florida State vs. Pittsburgh,https://polymarket.com/market/cfb-flst-pitt-2026-11-13,,"Florida State,Pittsburgh",2026-11-14T00:00:00+00:00,2026-11-12T16:57:45+00:00,0,
+6601692,Florida State vs. Pittsburgh,https://polymarket.com/market/cfb-flst-pitt-2026-11-13,,"Florida State,Pittsburgh",2026-11-14T00:00:00+00:00,2026-11-12T16:57:45+00:00,1,0
 6604519,Texas vs. LSU: O/U 43.5,https://polymarket.com/market/cfb-tx-lsu-2026-11-14-total-43pt5,,"Over,Under",2026-11-15T00:30:00+00:00,2026-11-12T16:57:45+00:00,0,
 6605211,Spread: BYU (-7.5),https://polymarket.com/market/cfb-bayl-byu-2026-11-14-spread-home-7pt5,,"BYU,Baylor",2026-11-14T20:30:00+00:00,2026-11-12T16:57:45+00:00,0,
 6605960,Tulane vs. Rice: O/U 49.5,https://polymarket.com/market/cfb-tulane-rice-2026-11-14-total-49pt5,,"Over,Under",2026-11-14T19:00:00+00:00,2026-11-12T16:57:45+00:00,0,
@@ -17119,7 +17119,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6609322,Spread: North Dakota State (-7.5),https://polymarket.com/market/cfb-ndkst-hawaii-2026-11-14-spread-away-7pt5,,"North Dakota State,Hawai'i",2026-11-15T04:00:00+00:00,2026-11-12T16:57:45+00:00,0,
 6609347,North Dakota State vs. Hawai'i: O/U 39.5,https://polymarket.com/market/cfb-ndkst-hawaii-2026-11-14-total-39pt5,,"Over,Under",2026-11-15T04:00:00+00:00,2026-11-12T16:57:45+00:00,0,
 6619273,Will the right bloc win the Spanish election by 60-69 seats?,https://polymarket.com/market/spain-general-election-left-right-seat-margin-right-60-69-seats,,"Yes,No",2026-11-30T04:59:00+00:00,2026-11-12T16:57:45+00:00,0,
-6625207,"Will GPT Astra 6.1+ be released on November 13, 2026?",https://polymarket.com/market/will-gpt-astra-6pt1-be-released-on-november-13-2026,,"Yes,No",2026-11-14T04:59:00+00:00,2026-11-12T16:57:45+00:00,0,
+6625207,"Will GPT Astra 6.1+ be released on November 13, 2026?",https://polymarket.com/market/will-gpt-astra-6pt1-be-released-on-november-13-2026,,"Yes,No",2026-11-14T04:59:00+00:00,2026-11-12T16:57:45+00:00,1,1
 6625276,"Will Donald Trump post 80-99 Truth Social posts from November 6 to November 13, 2026?",https://polymarket.com/market/donald-trump-of-truth-social-posts-november-6-november-13-2026-80-99,,"Yes,No",2026-11-13T17:00:00+00:00,2026-11-12T16:57:45+00:00,1,1
 6685094,Will G2 Win the BLAST Rivals Hong Kong 2026?,https://polymarket.com/market/will-g2-win-the-blast-rivals-hong-kong-2026-1793811600000,,"Yes,No",2026-11-17T04:59:00+00:00,2026-11-12T16:57:45+00:00,1,1
 6716488,"Will the price of Bitcoin be between $72,000 and $74,000 on November 12?",https://polymarket.com/market/will-the-price-of-bitcoin-be-between-72000-74000-on-november-12-2026,,"Yes,No",2026-11-12T17:00:00+00:00,2026-11-12T16:57:45+00:00,0,
@@ -17176,7 +17176,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6955085,Will the highest temperature in Shanghai be 20°C on November 13?,https://polymarket.com/market/highest-temperature-in-shanghai-on-november-13-2026-20c,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-12T16:57:45+00:00,1,0
 6955377,Knoxville: Ozan Baris vs Michael Zheng,https://polymarket.com/market/atp-baris-zheng-2026-11-12,,"Ozan Baris,Michael Zheng",2026-11-19T15:00:00+00:00,2026-11-12T16:57:45+00:00,1,1
 6955379,Lima: Genaro Alberto Olivieri vs Juan Pablo Varillas,https://polymarket.com/market/atp-olivier-varilla-2026-11-12,,"Genaro Alberto Olivieri,Juan Pablo Varillas",2026-11-19T15:00:00+00:00,2026-11-12T16:57:45+00:00,1,0
-6956318,Will the highest temperature in New York City be between 46-47°F on November 13?,https://polymarket.com/market/highest-temperature-in-nyc-on-november-13-2026-46-47f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-12T16:57:45+00:00,0,
+6956318,Will the highest temperature in New York City be between 46-47°F on November 13?,https://polymarket.com/market/highest-temperature-in-nyc-on-november-13-2026-46-47f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-12T16:57:45+00:00,1,1
 6957228,Wonju DB Promy vs. Sonic Boom,https://polymarket.com/market/bkkbl-won-son-2026-11-13,,"Wonju DB Promy,Sonic Boom",2026-11-20T10:00:00+00:00,2026-11-12T16:57:45+00:00,1,0
 6957708,Exact Score: Any Other Score?,https://polymarket.com/market/itsb-sta-cat-2026-11-24-exact-score-any-other,,"Yes,No",2026-11-24T18:00:00+00:00,2026-11-12T16:57:45+00:00,0,
 6957751,Exact Score: Any Other Score?,https://polymarket.com/market/itsb-pal-sud-2026-11-24-exact-score-any-other,,"Yes,No",2026-11-24T19:00:00+00:00,2026-11-12T16:57:45+00:00,0,
@@ -17279,7 +17279,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6302406,Texans vs. Browns: O/U 40.5,https://polymarket.com/market/nfl-hou-cle-2026-11-15-total-40pt5,,"Over,Under",2026-11-15T18:00:00+00:00,2026-11-12T22:47:16+00:00,0,
 6302525,Spread: Packers (-2.5),https://polymarket.com/market/nfl-min-gb-2026-11-15-spread-home-2pt5,,"Packers,Vikings",2026-11-15T18:00:00+00:00,2026-11-12T22:47:16+00:00,0,
 6303248,Dolphins vs. Colts: O/U 38.5,https://polymarket.com/market/nfl-mia-ind-2026-11-15-total-38pt5,,"Over,Under",2026-11-15T18:00:00+00:00,2026-11-12T22:47:16+00:00,0,
-6428677,Cavaliers vs. Heat,https://polymarket.com/market/nba-cle-mia-2026-11-13,,"Cavaliers,Heat",2026-11-14T01:00:00+00:00,2026-11-12T22:47:16+00:00,0,
+6428677,Cavaliers vs. Heat,https://polymarket.com/market/nba-cle-mia-2026-11-13,,"Cavaliers,Heat",2026-11-14T01:00:00+00:00,2026-11-12T22:47:16+00:00,1,1
 6451844,Will Luxembourg win on 2026-11-13?,https://polymarket.com/market/unl-lux-est-2026-11-13-lux,,"Yes,No",2026-11-13T19:45:00+00:00,2026-11-12T22:47:16+00:00,1,1
 6451846,Will Estonia win on 2026-11-13?,https://polymarket.com/market/unl-lux-est-2026-11-13-est,,"Yes,No",2026-11-13T19:45:00+00:00,2026-11-12T22:47:16+00:00,1,0
 6452093,Will Switzerland win on 2026-11-13?,https://polymarket.com/market/unl-slv-che-2026-11-13-che,,"Yes,No",2026-11-13T19:45:00+00:00,2026-11-12T22:47:16+00:00,1,1
@@ -17313,11 +17313,11 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6909745,"Will Elon Musk post 90-114 tweets from November 12 to November 14, 2026?",https://polymarket.com/market/elon-musk-of-tweets-november-12-november-14-2026-90-114,,"Yes,No",2026-11-14T17:00:00+00:00,2026-11-12T22:47:16+00:00,0,
 6946374,"Bitcoin Up or Down - November 12, 5PM ET",https://polymarket.com/market/bitcoin-up-or-down-november-12-2026-5pm-et,,"Up,Down",2026-11-12T23:00:00+00:00,2026-11-12T22:47:16+00:00,0,
 6955383,Knoxville: Marcos Giron vs Abedallah Shelbayh,https://polymarket.com/market/atp-giron-shelbay-2026-11-12,,"Marcos Giron,Abedallah Shelbayh",2026-11-19T15:00:00+00:00,2026-11-12T22:47:16+00:00,1,1
-6956319,Will the highest temperature in New York City be between 48-49°F on November 13?,https://polymarket.com/market/highest-temperature-in-nyc-on-november-13-2026-48-49f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-12T22:47:16+00:00,0,
-6956320,Will the highest temperature in New York City be between 50-51°F on November 13?,https://polymarket.com/market/highest-temperature-in-nyc-on-november-13-2026-50-51f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-12T22:47:16+00:00,0,
-6956379,Will the highest temperature in Austin be between 82-83°F on November 13?,https://polymarket.com/market/highest-temperature-in-austin-on-november-13-2026-82-83f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-12T22:47:16+00:00,0,
-6956387,Will the highest temperature in Houston be between 76-77°F on November 13?,https://polymarket.com/market/highest-temperature-in-houston-on-november-13-2026-76-77f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-12T22:47:16+00:00,0,
-6956389,Will the highest temperature in Houston be between 80-81°F on November 13?,https://polymarket.com/market/highest-temperature-in-houston-on-november-13-2026-80-81f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-12T22:47:16+00:00,0,
+6956319,Will the highest temperature in New York City be between 48-49°F on November 13?,https://polymarket.com/market/highest-temperature-in-nyc-on-november-13-2026-48-49f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-12T22:47:16+00:00,1,0
+6956320,Will the highest temperature in New York City be between 50-51°F on November 13?,https://polymarket.com/market/highest-temperature-in-nyc-on-november-13-2026-50-51f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-12T22:47:16+00:00,1,1
+6956379,Will the highest temperature in Austin be between 82-83°F on November 13?,https://polymarket.com/market/highest-temperature-in-austin-on-november-13-2026-82-83f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-12T22:47:16+00:00,1,1
+6956387,Will the highest temperature in Houston be between 76-77°F on November 13?,https://polymarket.com/market/highest-temperature-in-houston-on-november-13-2026-76-77f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-12T22:47:16+00:00,1,1
+6956389,Will the highest temperature in Houston be between 80-81°F on November 13?,https://polymarket.com/market/highest-temperature-in-houston-on-november-13-2026-80-81f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-12T22:47:16+00:00,1,0
 6959338,Counter-Strike: Team Bratishkin vs Team Recrent - Map 1 Winner,https://polymarket.com/market/cs2-bratis-recrent-2026-11-12-game1,,"Team Bratishkin,Team Recrent",2026-11-13T00:45:00+00:00,2026-11-12T22:47:16+00:00,0,
 6960306,Brisbane 3: Sebastian Gorzny vs Alex Bolt,https://polymarket.com/market/atp-gorzny-bolt-2026-11-12,,"Sebastian Gorzny,Alex Bolt",2026-11-20T00:00:00+00:00,2026-11-12T22:47:16+00:00,1,0
 6964586,Dota 2: No Hoodwink vs oveA - Game 2 Winner,https://polymarket.com/market/dota2-nh-ovea-2026-11-12-game2,,"No Hoodwink,oveA",2026-11-13T02:20:00+00:00,2026-11-12T22:47:16+00:00,0,
@@ -17370,7 +17370,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 5776311,Islanders vs. Kings: O/U 5.5,https://polymarket.com/market/nhl-nyi-lak-2026-11-12-total-5pt5,,"Over,Under",2026-11-13T03:00:00+00:00,2026-11-13T03:05:02+00:00,0,
 5887337,Avalanche vs. Canadiens,https://polymarket.com/market/nhl-col-mon-2026-11-14,,"Avalanche,Canadiens",2026-11-15T00:00:00+00:00,2026-11-13T03:05:02+00:00,0,
 6104871,Will Elon Musk post 840-879 tweets in November 2026?,https://polymarket.com/market/elon-musk-of-tweets-november-2026-840-879,,"Yes,No",2026-12-01T05:00:00+00:00,2026-11-13T03:05:02+00:00,0,
-6428685,Trail Blazers vs. Kings,https://polymarket.com/market/nba-por-sac-2026-11-13,,"Trail Blazers,Kings",2026-11-14T03:00:00+00:00,2026-11-13T03:05:02+00:00,0,
+6428685,Trail Blazers vs. Kings,https://polymarket.com/market/nba-por-sac-2026-11-13,,"Trail Blazers,Kings",2026-11-14T03:00:00+00:00,2026-11-13T03:05:02+00:00,1,0
 6436445,Will NVIDIA (NVDA) close above $150 end of November?,https://polymarket.com/market/nvda-above-150-on-november-30-2026,,"Yes,No",2026-11-30T21:00:00+00:00,2026-11-13T03:05:02+00:00,0,
 6451993,Will Scotland win on 2026-11-13?,https://polymarket.com/market/unl-sco-mac-2026-11-13-sco,,"Yes,No",2026-11-13T19:45:00+00:00,2026-11-13T03:05:02+00:00,1,0
 6451995,Will North Macedonia win on 2026-11-13?,https://polymarket.com/market/unl-sco-mac-2026-11-13-mac,,"Yes,No",2026-11-13T19:45:00+00:00,2026-11-13T03:05:02+00:00,1,1
@@ -17402,11 +17402,11 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6955094,Will the highest temperature in Singapore be 31°C on November 13?,https://polymarket.com/market/highest-temperature-in-singapore-on-november-13-2026-31c,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-13T03:05:02+00:00,0,
 6955233,Will the highest temperature in Busan be 17°C on November 13?,https://polymarket.com/market/highest-temperature-in-busan-on-november-13-2026-17c,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-13T03:05:02+00:00,1,1
 6955384,Matsuyama: Yu-Hsiou Hsu vs Jay Dylan Friend,https://polymarket.com/market/atp-hsu-friend-2026-11-12,,"Yu-Hsiou Hsu,Jay Dylan Friend",2026-11-20T00:00:00+00:00,2026-11-13T03:05:02+00:00,1,0
-6956330,Will the highest temperature in Dallas be between 68-69°F on November 13?,https://polymarket.com/market/highest-temperature-in-dallas-on-november-13-2026-68-69f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-13T03:05:02+00:00,0,
-6956331,Will the highest temperature in Dallas be between 70-71°F on November 13?,https://polymarket.com/market/highest-temperature-in-dallas-on-november-13-2026-70-71f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-13T03:05:02+00:00,0,
-6956377,Will the highest temperature in Austin be between 78-79°F on November 13?,https://polymarket.com/market/highest-temperature-in-austin-on-november-13-2026-78-79f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-13T03:05:02+00:00,0,
-6956378,Will the highest temperature in Austin be between 80-81°F on November 13?,https://polymarket.com/market/highest-temperature-in-austin-on-november-13-2026-80-81f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-13T03:05:02+00:00,0,
-6958557,Will the highest temperature in San Francisco be between 64-65°F on November 13?,https://polymarket.com/market/highest-temperature-in-san-francisco-on-november-13-2026-64-65f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-13T03:05:02+00:00,0,
+6956330,Will the highest temperature in Dallas be between 68-69°F on November 13?,https://polymarket.com/market/highest-temperature-in-dallas-on-november-13-2026-68-69f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-13T03:05:02+00:00,1,0
+6956331,Will the highest temperature in Dallas be between 70-71°F on November 13?,https://polymarket.com/market/highest-temperature-in-dallas-on-november-13-2026-70-71f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-13T03:05:02+00:00,1,1
+6956377,Will the highest temperature in Austin be between 78-79°F on November 13?,https://polymarket.com/market/highest-temperature-in-austin-on-november-13-2026-78-79f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-13T03:05:02+00:00,1,0
+6956378,Will the highest temperature in Austin be between 80-81°F on November 13?,https://polymarket.com/market/highest-temperature-in-austin-on-november-13-2026-80-81f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-13T03:05:02+00:00,1,1
+6958557,Will the highest temperature in San Francisco be between 64-65°F on November 13?,https://polymarket.com/market/highest-temperature-in-san-francisco-on-november-13-2026-64-65f,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-13T03:05:02+00:00,1,0
 6967095,Spread: Kings (-1.5),https://polymarket.com/market/nhl-nyi-lak-2026-11-12-spread-home-1pt5,,"Kings,Islanders",2026-11-13T03:00:00+00:00,2026-11-13T03:05:02+00:00,0,
 6976326,Counter-Strike: ex-Zero Tenacity vs BakS eSports (BO3) - CCT Europe Group Stage,https://polymarket.com/market/cs2-zerote-baks-2026-11-13,,"ex-Zero Tenacity,BakS eSports",2026-11-13T18:00:00+00:00,2026-11-13T03:05:02+00:00,1,0
 6977870,"Bitcoin Up or Down - November 12, 8:00PM-12:00AM ET",https://polymarket.com/market/btc-updown-4h-1794531600,,"Up,Down",2026-11-13T05:00:00+00:00,2026-11-13T03:05:02+00:00,1,1
@@ -17415,11 +17415,11 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6987905,Counter-Strike: Vitality vs MOUZ - Map 1 Winner,https://polymarket.com/market/cs2-vit-mouz-2026-11-13-game1,,"Vitality,MOUZ",2026-11-13T14:00:00+00:00,2026-11-13T03:05:02+00:00,1,1
 6987909,Counter-Strike: G2 vs Team Falcons - Map 1 Winner,https://polymarket.com/market/cs2-g2-fal2-2026-11-13-game1,,"G2,Team Falcons",2026-11-13T16:30:00+00:00,2026-11-13T03:05:02+00:00,1,0
 6990956,"Will the price of Bitcoin be above $62,000 on November 19?",https://polymarket.com/market/bitcoin-above-62k-on-november-19-2026,,"Yes,No",2026-11-19T17:00:00+00:00,2026-11-13T03:05:02+00:00,0,
-6999466,Fourth Jensen Huang affair reported by November 13?,https://polymarket.com/market/fourth-jensen-huang-affair-reported-by-november-13,,"Yes,No",2026-11-14T04:59:00+00:00,2026-11-13T03:05:02+00:00,0,
+6999466,Fourth Jensen Huang affair reported by November 13?,https://polymarket.com/market/fourth-jensen-huang-affair-reported-by-november-13,,"Yes,No",2026-11-14T04:59:00+00:00,2026-11-13T03:05:02+00:00,1,1
 4664524,Will Xiaomi be the second-best Chinese AI company at the end of November 2026?,https://polymarket.com/market/will-xiaomi-be-the-second-best-chinese-ai-company-at-the-end-of-november-2026,,"Yes,No",2026-12-01T04:59:00+00:00,2026-11-13T10:56:43+00:00,0,
 5420124,"Will ""The Hunger Games: Sunrise on the Reaping"" score at least 60 on the Rotten Tomatoes Tomatometer?",https://polymarket.com/market/will-the-hunger-games-sunrise-on-the-reaping-score-at-least-60-on-the-rotten-tomatoes-tomatometer-20261123,,"Yes,No",2026-11-23T15:00:00+00:00,2026-11-13T10:56:43+00:00,0,
-5821324,Rangers vs. Canucks,https://polymarket.com/market/nhl-nyr-van-2026-11-13,,"Rangers,Canucks",2026-11-14T02:00:00+00:00,2026-11-13T10:56:43+00:00,0,
-5821329,Predators vs. Golden Knights,https://polymarket.com/market/nhl-nsh-las-2026-11-13,,"Predators,Golden Knights",2026-11-14T03:00:00+00:00,2026-11-13T10:56:43+00:00,0,
+5821324,Rangers vs. Canucks,https://polymarket.com/market/nhl-nyr-van-2026-11-13,,"Rangers,Canucks",2026-11-14T02:00:00+00:00,2026-11-13T10:56:43+00:00,1,0
+5821329,Predators vs. Golden Knights,https://polymarket.com/market/nhl-nsh-las-2026-11-13,,"Predators,Golden Knights",2026-11-14T03:00:00+00:00,2026-11-13T10:56:43+00:00,1,0
 6104865,Will Elon Musk post 760-779 tweets in November 2026?,https://polymarket.com/market/elon-musk-of-tweets-november-2026-760-779,,"Yes,No",2026-12-01T05:00:00+00:00,2026-11-13T10:56:43+00:00,0,
 6171937,Will NVIDIA (NVDA) hit (HIGH) $224 in November?,https://polymarket.com/market/will-nvda-reach-224-in-november-2026,,"Yes,No",2026-12-01T04:59:59.999000+00:00,2026-11-13T10:56:43+00:00,0,
 6279937,"Will ""Ebenezer"" score at least 40 on the Rotten Tomatoes Tomatometer?",https://polymarket.com/market/will-ebenezer-score-at-least-40-on-the-rotten-tomatoes-tomatometer-20261116,,"Yes,No",2026-11-16T15:00:00+00:00,2026-11-13T10:56:43+00:00,0,
@@ -17428,8 +17428,8 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6364969,"Will there be no next Grok model (4.8+) release by November 30, 2026?",https://polymarket.com/market/will-there-be-no-next-grok-model-4pt8-release-by-november-30-2026,,"Yes,No",2026-12-01T04:59:00+00:00,2026-11-13T10:56:43+00:00,0,
 6418939,Will Singapore win on 2026-11-13?,https://polymarket.com/market/fif-sin-par-2026-11-13-sin,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-13T10:56:43+00:00,0,
 6428676,Bucks vs. Magic,https://polymarket.com/market/nba-mil-orl-2026-11-13,,"Bucks,Magic",2026-11-14T00:00:00+00:00,2026-11-13T10:56:43+00:00,1,1
-6428679,Hawks vs. Bulls,https://polymarket.com/market/nba-atl-chi-2026-11-13,,"Hawks,Bulls",2026-11-14T01:00:00+00:00,2026-11-13T10:56:43+00:00,0,
-6428680,Grizzlies vs. Pelicans,https://polymarket.com/market/nba-mem-nop-2026-11-13,,"Grizzlies,Pelicans",2026-11-14T01:00:00+00:00,2026-11-13T10:56:43+00:00,0,
+6428679,Hawks vs. Bulls,https://polymarket.com/market/nba-atl-chi-2026-11-13,,"Hawks,Bulls",2026-11-14T01:00:00+00:00,2026-11-13T10:56:43+00:00,1,1
+6428680,Grizzlies vs. Pelicans,https://polymarket.com/market/nba-mem-nop-2026-11-13,,"Grizzlies,Pelicans",2026-11-14T01:00:00+00:00,2026-11-13T10:56:43+00:00,1,0
 6432476,Spread: Paraguay (-1.5),https://polymarket.com/market/fif-sin-par-2026-11-13-spread-away-1pt5,,"Paraguay,Singapore",2026-11-13T12:00:00+00:00,2026-11-13T10:56:43+00:00,0,
 6446618,Nets vs. Grizzlies,https://polymarket.com/market/nba-bkn-mem-2026-11-14,,"Nets,Grizzlies",2026-11-15T01:00:00+00:00,2026-11-13T10:56:43+00:00,0,
 6451895,Will Slovakia win on 2026-11-13?,https://polymarket.com/market/unl-svk-far-2026-11-13-svk,,"Yes,No",2026-11-13T19:45:00+00:00,2026-11-13T10:56:43+00:00,1,1
@@ -17446,7 +17446,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6452890,Scotland vs. North Macedonia: O/U 2.5,https://polymarket.com/market/unl-sco-mac-2026-11-13-total-2pt5,,"Over,Under",2026-11-13T19:45:00+00:00,2026-11-13T10:56:43+00:00,1,0
 6453075,Spread: Slovakia (-1.5),https://polymarket.com/market/unl-svk-far-2026-11-13-spread-home-1pt5,,"Slovakia,Faroe Islands",2026-11-13T19:45:00+00:00,2026-11-13T10:56:43+00:00,1,1
 6459734,Will Korea Republic win on 2026-11-13?,https://polymarket.com/market/fif-ksa-kr-2026-11-13-kr,,"Yes,No",2026-11-13T14:30:00+00:00,2026-11-13T10:56:43+00:00,1,1
-6477660,Will Guatemala win on 2026-11-13?,https://polymarket.com/market/conl-gua-can-2026-11-13-gua,,"Yes,No",2026-11-14T02:00:00+00:00,2026-11-13T10:56:43+00:00,0,
+6477660,Will Guatemala win on 2026-11-13?,https://polymarket.com/market/conl-gua-can-2026-11-13-gua,,"Yes,No",2026-11-14T02:00:00+00:00,2026-11-13T10:56:43+00:00,1,1
 6490808,Jordan vs. Indonesia: O/U 8.5,https://polymarket.com/market/fif-jor-idn-2026-11-13-total-8pt5,,"Over,Under",2026-11-13T17:00:00+00:00,2026-11-13T10:56:43+00:00,1,
 6507431,Will Solana reach $160 in November?,https://polymarket.com/market/will-solana-reach-160-in-november-2026,,"Yes,No",2026-12-01T05:00:00+00:00,2026-11-13T10:56:43+00:00,0,
 6507433,Will Solana reach $140 in November?,https://polymarket.com/market/will-solana-reach-140-in-november-2026,,"Yes,No",2026-12-01T05:00:00+00:00,2026-11-13T10:56:43+00:00,0,
@@ -17497,7 +17497,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6928004,Nepal Premier League: Kathmandu Gurkhas vs Sudurpaschim Royals,https://polymarket.com/market/cricnpl-kat-sud-2026-11-13,,"Kathmandu Gurkhas,Sudurpaschim Royals",2026-11-20T06:45:00+00:00,2026-11-13T10:56:43+00:00,0,
 6935919,"Will the price of Bitcoin be above $68,000 on November 17?",https://polymarket.com/market/bitcoin-above-68k-on-november-17-2026,,"Yes,No",2026-11-17T17:00:00+00:00,2026-11-13T10:56:43+00:00,0,
 6941818,"Will ""Grand Theft Auto VI: Pre-Load Now"" get between 20 and 30 million views on week 1?",https://polymarket.com/market/will-grand-theft-auto-vi-pre-load-now-get-between-20-and-30-million-views-on-week-1,,"Yes,No",2026-11-18T04:59:00+00:00,2026-11-13T10:56:43+00:00,0,
-6947054,Spread: Houston (-9.5),https://polymarket.com/market/cfb-hou-col-2026-11-13-spread-away-9pt5,,"Houston,Colorado",2026-11-14T03:15:00+00:00,2026-11-13T10:56:43+00:00,0,
+6947054,Spread: Houston (-9.5),https://polymarket.com/market/cfb-hou-col-2026-11-13-spread-away-9pt5,,"Houston,Colorado",2026-11-14T03:15:00+00:00,2026-11-13T10:56:43+00:00,1,1
 6948399,Trump endorses China's claim to Taiwan by end of APEC trip?,https://polymarket.com/market/trump-endorses-chinas-claim-to-taiwan-by-end-of-apec-trip,,"Yes,No",2026-12-01T04:59:00+00:00,2026-11-13T10:56:43+00:00,0,
 6949442,"Will Iran target an Arab country by November 30, 2026?",https://polymarket.com/market/will-iran-target-an-arab-country-by-november-30-2026-20261110,,"Yes,No",2026-12-01T04:59:00+00:00,2026-11-13T10:56:43+00:00,1,0
 6954968,Will the highest temperature in London be 7°C on November 13?,https://polymarket.com/market/highest-temperature-in-london-on-november-13-2026-7c,,"Yes,No",2026-11-13T12:00:00+00:00,2026-11-13T10:56:43+00:00,0,
@@ -17584,7 +17584,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6989146,W15 Antalya: Anais Gabriel vs Asylzhan Arystanbekova,https://polymarket.com/market/itf-gabrie1-arysta1-2026-11-13,,"Anais Gabriel,Asylzhan Arystanbekova",2026-11-20T07:00:00+00:00,2026-11-13T10:56:43+00:00,0,
 6989149,W35 Heraklion: Sapfo Sakellaridi vs Matilde Paoletti,https://polymarket.com/market/itf-sakell1-paolet2-2026-11-13,,"Sapfo Sakellaridi,Matilde Paoletti",2026-11-20T08:00:00+00:00,2026-11-13T10:56:43+00:00,0,
 6989150,W35 Heraklion: Anastasija Cvetkovic vs Alisa Oktiabreva,https://polymarket.com/market/itf-cvetko1-oktiab1-2026-11-13,,"Anastasija Cvetkovic,Alisa Oktiabreva",2026-11-20T08:00:00+00:00,2026-11-13T10:56:43+00:00,0,
-6990632,Spread: Predators (-1.5),https://polymarket.com/market/nhl-nsh-las-2026-11-13-spread-away-1pt5,,"Predators,Golden Knights",2026-11-14T03:00:00+00:00,2026-11-13T10:56:43+00:00,0,
+6990632,Spread: Predators (-1.5),https://polymarket.com/market/nhl-nsh-las-2026-11-13-spread-away-1pt5,,"Predators,Golden Knights",2026-11-14T03:00:00+00:00,2026-11-13T10:56:43+00:00,1,1
 6990966,"Will the price of Bitcoin be above $74,000 on November 19?",https://polymarket.com/market/bitcoin-above-74k-on-november-19-2026,,"Yes,No",2026-11-19T17:00:00+00:00,2026-11-13T10:56:43+00:00,0,
 6991606,"Will Bitcoin reach $74,000 November 9-15?",https://polymarket.com/market/will-bitcoin-reach-74k-november-9-15-2026-from-november-12,,"Yes,No",2026-11-16T05:00:00+00:00,2026-11-13T10:56:43+00:00,0,
 6991664,BNP Paribas Nordic Open: Alejandro Tabilo vs Thiago Agustin Tirante,https://polymarket.com/market/atp-tabilo-tirante-2026-11-13,,"Alejandro Tabilo,Thiago Agustin Tirante",2026-11-20T13:00:00+00:00,2026-11-13T10:56:43+00:00,1,1
@@ -17593,27 +17593,27 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6997424,Counter-Strike: Metizport vs Nexus (BO3) - CCT Europe Playoffs,https://polymarket.com/market/cs2-mzp-nxs1-2026-11-13,,"Metizport,Nexus",2026-11-13T15:00:00+00:00,2026-11-13T10:56:43+00:00,1,0
 6998064,M15 Monastir: Julien Penzlin vs Amaury Raynel,https://polymarket.com/market/itf-penzli1-raynel1-2026-11-13,,"Julien Penzlin,Amaury Raynel",2026-11-20T08:30:00+00:00,2026-11-13T10:56:43+00:00,0,
 6998284,"Will Jensen Huang rejoin NVIDIA by November 30, 2026?",https://polymarket.com/market/will-jensen-huang-rejoin-nvidia-by-november-30-2026,,"Yes,No",2026-12-01T04:59:00+00:00,2026-11-13T10:56:43+00:00,0,
-6999694,Spread: Heat (-2.5),https://polymarket.com/market/nba-cle-mia-2026-11-13-spread-home-2pt5,,"Heat,Cavaliers",2026-11-14T01:00:00+00:00,2026-11-13T10:56:43+00:00,0,
+6999694,Spread: Heat (-2.5),https://polymarket.com/market/nba-cle-mia-2026-11-13-spread-home-2pt5,,"Heat,Cavaliers",2026-11-14T01:00:00+00:00,2026-11-13T10:56:43+00:00,1,0
 6999704,Knicks vs. Pacers: O/U 220.5,https://polymarket.com/market/nba-nyk-ind-2026-11-13-total-220pt5,,"Over,Under",2026-11-14T00:00:00+00:00,2026-11-13T10:56:43+00:00,1,1
-6999709,Jazz vs. Rockets: O/U 218.5,https://polymarket.com/market/nba-uta-hou-2026-11-13-total-218pt5,,"Over,Under",2026-11-14T01:30:00+00:00,2026-11-13T10:56:43+00:00,0,
-6999747,Spread: Grizzlies (-3.5),https://polymarket.com/market/nba-mem-nop-2026-11-13-spread-away-3pt5,,"Grizzlies,Pelicans",2026-11-14T01:00:00+00:00,2026-11-13T10:56:43+00:00,0,
+6999709,Jazz vs. Rockets: O/U 218.5,https://polymarket.com/market/nba-uta-hou-2026-11-13-total-218pt5,,"Over,Under",2026-11-14T01:30:00+00:00,2026-11-13T10:56:43+00:00,1,0
+6999747,Spread: Grizzlies (-3.5),https://polymarket.com/market/nba-mem-nop-2026-11-13-spread-away-3pt5,,"Grizzlies,Pelicans",2026-11-14T01:00:00+00:00,2026-11-13T10:56:43+00:00,1,0
 7001349,Game Spread: Bianca Andreescu (-4.5) vs Polona Hercog (+4.5),https://polymarket.com/market/wta-hercog-andrees-2026-11-13-game-handicap-away-4pt5,,"Bianca Andreescu,Polona Hercog",2026-11-20T16:30:00+00:00,2026-11-13T10:56:43+00:00,1,0
 7001801,BNP Paribas Nordic Open: Taylor Fritz vs Lorenzo Musetti,https://polymarket.com/market/atp-fritz-musetti-2026-11-13,,"Taylor Fritz,Lorenzo Musetti",2026-11-20T16:00:00+00:00,2026-11-13T10:56:43+00:00,1,0
 7006264,"Will Bitcoin reach $75,000 on November 13?",https://polymarket.com/market/will-bitcoin-reach-75k-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,0,
 7006265,"Will Bitcoin reach $74,000 on November 13?",https://polymarket.com/market/will-bitcoin-reach-74k-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,0,
-7006266,"Will Bitcoin reach $73,000 on November 13?",https://polymarket.com/market/will-bitcoin-reach-73k-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,0,
-7006267,"Will Bitcoin reach $72,000 on November 13?",https://polymarket.com/market/will-bitcoin-reach-72k-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,0,
-7006268,"Will Bitcoin reach $71,000 on November 13?",https://polymarket.com/market/will-bitcoin-reach-71k-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,0,
+7006266,"Will Bitcoin reach $73,000 on November 13?",https://polymarket.com/market/will-bitcoin-reach-73k-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,1,1
+7006267,"Will Bitcoin reach $72,000 on November 13?",https://polymarket.com/market/will-bitcoin-reach-72k-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,1,1
+7006268,"Will Bitcoin reach $71,000 on November 13?",https://polymarket.com/market/will-bitcoin-reach-71k-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,1,1
 7006269,"Will Bitcoin reach $70,000 on November 13?",https://polymarket.com/market/will-bitcoin-reach-70k-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,1,0
 7006273,"Will Bitcoin dip to $67,000 on November 13?",https://polymarket.com/market/will-bitcoin-dip-to-67k-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,1,0
-7006274,"Will Bitcoin dip to $66,000 on November 13?",https://polymarket.com/market/will-bitcoin-dip-to-66k-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,0,
-7006275,"Will Bitcoin dip to $65,000 on November 13?",https://polymarket.com/market/will-bitcoin-dip-to-65k-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,0,
+7006274,"Will Bitcoin dip to $66,000 on November 13?",https://polymarket.com/market/will-bitcoin-dip-to-66k-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,1,1
+7006275,"Will Bitcoin dip to $65,000 on November 13?",https://polymarket.com/market/will-bitcoin-dip-to-65k-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,1,1
 7006276,"Will Bitcoin dip to $64,000 on November 13?",https://polymarket.com/market/will-bitcoin-dip-to-64k-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,0,
 7006277,"Will Bitcoin dip to $63,000 on November 13?",https://polymarket.com/market/will-bitcoin-dip-to-63k-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,0,
 7006278,"Will Bitcoin dip to $62,000 on November 13?",https://polymarket.com/market/will-bitcoin-dip-to-62k-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,0,
-7006290,"Will Ethereum dip to $1,850 on November 13?",https://polymarket.com/market/will-ethereum-dip-to-1850-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,0,
+7006290,"Will Ethereum dip to $1,850 on November 13?",https://polymarket.com/market/will-ethereum-dip-to-1850-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T10:56:43+00:00,1,1
 7009902,Counter-Strike: gothboiclique vs NAVI Junior - Map 1 Winner,https://polymarket.com/market/cs2-got1-navij1-2026-11-13-game1,,"gothboiclique,NAVI Junior",2026-11-13T15:35:00+00:00,2026-11-13T10:56:43+00:00,0,
-5821327,Rangers vs. Canucks: O/U 6.5,https://polymarket.com/market/nhl-nyr-van-2026-11-13-total-6pt5,,"Over,Under",2026-11-14T02:00:00+00:00,2026-11-13T18:21:52+00:00,0,
+5821327,Rangers vs. Canucks: O/U 6.5,https://polymarket.com/market/nhl-nyr-van-2026-11-13-total-6pt5,,"Over,Under",2026-11-14T02:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
 5887312,Devils vs. Capitals,https://polymarket.com/market/nhl-nj-wsh-2026-11-14,,"Devils,Capitals",2026-11-15T00:00:00+00:00,2026-11-13T18:21:52+00:00,0,
 5887322,Red Wings vs. Lightning,https://polymarket.com/market/nhl-det-tb-2026-11-14,,"Red Wings,Lightning",2026-11-15T00:00:00+00:00,2026-11-13T18:21:52+00:00,0,
 6172734,Will Silver (XAGUSD) hit (HIGH) $56 in November?,https://polymarket.com/market/will-xagusd-reach-56-in-november-2026,,"Yes,No",2026-12-01T04:59:59.999000+00:00,2026-11-13T18:21:52+00:00,0,
@@ -17655,7 +17655,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6453087,Slovakia vs. Faroe Islands: O/U 2.5,https://polymarket.com/market/unl-svk-far-2026-11-13-total-2pt5,,"Over,Under",2026-11-13T19:45:00+00:00,2026-11-13T18:21:52+00:00,1,0
 6453147,Luxembourg vs. Estonia: O/U 2.5,https://polymarket.com/market/unl-lux-est-2026-11-13-total-2pt5,,"Over,Under",2026-11-13T19:45:00+00:00,2026-11-13T18:21:52+00:00,1,1
 6477574,Will Saint-Martin win on 2026-11-13?,https://polymarket.com/market/conl-maf-slv-2026-11-13-maf,,"Yes,No",2026-11-13T23:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
-6490707,Colombia vs. Chile: O/U 4.5,https://polymarket.com/market/fif-col-chl-2026-11-13-total-4pt5,,"Over,Under",2026-11-14T00:00:00+00:00,2026-11-13T18:21:52+00:00,0,
+6490707,Colombia vs. Chile: O/U 4.5,https://polymarket.com/market/fif-col-chl-2026-11-13-total-4pt5,,"Over,Under",2026-11-14T00:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
 6513719,Stevenage FC vs. Mansfield Town FC: O/U 8.5,https://polymarket.com/market/el1-ste-man-2026-11-14-total-8pt5,,"Over,Under",2026-11-14T15:00:00+00:00,2026-11-13T18:21:52+00:00,0,
 6516828,Will Hungary win on 2026-11-14?,https://polymarket.com/market/unl-geo-hun-2026-11-14-hun,,"Yes,No",2026-11-14T17:00:00+00:00,2026-11-13T18:21:52+00:00,0,
 6517024,Will Poland win on 2026-11-14?,https://polymarket.com/market/unl-rom-pol-2026-11-14-pol,,"Yes,No",2026-11-14T19:45:00+00:00,2026-11-13T18:21:52+00:00,0,
@@ -17667,10 +17667,10 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6598408,Will Claude go down 5-7 times in November 2026?,https://polymarket.com/market/will-claude-go-down-5-7-times-in-november-2026,,"Yes,No",2026-12-01T04:59:00+00:00,2026-11-13T18:21:52+00:00,0,
 6600092,Saudi coalition strike in Yemen on November 14?,https://polymarket.com/market/saudi-coalition-strike-in-yemen-on-november-14,,"Yes,No",2026-11-15T04:59:00+00:00,2026-11-13T18:21:52+00:00,0,
 6600821,Will Anthropic's valuation hit (LOW) $1.35T by November 30?,https://polymarket.com/market/will-anthropics-valuation-hit-low-1pt35t-by-november-30-2026,,"Yes,No",2026-12-01T04:59:00+00:00,2026-11-13T18:21:52+00:00,0,
-6601731,Florida State vs. Pittsburgh: O/U 51.5,https://polymarket.com/market/cfb-flst-pitt-2026-11-13-total-51pt5,,"Over,Under",2026-11-14T00:00:00+00:00,2026-11-13T18:21:52+00:00,0,
-6601796,Illinois vs. UCLA,https://polymarket.com/market/cfb-ill-ucla-2026-11-13,,"Illinois,UCLA",2026-11-14T02:00:00+00:00,2026-11-13T18:21:52+00:00,0,
-6601820,Spread: UCLA (-8.5),https://polymarket.com/market/cfb-ill-ucla-2026-11-13-spread-home-8pt5,,"UCLA,Illinois",2026-11-14T02:00:00+00:00,2026-11-13T18:21:52+00:00,0,
-6601926,Houston vs. Colorado,https://polymarket.com/market/cfb-hou-col-2026-11-13,,"Houston,Colorado",2026-11-14T03:15:00+00:00,2026-11-13T18:21:52+00:00,0,
+6601731,Florida State vs. Pittsburgh: O/U 51.5,https://polymarket.com/market/cfb-flst-pitt-2026-11-13-total-51pt5,,"Over,Under",2026-11-14T00:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
+6601796,Illinois vs. UCLA,https://polymarket.com/market/cfb-ill-ucla-2026-11-13,,"Illinois,UCLA",2026-11-14T02:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
+6601820,Spread: UCLA (-8.5),https://polymarket.com/market/cfb-ill-ucla-2026-11-13-spread-home-8pt5,,"UCLA,Illinois",2026-11-14T02:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
+6601926,Houston vs. Colorado,https://polymarket.com/market/cfb-hou-col-2026-11-13,,"Houston,Colorado",2026-11-14T03:15:00+00:00,2026-11-13T18:21:52+00:00,1,1
 6603649,UAB vs. Temple: O/U 49.5,https://polymarket.com/market/cfb-uab-templ-2026-11-14-total-49pt5,,"Over,Under",2026-11-14T18:00:00+00:00,2026-11-13T18:21:52+00:00,0,
 6605116,Cincinnati vs. Iowa State: O/U 61.5,https://polymarket.com/market/cfb-cin-iowast-2026-11-14-total-61pt5,,"Over,Under",2026-11-14T17:00:00+00:00,2026-11-13T18:21:52+00:00,0,
 6606967,Nevada vs. Northern Illinois,https://polymarket.com/market/cfb-nevada-nill-2026-11-14,,"Nevada,Northern Illinois",2026-11-14T20:30:00+00:00,2026-11-13T18:21:52+00:00,0,
@@ -17761,58 +17761,58 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6996220,Exact Score: Any Other Score?,https://polymarket.com/market/col-scf-twe-2026-11-26-exact-score-any-other,,"Yes,No",2026-11-26T20:00:00+00:00,2026-11-13T18:21:52+00:00,0,
 6996266,Exact Score: Any Other Score?,https://polymarket.com/market/col-haj-kst-2026-11-26-exact-score-any-other,,"Yes,No",2026-11-26T20:00:00+00:00,2026-11-13T18:21:52+00:00,0,
 6997440,Counter-Strike: Omega vs Inner Circle Academy (BO3) - CCT Europe Playoffs,https://polymarket.com/market/cs2-omega1-innerc-2026-11-13,,"Omega,Inner Circle Academy",2026-11-14T00:00:00+00:00,2026-11-13T18:21:52+00:00,1,0
-6999267,Spread: Arizona State Sun Devils (-31.5),https://polymarket.com/market/cbb-lamon-arzst-2026-11-13-spread-home-31pt5,,"Arizona State Sun Devils,Louisiana-Monroe Warhawks",2026-11-14T02:00:00+00:00,2026-11-13T18:21:52+00:00,0,
-6999307,Spread: Florida Gators (-37.5),https://polymarket.com/market/cbb-merri-fl-2026-11-13-spread-home-37pt5,,"Florida Gators,Merrimack College Warriors",2026-11-14T00:00:00+00:00,2026-11-13T18:21:52+00:00,0,
+6999267,Spread: Arizona State Sun Devils (-31.5),https://polymarket.com/market/cbb-lamon-arzst-2026-11-13-spread-home-31pt5,,"Arizona State Sun Devils,Louisiana-Monroe Warhawks",2026-11-14T02:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
+6999307,Spread: Florida Gators (-37.5),https://polymarket.com/market/cbb-merri-fl-2026-11-13-spread-home-37pt5,,"Florida Gators,Merrimack College Warriors",2026-11-14T00:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
 6999653,Howard Lutnick out as Secretary of Commerce by November 13?,https://polymarket.com/market/howard-lutnick-out-as-secretary-of-commerce-by-november-13,,"Yes,No",2026-11-14T04:59:00+00:00,2026-11-13T18:21:52+00:00,0,
 6999655,Howard Lutnick out as Secretary of Commerce by November 30?,https://polymarket.com/market/howard-lutnick-out-as-secretary-of-commerce-by-november-30,,"Yes,No",2026-12-01T04:59:00+00:00,2026-11-13T18:21:52+00:00,0,
 6999692,Spread: Knicks (-7.5),https://polymarket.com/market/nba-nyk-ind-2026-11-13-spread-away-7pt5,,"Knicks,Pacers",2026-11-14T00:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
-6999695,Spread: Hawks (-6.5),https://polymarket.com/market/nba-atl-chi-2026-11-13-spread-away-6pt5,,"Hawks,Bulls",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,0,
-6999696,Spread: Grizzlies (-4.5),https://polymarket.com/market/nba-mem-nop-2026-11-13-spread-away-4pt5,,"Grizzlies,Pelicans",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,0,
-6999697,Spread: Rockets (-17.5),https://polymarket.com/market/nba-uta-hou-2026-11-13-spread-home-17pt5,,"Rockets,Jazz",2026-11-14T01:30:00+00:00,2026-11-13T18:21:52+00:00,0,
-6999699,Spread: Trail Blazers (-10.5),https://polymarket.com/market/nba-por-sac-2026-11-13-spread-away-10pt5,,"Trail Blazers,Kings",2026-11-14T03:00:00+00:00,2026-11-13T18:21:52+00:00,0,
+6999695,Spread: Hawks (-6.5),https://polymarket.com/market/nba-atl-chi-2026-11-13-spread-away-6pt5,,"Hawks,Bulls",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
+6999696,Spread: Grizzlies (-4.5),https://polymarket.com/market/nba-mem-nop-2026-11-13-spread-away-4pt5,,"Grizzlies,Pelicans",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,1,0
+6999697,Spread: Rockets (-17.5),https://polymarket.com/market/nba-uta-hou-2026-11-13-spread-home-17pt5,,"Rockets,Jazz",2026-11-14T01:30:00+00:00,2026-11-13T18:21:52+00:00,1,1
+6999699,Spread: Trail Blazers (-10.5),https://polymarket.com/market/nba-por-sac-2026-11-13-spread-away-10pt5,,"Trail Blazers,Kings",2026-11-14T03:00:00+00:00,2026-11-13T18:21:52+00:00,1,0
 6999705,Bucks vs. Magic: O/U 222.5,https://polymarket.com/market/nba-mil-orl-2026-11-13-total-222pt5,,"Over,Under",2026-11-14T00:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
-6999706,Cavaliers vs. Heat: O/U 235.5,https://polymarket.com/market/nba-cle-mia-2026-11-13-total-235pt5,,"Over,Under",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,0,
+6999706,Cavaliers vs. Heat: O/U 235.5,https://polymarket.com/market/nba-cle-mia-2026-11-13-total-235pt5,,"Over,Under",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,1,0
 6999721,Spread: Knicks (-8.5),https://polymarket.com/market/nba-nyk-ind-2026-11-13-spread-away-8pt5,,"Knicks,Pacers",2026-11-14T00:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
 6999722,Spread: Magic (-8.5),https://polymarket.com/market/nba-mil-orl-2026-11-13-spread-home-8pt5,,"Magic,Bucks",2026-11-14T00:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
-6999724,Spread: Hawks (-7.5),https://polymarket.com/market/nba-atl-chi-2026-11-13-spread-away-7pt5,,"Hawks,Bulls",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,0,
-6999725,Spread: Grizzlies (-5.5),https://polymarket.com/market/nba-mem-nop-2026-11-13-spread-away-5pt5,,"Grizzlies,Pelicans",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,0,
+6999724,Spread: Hawks (-7.5),https://polymarket.com/market/nba-atl-chi-2026-11-13-spread-away-7pt5,,"Hawks,Bulls",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
+6999725,Spread: Grizzlies (-5.5),https://polymarket.com/market/nba-mem-nop-2026-11-13-spread-away-5pt5,,"Grizzlies,Pelicans",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,1,0
 6999732,Knicks vs. Pacers: O/U 218.5,https://polymarket.com/market/nba-nyk-ind-2026-11-13-total-218pt5,,"Over,Under",2026-11-14T00:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
-6999739,Trail Blazers vs. Kings: O/U 227.5,https://polymarket.com/market/nba-por-sac-2026-11-13-total-227pt5,,"Over,Under",2026-11-14T03:00:00+00:00,2026-11-13T18:21:52+00:00,0,
+6999739,Trail Blazers vs. Kings: O/U 227.5,https://polymarket.com/market/nba-por-sac-2026-11-13-total-227pt5,,"Over,Under",2026-11-14T03:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
 6999743,Spread: Knicks (-6.5),https://polymarket.com/market/nba-nyk-ind-2026-11-13-spread-away-6pt5,,"Knicks,Pacers",2026-11-14T00:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
 6999755,Bucks vs. Magic: O/U 224.5,https://polymarket.com/market/nba-mil-orl-2026-11-13-total-224pt5,,"Over,Under",2026-11-14T00:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
-6999758,Grizzlies vs. Pelicans: O/U 235.5,https://polymarket.com/market/nba-mem-nop-2026-11-13-total-235pt5,,"Over,Under",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,0,
-6999759,Jazz vs. Rockets: O/U 220.5,https://polymarket.com/market/nba-uta-hou-2026-11-13-total-220pt5,,"Over,Under",2026-11-14T01:30:00+00:00,2026-11-13T18:21:52+00:00,0,
-6999770,Spread: Rockets (-15.5),https://polymarket.com/market/nba-uta-hou-2026-11-13-spread-home-15pt5,,"Rockets,Jazz",2026-11-14T01:30:00+00:00,2026-11-13T18:21:52+00:00,0,
-6999794,Spread: Grizzlies (-2.5),https://polymarket.com/market/nba-mem-nop-2026-11-13-spread-away-2pt5,,"Grizzlies,Pelicans",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,0,
-6999798,Spread: Thunder (-6.5),https://polymarket.com/market/nba-okc-lac-2026-11-13-spread-away-6pt5,,"Thunder,Clippers",2026-11-14T03:30:00+00:00,2026-11-13T18:21:52+00:00,0,
-6999805,Hawks vs. Bulls: O/U 246.5,https://polymarket.com/market/nba-atl-chi-2026-11-13-total-246pt5,,"Over,Under",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,0,
-6999806,Grizzlies vs. Pelicans: O/U 237.5,https://polymarket.com/market/nba-mem-nop-2026-11-13-total-237pt5,,"Over,Under",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,0,
-6999807,Jazz vs. Rockets: O/U 222.5,https://polymarket.com/market/nba-uta-hou-2026-11-13-total-222pt5,,"Over,Under",2026-11-14T01:30:00+00:00,2026-11-13T18:21:52+00:00,0,
-6999818,Spread: Spurs (-11.5),https://polymarket.com/market/nba-gsw-sas-2026-11-13-spread-home-11pt5,,"Spurs,Warriors",2026-11-14T02:30:00+00:00,2026-11-13T18:21:52+00:00,0,
-6999836,Spread: Grizzlies (-1.5),https://polymarket.com/market/nba-mem-nop-2026-11-13-spread-away-1pt5,,"Grizzlies,Pelicans",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,0,
+6999758,Grizzlies vs. Pelicans: O/U 235.5,https://polymarket.com/market/nba-mem-nop-2026-11-13-total-235pt5,,"Over,Under",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,1,0
+6999759,Jazz vs. Rockets: O/U 220.5,https://polymarket.com/market/nba-uta-hou-2026-11-13-total-220pt5,,"Over,Under",2026-11-14T01:30:00+00:00,2026-11-13T18:21:52+00:00,1,0
+6999770,Spread: Rockets (-15.5),https://polymarket.com/market/nba-uta-hou-2026-11-13-spread-home-15pt5,,"Rockets,Jazz",2026-11-14T01:30:00+00:00,2026-11-13T18:21:52+00:00,1,1
+6999794,Spread: Grizzlies (-2.5),https://polymarket.com/market/nba-mem-nop-2026-11-13-spread-away-2pt5,,"Grizzlies,Pelicans",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,1,0
+6999798,Spread: Thunder (-6.5),https://polymarket.com/market/nba-okc-lac-2026-11-13-spread-away-6pt5,,"Thunder,Clippers",2026-11-14T03:30:00+00:00,2026-11-13T18:21:52+00:00,1,1
+6999805,Hawks vs. Bulls: O/U 246.5,https://polymarket.com/market/nba-atl-chi-2026-11-13-total-246pt5,,"Over,Under",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
+6999806,Grizzlies vs. Pelicans: O/U 237.5,https://polymarket.com/market/nba-mem-nop-2026-11-13-total-237pt5,,"Over,Under",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,1,0
+6999807,Jazz vs. Rockets: O/U 222.5,https://polymarket.com/market/nba-uta-hou-2026-11-13-total-222pt5,,"Over,Under",2026-11-14T01:30:00+00:00,2026-11-13T18:21:52+00:00,1,0
+6999818,Spread: Spurs (-11.5),https://polymarket.com/market/nba-gsw-sas-2026-11-13-spread-home-11pt5,,"Spurs,Warriors",2026-11-14T02:30:00+00:00,2026-11-13T18:21:52+00:00,1,0
+6999836,Spread: Grizzlies (-1.5),https://polymarket.com/market/nba-mem-nop-2026-11-13-spread-away-1pt5,,"Grizzlies,Pelicans",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,1,0
 6999865,Will Jensen Huang post again on X by November 15?,https://polymarket.com/market/will-jensen-huang-post-again-on-x-by-november-15,,"Yes,No",2026-11-16T04:59:00+00:00,2026-11-13T18:21:52+00:00,0,
 7000308,Sopo: Polona Hercog vs Bianca Andreescu,https://polymarket.com/market/wta-hercog-andrees-2026-11-13,,"Polona Hercog,Bianca Andreescu",2026-11-20T16:30:00+00:00,2026-11-13T18:21:52+00:00,0,
 7000313,Counter-Strike: STATE vs BBL - Map 1 Winner,https://polymarket.com/market/cs2-sta6-bbl1-2026-11-13-game1,,"STATE,BBL",2026-11-13T21:00:00+00:00,2026-11-13T18:21:52+00:00,0,
 7000314,Counter-Strike: STATE vs BBL - Map 2 Winner,https://polymarket.com/market/cs2-sta6-bbl1-2026-11-13-game2,,"STATE,BBL",2026-11-13T21:00:00+00:00,2026-11-13T18:21:52+00:00,0,
 7000315,Counter-Strike: STATE vs BBL (BO3) - PGL Cluj-Napoca: Open Qualifier 2 Playoffs,https://polymarket.com/market/cs2-sta6-bbl1-2026-11-13,,"STATE,BBL",2026-11-13T21:00:00+00:00,2026-11-13T18:21:52+00:00,0,
 7001402,Knicks vs. Pacers: O/U 219.5,https://polymarket.com/market/nba-nyk-ind-2026-11-13-total-219pt5,,"Over,Under",2026-11-14T00:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
-7001404,Thunder vs. Clippers: O/U 222.5,https://polymarket.com/market/nba-okc-lac-2026-11-13-total-222pt5,,"Over,Under",2026-11-14T03:30:00+00:00,2026-11-13T18:21:52+00:00,0,
+7001404,Thunder vs. Clippers: O/U 222.5,https://polymarket.com/market/nba-okc-lac-2026-11-13-total-222pt5,,"Over,Under",2026-11-14T03:30:00+00:00,2026-11-13T18:21:52+00:00,1,0
 7001736,Counter-Strike: Vitality Academy vs Regnum4Games (BO1) - ESEA Advanced Europe Regular Season,https://polymarket.com/market/cs2-vita-r4g-2026-11-13,,"Vitality Academy,Regnum4Games",2026-11-13T23:00:00+00:00,2026-11-13T18:21:52+00:00,0,
 7001798,Orleans: Calvin Hemery vs Pedro Martinez,https://polymarket.com/market/atp-hemery-martine-2026-11-13,,"Calvin Hemery,Pedro Martinez",2026-11-20T15:00:00+00:00,2026-11-13T18:21:52+00:00,0,
 7001799,Lima: Alan Magadan vs Franco Roncadelli,https://polymarket.com/market/atp-magadan-roncade-2026-11-13,,"Alan Magadan,Franco Roncadelli",2026-11-20T17:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
-7003633,Hawks vs. Bulls: O/U 245.5,https://polymarket.com/market/nba-atl-chi-2026-11-13-total-245pt5,,"Over,Under",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,0,
+7003633,Hawks vs. Bulls: O/U 245.5,https://polymarket.com/market/nba-atl-chi-2026-11-13-total-245pt5,,"Over,Under",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
 7003891,Counter-Strike: LUNTIKI vs 33 - Map 2 Winner,https://polymarket.com/market/cs2-lun-331-2026-11-13-game2,,"LUNTIKI,33",2026-11-13T21:00:00+00:00,2026-11-13T18:21:52+00:00,0,
 7003892,Counter-Strike: LUNTIKI vs 33 (BO3) - PGL Cluj-Napoca: Open Qualifier 2 Playoffs,https://polymarket.com/market/cs2-lun-331-2026-11-13,,"LUNTIKI,33",2026-11-13T21:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
-7005423,Spread: TCU Horned Frogs (-23.5),https://polymarket.com/market/cbb-wbd-tcu-2026-11-13-spread-home-23pt5,,"TCU Horned Frogs,Milwaukee Panthers",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,0,
+7005423,Spread: TCU Horned Frogs (-23.5),https://polymarket.com/market/cbb-wbd-tcu-2026-11-13-spread-home-23pt5,,"TCU Horned Frogs,Milwaukee Panthers",2026-11-14T01:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
 7005446,M25 Montreal: Cannon Kingsley vs Jannik Opitz,https://polymarket.com/market/itf-kingsl1-opitz1-2026-11-13,,"Cannon Kingsley,Jannik Opitz",2026-11-20T15:00:00+00:00,2026-11-13T18:21:52+00:00,0,
 7005539,"W35 Weston, FL: Jana Hossam Salah vs Anita Sahdiieva",https://polymarket.com/market/itf-salah1-sahdii1-2026-11-13,,"Jana Hossam Salah,Anita Sahdiieva",2026-11-20T16:00:00+00:00,2026-11-13T18:21:52+00:00,0,
 7006089,Bucks vs. Magic: O/U 223.5,https://polymarket.com/market/nba-mil-orl-2026-11-13-total-223pt5,,"Over,Under",2026-11-14T00:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
 7006263,"Will Bitcoin reach $76,000 on November 13?",https://polymarket.com/market/will-bitcoin-reach-76k-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T18:21:52+00:00,0,
-7006287,"Will Ethereum reach $2,000 on November 13?",https://polymarket.com/market/will-ethereum-reach-2000-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T18:21:52+00:00,0,
+7006287,"Will Ethereum reach $2,000 on November 13?",https://polymarket.com/market/will-ethereum-reach-2000-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
 7006291,"Will Ethereum dip to $1,800 on November 13?",https://polymarket.com/market/will-ethereum-dip-to-1800-on-november-13-2026,,"Yes,No",2026-11-14T05:00:00+00:00,2026-11-13T18:21:52+00:00,0,
-7008661,Trail Blazers vs. Kings: O/U 228.5,https://polymarket.com/market/nba-por-sac-2026-11-13-total-228pt5,,"Over,Under",2026-11-14T03:00:00+00:00,2026-11-13T18:21:52+00:00,0,
-7009622,Warriors vs. Spurs: O/U 219.5,https://polymarket.com/market/nba-gsw-sas-2026-11-13-total-219pt5,,"Over,Under",2026-11-14T02:30:00+00:00,2026-11-13T18:21:52+00:00,0,
-7011741,Counter-Strike: Spirit vs MOUZ (BO3) - BLAST Rivals Playoffs,https://polymarket.com/market/cs2-ts7-mouz-2026-11-14,,"Spirit,MOUZ",2026-11-14T14:00:00+00:00,2026-11-13T18:21:52+00:00,0,
+7008661,Trail Blazers vs. Kings: O/U 228.5,https://polymarket.com/market/nba-por-sac-2026-11-13-total-228pt5,,"Over,Under",2026-11-14T03:00:00+00:00,2026-11-13T18:21:52+00:00,1,1
+7009622,Warriors vs. Spurs: O/U 219.5,https://polymarket.com/market/nba-gsw-sas-2026-11-13-total-219pt5,,"Over,Under",2026-11-14T02:30:00+00:00,2026-11-13T18:21:52+00:00,1,1
+7011741,Counter-Strike: Spirit vs MOUZ (BO3) - BLAST Rivals Playoffs,https://polymarket.com/market/cs2-ts7-mouz-2026-11-14,,"Spirit,MOUZ",2026-11-14T14:00:00+00:00,2026-11-13T18:21:52+00:00,1,0
 7014755,Counter-Strike: FURIA vs Team Falcons (BO3) - BLAST Rivals Playoffs,https://polymarket.com/market/cs2-furia-fal2-2026-11-14,,"FURIA,Team Falcons",2026-11-14T16:30:00+00:00,2026-11-13T18:21:52+00:00,0,
 7015761,M25 Vale do Lobo: Ivan Ivanov vs Pavel Lagutin,https://polymarket.com/market/itf-ivanov9-laguti1-2026-11-13,,"Ivan Ivanov,Pavel Lagutin",2026-11-20T15:45:00+00:00,2026-11-13T18:21:52+00:00,0,
 4409411,Will Bulgaria win 2026-27 Nations League Group C4?,https://polymarket.com/market/will-bulgaria-win-2026-27-nations-league-group-c4,,"Yes,No",2026-12-02T04:59:00+00:00,2026-11-13T23:47:03+00:00,0,
@@ -17829,7 +17829,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6459865,Will Colombia win on 2026-11-13?,https://polymarket.com/market/fif-col-chl-2026-11-13-col,,"Yes,No",2026-11-14T00:00:00+00:00,2026-11-13T23:47:03+00:00,0,
 6459908,Will Ecuador win on 2026-11-13?,https://polymarket.com/market/fif-ecu-cri-2026-11-13-ecu,,"Yes,No",2026-11-14T00:00:00+00:00,2026-11-13T23:47:03+00:00,0,
 6477617,Will Montserrat win on 2026-11-13?,https://polymarket.com/market/conl-msr-nca-2026-11-13-msr,,"Yes,No",2026-11-14T00:00:00+00:00,2026-11-13T23:47:03+00:00,0,
-6477662,Will Canada win on 2026-11-13?,https://polymarket.com/market/conl-gua-can-2026-11-13-can,,"Yes,No",2026-11-14T02:00:00+00:00,2026-11-13T23:47:03+00:00,0,
+6477662,Will Canada win on 2026-11-13?,https://polymarket.com/market/conl-gua-can-2026-11-13-can,,"Yes,No",2026-11-14T02:00:00+00:00,2026-11-13T23:47:03+00:00,1,0
 6490689,Spread: Colombia (-1.5),https://polymarket.com/market/fif-col-chl-2026-11-13-spread-home-1pt5,,"Colombia,Chile",2026-11-14T00:00:00+00:00,2026-11-13T23:47:03+00:00,0,
 6496576,"UFC 334: Macy Chiasson vs. Bia Mesquita (Women's Bantamweight, Early Prelims)",https://polymarket.com/market/ufc-mac-bia1-2026-11-14,,"Macy Chiasson,Bia Mesquita",2026-11-15T04:59:59.999000+00:00,2026-11-13T23:47:03+00:00,0,
 6509865,Will Real Sporting de Gijón win on 2026-11-14?,https://polymarket.com/market/es2-rso-spo-2026-11-14-spo,,"Yes,No",2026-11-14T15:15:00+00:00,2026-11-13T23:47:03+00:00,0,
@@ -17837,12 +17837,12 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6516875,Will Norway win on 2026-11-14?,https://polymarket.com/market/unl-nor-wal-2026-11-14-nor,,"Yes,No",2026-11-14T17:00:00+00:00,2026-11-13T23:47:03+00:00,0,
 6601711,Spread: Pittsburgh (-3.5),https://polymarket.com/market/cfb-flst-pitt-2026-11-13-spread-home-3pt5,,"Pittsburgh,Florida State",2026-11-14T00:00:00+00:00,2026-11-13T23:47:03+00:00,0,
 6601732,Florida State vs. Pittsburgh: O/U 53.5,https://polymarket.com/market/cfb-flst-pitt-2026-11-13-total-53pt5,,"Over,Under",2026-11-14T00:00:00+00:00,2026-11-13T23:47:03+00:00,0,
-6601835,Illinois vs. UCLA: O/U 47.5,https://polymarket.com/market/cfb-ill-ucla-2026-11-13-total-47pt5,,"Over,Under",2026-11-14T02:00:00+00:00,2026-11-13T23:47:03+00:00,0,
-6601908,Spread: Southern Utah (-10.5),https://polymarket.com/market/cfb-sutah-portst-2026-11-13-spread-away-10pt5,,"Southern Utah,Portland State",2026-11-14T03:00:00+00:00,2026-11-13T23:47:03+00:00,0,
-6601934,Spread: Houston (-7.5),https://polymarket.com/market/cfb-hou-col-2026-11-13-spread-away-7pt5,,"Houston,Colorado",2026-11-14T03:15:00+00:00,2026-11-13T23:47:03+00:00,0,
-6601935,Spread: Houston (-6.5),https://polymarket.com/market/cfb-hou-col-2026-11-13-spread-away-6pt5,,"Houston,Colorado",2026-11-14T03:15:00+00:00,2026-11-13T23:47:03+00:00,0,
-6601946,Spread: Colorado (-4.5),https://polymarket.com/market/cfb-hou-col-2026-11-13-spread-home-4pt5,,"Colorado,Houston",2026-11-14T03:15:00+00:00,2026-11-13T23:47:03+00:00,0,
-6601965,Houston vs. Colorado: O/U 51.5,https://polymarket.com/market/cfb-hou-col-2026-11-13-total-51pt5,,"Over,Under",2026-11-14T03:15:00+00:00,2026-11-13T23:47:03+00:00,0,
+6601835,Illinois vs. UCLA: O/U 47.5,https://polymarket.com/market/cfb-ill-ucla-2026-11-13-total-47pt5,,"Over,Under",2026-11-14T02:00:00+00:00,2026-11-13T23:47:03+00:00,1,1
+6601908,Spread: Southern Utah (-10.5),https://polymarket.com/market/cfb-sutah-portst-2026-11-13-spread-away-10pt5,,"Southern Utah,Portland State",2026-11-14T03:00:00+00:00,2026-11-13T23:47:03+00:00,1,1
+6601934,Spread: Houston (-7.5),https://polymarket.com/market/cfb-hou-col-2026-11-13-spread-away-7pt5,,"Houston,Colorado",2026-11-14T03:15:00+00:00,2026-11-13T23:47:03+00:00,1,1
+6601935,Spread: Houston (-6.5),https://polymarket.com/market/cfb-hou-col-2026-11-13-spread-away-6pt5,,"Houston,Colorado",2026-11-14T03:15:00+00:00,2026-11-13T23:47:03+00:00,1,1
+6601946,Spread: Colorado (-4.5),https://polymarket.com/market/cfb-hou-col-2026-11-13-spread-home-4pt5,,"Colorado,Houston",2026-11-14T03:15:00+00:00,2026-11-13T23:47:03+00:00,1,0
+6601965,Houston vs. Colorado: O/U 51.5,https://polymarket.com/market/cfb-hou-col-2026-11-13-total-51pt5,,"Over,Under",2026-11-14T03:15:00+00:00,2026-11-13T23:47:03+00:00,1,0
 6602058,Spread: Ohio State (-13.5),https://polymarket.com/market/cfb-nw-ohiost-2026-11-14-spread-home-13pt5,,"Ohio State,Northwestern",2026-11-14T17:00:00+00:00,2026-11-13T23:47:03+00:00,0,
 6602318,Spread: Auburn (-3.5),https://polymarket.com/market/cfb-aubrn-mspst-2026-11-14-spread-away-3pt5,,"Auburn,Mississippi State",2026-11-14T17:00:00+00:00,2026-11-13T23:47:03+00:00,0,
 6603089,Wisconsin vs. Maryland: O/U 41.5,https://polymarket.com/market/cfb-wisc-mary-2026-11-14-total-41pt5,,"Over,Under",2026-11-14T17:00:00+00:00,2026-11-13T23:47:03+00:00,0,
@@ -17860,7 +17860,7 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6608209,Appalachian State vs. Marshall: O/U 53.5,https://polymarket.com/market/cfb-applst-marsh-2026-11-14-total-53pt5,,"Over,Under",2026-11-14T23:00:00+00:00,2026-11-13T23:47:03+00:00,0,
 6608210,Appalachian State vs. Marshall: O/U 55.5,https://polymarket.com/market/cfb-applst-marsh-2026-11-14-total-55pt5,,"Over,Under",2026-11-14T23:00:00+00:00,2026-11-13T23:47:03+00:00,0,
 6618429,Will Laos win Eurovision Asia 2026?,https://polymarket.com/market/will-laos-win-eurovision-asia-2026,,"Yes,No",2026-11-15T04:59:00+00:00,2026-11-13T23:47:03+00:00,0,
-6634826,Will Peru win on 2026-11-13?,https://polymarket.com/market/fif-per-bol-2026-11-13-per,,"Yes,No",2026-11-14T01:00:00+00:00,2026-11-13T23:47:03+00:00,0,
+6634826,Will Peru win on 2026-11-13?,https://polymarket.com/market/fif-per-bol-2026-11-13-per,,"Yes,No",2026-11-14T01:00:00+00:00,2026-11-13T23:47:03+00:00,1,0
 6760890,Will there be ≤6 earthquakes of 5.5 or above magnitude worldwide?,https://polymarket.com/market/will-there-be-6-earthquakes-of-5pt5-or-above-magnitude-worldwide-oct19-25-copy-copy-copy,,"Yes,No",2026-11-16T04:59:00+00:00,2026-11-13T23:47:03+00:00,0,
 6766275,Marist Red Foxes vs. Lehigh Mountain Hawks,https://polymarket.com/market/cbb-marist-lehi-2026-11-13,,"Marist Red Foxes,Lehigh Mountain Hawks",2026-11-14T00:00:00+00:00,2026-11-13T23:47:03+00:00,0,
 6767030,SIUE Cougars vs. Duke Blue Devils,https://polymarket.com/market/cbb-siue-duke-2026-11-13,,"SIUE Cougars,Duke Blue Devils",2026-11-14T01:00:00+00:00,2026-11-13T23:47:03+00:00,0,
@@ -17899,16 +17899,16 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6988936,Counter-Strike: Team PCH3LK1N vs Team Recrent - Map 1 Winner,https://polymarket.com/market/cs2-pch3lk-recrent-2026-11-13-game1,,"Team PCH3LK1N,Team Recrent",2026-11-14T01:00:00+00:00,2026-11-13T23:47:03+00:00,0,
 6988937,Counter-Strike: Team PCH3LK1N vs Team Recrent - Map 2 Winner,https://polymarket.com/market/cs2-pch3lk-recrent-2026-11-13-game2,,"Team PCH3LK1N,Team Recrent",2026-11-14T01:00:00+00:00,2026-11-13T23:47:03+00:00,0,
 6988938,Counter-Strike: Team PCH3LK1N vs Team Recrent (BO3) - Winline Star Series Group B,https://polymarket.com/market/cs2-pch3lk-recrent-2026-11-13,,"Team PCH3LK1N,Team Recrent",2026-11-14T01:00:00+00:00,2026-11-13T23:47:03+00:00,0,
-6990639,Spread: Rangers (-1.5),https://polymarket.com/market/nhl-nyr-van-2026-11-13-spread-away-1pt5,,"Rangers,Canucks",2026-11-14T02:00:00+00:00,2026-11-13T23:47:03+00:00,0,
+6990639,Spread: Rangers (-1.5),https://polymarket.com/market/nhl-nyr-van-2026-11-13-spread-away-1pt5,,"Rangers,Canucks",2026-11-14T02:00:00+00:00,2026-11-13T23:47:03+00:00,1,0
 6998229,"Bitcoin Up or Down - November 13, 4:00PM-8:00PM ET",https://polymarket.com/market/btc-updown-4h-1794603600,,"Up,Down",2026-11-14T01:00:00+00:00,2026-11-13T23:47:03+00:00,1,1
 6999316,Spread: George Washington Revolutionaries (-10.5),https://polymarket.com/market/cbb-harvrd-geows-2026-11-13-spread-home-10pt5,,"George Washington Revolutionaries,Harvard Crimson",2026-11-14T00:00:00+00:00,2026-11-13T23:47:03+00:00,0,
 6999693,Spread: Magic (-9.5),https://polymarket.com/market/nba-mil-orl-2026-11-13-spread-home-9pt5,,"Magic,Bucks",2026-11-14T00:00:00+00:00,2026-11-13T23:47:03+00:00,0,
-6999708,Grizzlies vs. Pelicans: O/U 233.5,https://polymarket.com/market/nba-mem-nop-2026-11-13-total-233pt5,,"Over,Under",2026-11-14T01:00:00+00:00,2026-11-13T23:47:03+00:00,0,
-6999710,Warriors vs. Spurs: O/U 218.5,https://polymarket.com/market/nba-gsw-sas-2026-11-13-total-218pt5,,"Over,Under",2026-11-14T02:30:00+00:00,2026-11-13T23:47:03+00:00,0,
-6999726,Spread: Rockets (-16.5),https://polymarket.com/market/nba-uta-hou-2026-11-13-spread-home-16pt5,,"Rockets,Jazz",2026-11-14T01:30:00+00:00,2026-11-13T23:47:03+00:00,0,
+6999708,Grizzlies vs. Pelicans: O/U 233.5,https://polymarket.com/market/nba-mem-nop-2026-11-13-total-233pt5,,"Over,Under",2026-11-14T01:00:00+00:00,2026-11-13T23:47:03+00:00,1,0
+6999710,Warriors vs. Spurs: O/U 218.5,https://polymarket.com/market/nba-gsw-sas-2026-11-13-total-218pt5,,"Over,Under",2026-11-14T02:30:00+00:00,2026-11-13T23:47:03+00:00,1,1
+6999726,Spread: Rockets (-16.5),https://polymarket.com/market/nba-uta-hou-2026-11-13-spread-home-16pt5,,"Rockets,Jazz",2026-11-14T01:30:00+00:00,2026-11-13T23:47:03+00:00,1,1
 6999765,Spread: Knicks (-9.5),https://polymarket.com/market/nba-nyk-ind-2026-11-13-spread-away-9pt5,,"Knicks,Pacers",2026-11-14T00:00:00+00:00,2026-11-13T23:47:03+00:00,0,
-6999771,Spread: Spurs (-12.5),https://polymarket.com/market/nba-gsw-sas-2026-11-13-spread-home-12pt5,,"Spurs,Warriors",2026-11-14T02:30:00+00:00,2026-11-13T23:47:03+00:00,0,
-6999959,Spread: Trail Blazers (-4.5),https://polymarket.com/market/nba-por-sac-2026-11-13-spread-away-4pt5,,"Trail Blazers,Kings",2026-11-14T03:00:00+00:00,2026-11-13T23:47:03+00:00,0,
+6999771,Spread: Spurs (-12.5),https://polymarket.com/market/nba-gsw-sas-2026-11-13-spread-home-12pt5,,"Spurs,Warriors",2026-11-14T02:30:00+00:00,2026-11-13T23:47:03+00:00,1,0
+6999959,Spread: Trail Blazers (-4.5),https://polymarket.com/market/nba-por-sac-2026-11-13-spread-away-4pt5,,"Trail Blazers,Kings",2026-11-14T03:00:00+00:00,2026-11-13T23:47:03+00:00,1,0
 7000140,"Will SpaceX Starship Flight Test 15 launch by November 13, 2026?",https://polymarket.com/market/will-spacex-starship-flight-test-15-launch-by-november-13,,"Yes,No",2026-11-14T04:59:00+00:00,2026-11-13T23:47:03+00:00,0,
 7001739,Counter-Strike: SINQU vs Honvéd (BO1) - ESEA Advanced Europe Regular Season,https://polymarket.com/market/cs2-sinqu-hon1-2026-11-13,,"SINQU,Honvéd",2026-11-14T01:50:00+00:00,2026-11-13T23:47:03+00:00,0,
 7001797,Knoxville: Stefan Kozlov vs Michael Zheng,https://polymarket.com/market/atp-kozlov-zheng-2026-11-13,,"Stefan Kozlov,Michael Zheng",2026-11-20T23:00:00+00:00,2026-11-13T23:47:03+00:00,1,1
@@ -17918,10 +17918,10 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 7005546,W50 Chihuahua: Kayla Cross vs Jessica Hinojosa Gomez,https://polymarket.com/market/itf-cross1-gomez4-2026-11-13,,"Kayla Cross,Jessica Hinojosa Gomez",2026-11-20T21:30:00+00:00,2026-11-13T23:47:03+00:00,1,0
 7005826,Sam Houston Bearkats vs. Illinois Fighting Illini: O/U 171.5,https://polymarket.com/market/cbb-smho-ill-2026-11-13-total-171pt5,,"Over,Under",2026-11-14T00:00:00+00:00,2026-11-13T23:47:03+00:00,0,
 7007780,Iona Gaels vs. Hofstra Pride: O/U 134.5,https://polymarket.com/market/cbb-iona-hofst-2026-11-13-total-134pt5,,"Over,Under",2026-11-14T00:00:00+00:00,2026-11-13T23:47:03+00:00,0,
-7008893,Jeremiah Fears: Assists O/U 5.5,https://polymarket.com/market/nba-mem-nop-2026-11-13-assists-jeremiah-fears-5pt5,,"Yes,No",2026-11-14T01:00:00+00:00,2026-11-13T23:47:03+00:00,0,
+7008893,Jeremiah Fears: Assists O/U 5.5,https://polymarket.com/market/nba-mem-nop-2026-11-13-assists-jeremiah-fears-5pt5,,"Yes,No",2026-11-14T01:00:00+00:00,2026-11-13T23:47:03+00:00,1,0
 7009976,Will the highest temperature in Austin be 55°F or below on November 15?,https://polymarket.com/market/highest-temperature-in-austin-on-november-15-2026-55forbelow,,"Yes,No",2026-11-15T12:00:00+00:00,2026-11-13T23:47:03+00:00,0,
-7011743,Map Handicap: MOUZ (-1.5) vs Spirit (+1.5),https://polymarket.com/market/cs2-ts7-mouz-2026-11-14-map-handicap-home-1pt5,,"MOUZ,Spirit",2026-11-14T14:00:00+00:00,2026-11-13T23:47:03+00:00,0,
-7016974,Warriors vs. Spurs: O/U 217.5,https://polymarket.com/market/nba-gsw-sas-2026-11-13-total-217pt5,,"Over,Under",2026-11-14T02:30:00+00:00,2026-11-13T23:47:03+00:00,0,
+7011743,Map Handicap: MOUZ (-1.5) vs Spirit (+1.5),https://polymarket.com/market/cs2-ts7-mouz-2026-11-14-map-handicap-home-1pt5,,"MOUZ,Spirit",2026-11-14T14:00:00+00:00,2026-11-13T23:47:03+00:00,1,1
+7016974,Warriors vs. Spurs: O/U 217.5,https://polymarket.com/market/nba-gsw-sas-2026-11-13-total-217pt5,,"Over,Under",2026-11-14T02:30:00+00:00,2026-11-13T23:47:03+00:00,1,1
 7018013,Fourth Jensen Huang affair reported by November 20?,https://polymarket.com/market/fourth-jensen-huang-affair-reported-by-november-20,,"Yes,No",2026-11-21T04:59:00+00:00,2026-11-13T23:47:03+00:00,0,
 7018707,"Will Bitcoin reach $70,000 in November?",https://polymarket.com/market/will-bitcoin-reach-70k-in-november-2026,,"Yes,No",2026-12-01T05:00:00+00:00,2026-11-13T23:47:03+00:00,0,
 7018716,"Will Ethereum dip to $1,900 in November?",https://polymarket.com/market/will-ethereum-dip-to-1900-in-november-2026-from-november-13,,"Yes,No",2026-12-01T05:00:00+00:00,2026-11-13T23:47:03+00:00,0,
@@ -17929,10 +17929,10 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 7019492,Counter-Strike: STATE vs 33 (BO3) - PGL Cluj-Napoca: Open Qualifier 2 Playoffs,https://polymarket.com/market/cs2-sta6-331-2026-11-13,,"STATE,33",2026-11-14T00:45:00+00:00,2026-11-13T23:47:03+00:00,0,
 7023187,FAA outage attributed to Iran?,https://polymarket.com/market/faa-outage-attributed-to-iran,,"Yes,No",2026-12-01T04:59:00+00:00,2026-11-13T23:47:03+00:00,0,
 7023299,"Will the FAA's nationwide ground stop be lifted by November 13, 8:00 PM ET?",https://polymarket.com/market/faa-nationwide-ground-stop-lifted-by-november-13-8pm-et,,"Yes,No",2026-11-14T01:00:00+00:00,2026-11-13T23:47:03+00:00,1,1
-7023300,"Will the FAA's nationwide ground stop be lifted by November 13, 10:00 PM ET?",https://polymarket.com/market/faa-nationwide-ground-stop-lifted-by-november-13-10pm-et,,"Yes,No",2026-11-14T03:00:00+00:00,2026-11-13T23:47:03+00:00,0,
-7023301,"Will the FAA's nationwide ground stop be lifted by November 14, 12:00 AM ET?",https://polymarket.com/market/faa-nationwide-ground-stop-lifted-by-november-13-1159pm-et,,"Yes,No",2026-11-14T04:59:00+00:00,2026-11-13T23:47:03+00:00,0,
-7023302,"Will the FAA's nationwide ground stop be lifted by November 14, 12:00 PM ET?",https://polymarket.com/market/faa-nationwide-ground-stop-lifted-by-november-14-12pm-et,,"Yes,No",2026-11-14T17:00:00+00:00,2026-11-13T23:47:03+00:00,0,
-7023303,"Will the FAA's nationwide ground stop be lifted by November 15, 12:00 AM ET?",https://polymarket.com/market/faa-nationwide-ground-stop-lifted-by-november-14-1159pm-et,,"Yes,No",2026-11-15T04:59:00+00:00,2026-11-13T23:47:03+00:00,0,
+7023300,"Will the FAA's nationwide ground stop be lifted by November 13, 10:00 PM ET?",https://polymarket.com/market/faa-nationwide-ground-stop-lifted-by-november-13-10pm-et,,"Yes,No",2026-11-14T03:00:00+00:00,2026-11-13T23:47:03+00:00,1,0
+7023301,"Will the FAA's nationwide ground stop be lifted by November 14, 12:00 AM ET?",https://polymarket.com/market/faa-nationwide-ground-stop-lifted-by-november-13-1159pm-et,,"Yes,No",2026-11-14T04:59:00+00:00,2026-11-13T23:47:03+00:00,1,0
+7023302,"Will the FAA's nationwide ground stop be lifted by November 14, 12:00 PM ET?",https://polymarket.com/market/faa-nationwide-ground-stop-lifted-by-november-14-12pm-et,,"Yes,No",2026-11-14T17:00:00+00:00,2026-11-13T23:47:03+00:00,1,0
+7023303,"Will the FAA's nationwide ground stop be lifted by November 15, 12:00 AM ET?",https://polymarket.com/market/faa-nationwide-ground-stop-lifted-by-november-14-1159pm-et,,"Yes,No",2026-11-15T04:59:00+00:00,2026-11-13T23:47:03+00:00,1,0
 7023737,FAA outage attributed to a foreign actor?,https://polymarket.com/market/faa-outage-attributed-to-a-foreign-actor,,"Yes,No",2026-12-01T04:59:00+00:00,2026-11-13T23:47:03+00:00,0,
 7023859,FAA outage attributed to hack?,https://polymarket.com/market/faa-outage-attributed-to-hack,,"Yes,No",2026-12-01T04:59:00+00:00,2026-11-13T23:47:03+00:00,0,
 7024422,"Will the FAA's nationwide ground stop be lifted by November 13, 7:00 PM ET?",https://polymarket.com/market/faa-nationwide-ground-stop-lifted-by-november-13-7pm-et,,"Yes,No",2026-11-14T00:00:00+00:00,2026-11-13T23:47:03+00:00,0,
@@ -17993,14 +17993,14 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 6990907,"Will the price of Ethereum be above $1,700 on November 19?",https://polymarket.com/market/ethereum-above-1700-on-november-19-2026,,"Yes,No",2026-11-19T17:00:00+00:00,2026-11-14T03:42:22+00:00,0,
 6991224,"Will Ethereum reach $2,100 in November?",https://polymarket.com/market/will-ethereum-reach-2100-in-november-2026-from-november-12,,"Yes,No",2026-12-01T05:00:00+00:00,2026-11-14T03:42:22+00:00,0,
 6997444,Counter-Strike: Virtus.pro vs BakS eSports (BO3) - CCT Europe Playoffs,https://polymarket.com/market/cs2-vp-baks-2026-11-14,,"Virtus.pro,BakS eSports",2026-11-14T18:00:00+00:00,2026-11-14T03:42:22+00:00,0,
-7003926,"Bitcoin Up or Down - November 13, 8:00PM-12:00AM ET",https://polymarket.com/market/btc-updown-4h-1794618000,,"Up,Down",2026-11-14T05:00:00+00:00,2026-11-14T03:42:22+00:00,0,
+7003926,"Bitcoin Up or Down - November 13, 8:00PM-12:00AM ET",https://polymarket.com/market/btc-updown-4h-1794618000,,"Up,Down",2026-11-14T05:00:00+00:00,2026-11-14T03:42:22+00:00,1,1
 7005547,W50 Chihuahua: Vivian Wolff vs Miriam Bianca Bulgaru,https://polymarket.com/market/itf-wolff1-bulgar1-2026-11-13,,"Vivian Wolff,Miriam Bianca Bulgaru",2026-11-20T23:00:00+00:00,2026-11-14T03:42:22+00:00,0,
 7007860,Matsuyama: Rio Noguchi vs Yu-Hsiou Hsu,https://polymarket.com/market/atp-noguchi-hsu-2026-11-13,,"Rio Noguchi,Yu-Hsiou Hsu",2026-11-21T00:00:00+00:00,2026-11-14T03:42:22+00:00,0,
-7008628,Rainbow Six Siege: DarkZero Esports vs Virtus.pro (BO3) - BLAST R6 Major Osaka Phase 3 - Playoffs,https://polymarket.com/market/r6siege-dz-vp-2026-11-13,,"DarkZero Esports,Virtus.pro",2026-11-14T07:30:00+00:00,2026-11-14T03:42:22+00:00,0,
-7011100,W15 Maanshan: Xi Luo vs Valeria Savinykh,https://polymarket.com/market/itf-luo1-saviny1-2026-11-14,,"Xi Luo,Valeria Savinykh",2026-11-21T02:00:00+00:00,2026-11-14T03:42:22+00:00,0,
-7011742,Games Total: O/U 2.5,https://polymarket.com/market/cs2-ts7-mouz-2026-11-14-total-games-2pt5,,"Over,Under",2026-11-14T14:00:00+00:00,2026-11-14T03:42:22+00:00,0,
+7008628,Rainbow Six Siege: DarkZero Esports vs Virtus.pro (BO3) - BLAST R6 Major Osaka Phase 3 - Playoffs,https://polymarket.com/market/r6siege-dz-vp-2026-11-13,,"DarkZero Esports,Virtus.pro",2026-11-14T07:30:00+00:00,2026-11-14T03:42:22+00:00,1,0
+7011100,W15 Maanshan: Xi Luo vs Valeria Savinykh,https://polymarket.com/market/itf-luo1-saviny1-2026-11-14,,"Xi Luo,Valeria Savinykh",2026-11-21T02:00:00+00:00,2026-11-14T03:42:22+00:00,1,0
+7011742,Games Total: O/U 2.5,https://polymarket.com/market/cs2-ts7-mouz-2026-11-14-total-games-2pt5,,"Over,Under",2026-11-14T14:00:00+00:00,2026-11-14T03:42:22+00:00,1,1
 7012792,Matsuyama: Rei Sakamoto vs Billy Harris,https://polymarket.com/market/atp-sakamot-harris-2026-11-13,,"Rei Sakamoto,Billy Harris",2026-11-21T02:00:00+00:00,2026-11-14T03:42:22+00:00,0,
-7012793,Brisbane 3: Sebastian Gorzny vs August Holmgren,https://polymarket.com/market/atp-gorzny-holmgre-2026-11-13,,"Sebastian Gorzny,August Holmgren",2026-11-21T03:00:00+00:00,2026-11-14T03:42:22+00:00,0,
+7012793,Brisbane 3: Sebastian Gorzny vs August Holmgren,https://polymarket.com/market/atp-gorzny-holmgre-2026-11-13,,"Sebastian Gorzny,August Holmgren",2026-11-21T03:00:00+00:00,2026-11-14T03:42:22+00:00,1,1
 7018476,"Will the price of Bitcoin be above $58,000 on November 20?",https://polymarket.com/market/bitcoin-above-58k-on-november-20-2026,,"Yes,No",2026-11-20T17:00:00+00:00,2026-11-14T03:42:22+00:00,0,
 7018487,"Will the price of Bitcoin be above $72,000 on November 20?",https://polymarket.com/market/bitcoin-above-72k-on-november-20-2026,,"Yes,No",2026-11-20T17:00:00+00:00,2026-11-14T03:42:22+00:00,0,
 7018717,"Will Ethereum reach $2,000 in November?",https://polymarket.com/market/will-ethereum-reach-2000-in-november-2026,,"Yes,No",2026-12-01T05:00:00+00:00,2026-11-14T03:42:22+00:00,0,
@@ -18014,3 +18014,229 @@ market_id,question,url,category,outcomes,end_date,first_seen,closed,winner
 7026773,"Will the nationwide ground stop be lifted Nov 13, 8–9 PM ET?",https://polymarket.com/market/will-the-nationwide-ground-stop-be-lifted-nov-13-89-pm-et,,"Yes,No",2026-11-14T17:00:00+00:00,2026-11-14T03:42:22+00:00,0,
 7027502,"Will the FAA's nationwide ground stop be lifted by November 13, 11:00 PM ET?",https://polymarket.com/market/faa-nationwide-ground-stop-lifted-by-november-13-11pm-et,,"Yes,No",2026-11-14T04:00:00+00:00,2026-11-14T03:42:22+00:00,0,
 7027952,"WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina",https://polymarket.com/market/wta-noskova-svitoli-2026-11-14,,"Linda Noskova,Elina Svitolina",2026-11-21T20:00:00+00:00,2026-11-14T03:42:22+00:00,0,
+3532189,Will Jynxzi Win the 2026 Esports Content Creator of the Year Award?,https://polymarket.com/market/will-jynxzi-win-the-2026-esports-content-creator-of-the-year-award-20260806165627996,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+3532191,Will Caedrel Win the 2026 Esports Content Creator of the Year Award?,https://polymarket.com/market/will-caedrel-win-the-2026-esports-content-creator-of-the-year-award-20260806165627998,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+3532234,Will Kameto Win the 2026 Esports Personality of the Year Award?,https://polymarket.com/market/will-kameto-win-the-2026-esports-personality-of-the-year-award-20260806164938422,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+3532242,Will Thug Win the 2026 Esports Personality of the Year Award?,https://polymarket.com/market/will-thug-win-the-2026-esports-personality-of-the-year-award-20260806164938430,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+4643383,Will Red Bull Win the 2026 Esports Commercial Partner of the Year Award?,https://polymarket.com/market/will-red-bull-win-the-2026-esports-commercial-partner-of-the-year-award,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+4643399,Will EFG Win the 2026 Esports Tournament Organiser of the Year Award?,https://polymarket.com/market/will-efg-win-the-2026-esports-tournament-organiser-of-the-year-award,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+4645487,Will Liquipedia Win the 2026 Esports Supporting Service of the Year Award?,https://polymarket.com/market/will-liquipedia-win-the-2026-esports-supporting-service-of-the-year-award,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+5216393,Will Knight have the most kills at Worlds 2026?,https://polymarket.com/market/will-knight-have-the-most-kills-at-worlds-2026,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+5216429,Will Caliste have the most kills at Worlds 2026?,https://polymarket.com/market/will-caliste-have-the-most-kills-at-worlds-2026,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+5216444,Will there be 3+ Pentakills at Worlds 2026?,https://polymarket.com/market/will-there-be-3-pentakills-at-worlds-2026,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+5216531,Will Ezreal be the most played champion at Worlds 2026?,https://polymarket.com/market/will-ezreal-be-the-most-played-champion-at-worlds-2026,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+5216535,Will Lee Sin be the most played champion at Worlds 2026?,https://polymarket.com/market/will-lee-sin-be-the-most-played-champion-at-worlds-2026,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+5887297,Kraken vs. Hurricanes,https://polymarket.com/market/nhl-sea-car-2026-11-14,,"Kraken,Hurricanes",2026-11-14T18:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+5887302,Jets vs. Blackhawks,https://polymarket.com/market/nhl-wpg-chi-2026-11-14,,"Jets,Blackhawks",2026-11-14T20:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+5887347,Sabres vs. Stars,https://polymarket.com/market/nhl-buf-dal-2026-11-14,,"Sabres,Stars",2026-11-15T01:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+5887357,Islanders vs. Ducks,https://polymarket.com/market/nhl-nyi-ana-2026-11-14,,"Islanders,Ducks",2026-11-15T03:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+5887362,Flames vs. Kings,https://polymarket.com/market/nhl-cal-lak-2026-11-14,,"Flames,Kings",2026-11-15T03:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6104829,Will Elon Musk post 500-519 tweets in November 2026?,https://polymarket.com/market/elon-musk-of-tweets-november-2026-500-519,,"Yes,No",2026-12-01T05:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6104861,Will Elon Musk post 740-759 tweets in November 2026?,https://polymarket.com/market/elon-musk-of-tweets-november-2026-740-759,,"Yes,No",2026-12-01T05:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6248131,Panthers vs. Saints,https://polymarket.com/market/nfl-car-no-2026-11-15,,"Panthers,Saints",2026-11-15T18:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6424253,"Will Iran target the United Arab Emirates by November 15, 2026?",https://polymarket.com/market/will-iran-target-the-united-arab-emirates-by-november-15-2026,,"Yes,No",2026-11-16T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6446616,Mavericks vs. Cavaliers,https://polymarket.com/market/nba-dal-cle-2026-11-14,,"Mavericks,Cavaliers",2026-11-15T00:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+6446617,Pistons vs. Heat,https://polymarket.com/market/nba-det-mia-2026-11-14,,"Pistons,Heat",2026-11-15T01:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6460037,Will China PR win on 2026-11-14?,https://polymarket.com/market/fif-chn-mas-2026-11-14-chn,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6460039,Will Malaysia win on 2026-11-14?,https://polymarket.com/market/fif-chn-mas-2026-11-14-mas,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6496633,"UFC 334: Jared Gordon vs. Melquizael Costa (Lightweight, Early Prelims)",https://polymarket.com/market/ufc-jar1-mcosta-2026-11-14,,"Jared Gordon,Melquizael Costa",2026-11-15T04:59:59.999000+00:00,2026-11-14T11:05:05+00:00,0,
+6509633,Lakers vs. Suns,https://polymarket.com/market/nba-lal-phx-2026-11-15,,"Lakers,Suns",2026-11-15T21:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6509635,Spurs vs. Jazz,https://polymarket.com/market/nba-sas-uta-2026-11-15,,"Spurs,Jazz",2026-11-15T22:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6509909,Will RCD Mallorca win on 2026-11-14?,https://polymarket.com/market/es2-rm-cor-2026-11-14-rm,,"Yes,No",2026-11-14T17:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+6512591,Stevenage FC vs. Mansfield Town FC: Draw at halftime?,https://polymarket.com/market/el1-ste-man-2026-11-14-halftime-result-draw,,"Yes,No",2026-11-14T15:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6513296,Wycombe Wanderers FC vs. Huddersfield Town AFC: O/U 3.5,https://polymarket.com/market/el1-wyc-hud-2026-11-14-total-3pt5,,"Over,Under",2026-11-14T15:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6513345,Wigan Athletic FC vs. Barnsley FC: O/U 2.5,https://polymarket.com/market/el1-wig-bar-2026-11-14-total-2pt5,,"Over,Under",2026-11-14T15:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6513346,Wigan Athletic FC vs. Barnsley FC: O/U 3.5,https://polymarket.com/market/el1-wig-bar-2026-11-14-total-3pt5,,"Over,Under",2026-11-14T15:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6514391,Will Algeria win on 2026-11-14?,https://polymarket.com/market/afcq-alg-tog-2026-11-14-alg,,"Yes,No",2026-11-14T19:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6516778,Will Kosovo vs. Israel end in a draw?,https://polymarket.com/market/unl-kvx-isr-2026-11-14-draw,,"Yes,No",2026-11-14T14:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6516926,Will Denmark win on 2026-11-14?,https://polymarket.com/market/unl-prt-den-2026-11-14-den,,"Yes,No",2026-11-14T19:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+6516973,Will Austria win on 2026-11-14?,https://polymarket.com/market/unl-aut-ire-2026-11-14-aut,,"Yes,No",2026-11-14T19:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+6517071,Will Sweden win on 2026-11-14?,https://polymarket.com/market/unl-swe-bih-2026-11-14-swe,,"Yes,No",2026-11-14T19:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+6517073,Will Bosnia and Herzegovina win on 2026-11-14?,https://polymarket.com/market/unl-swe-bih-2026-11-14-bih,,"Yes,No",2026-11-14T19:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+6517121,Will Northern Ireland vs. Ukraine end in a draw?,https://polymarket.com/market/unl-nir-ukr-2026-11-14-draw,,"Yes,No",2026-11-14T19:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+6517561,Spread: Bosnia and Herzegovina (-1.5),https://polymarket.com/market/unl-swe-bih-2026-11-14-spread-away-1pt5,,"Bosnia and Herzegovina,Sweden",2026-11-14T19:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+6517745,Spread: Portugal (-1.5),https://polymarket.com/market/unl-prt-den-2026-11-14-spread-home-1pt5,,"Portugal,Denmark",2026-11-14T19:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+6517748,Spread: Denmark (-2.5),https://polymarket.com/market/unl-prt-den-2026-11-14-spread-away-2pt5,,"Denmark,Portugal",2026-11-14T19:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+6517755,Portugal vs. Denmark: O/U 0.5,https://polymarket.com/market/unl-prt-den-2026-11-14-total-0pt5,,"Over,Under",2026-11-14T19:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+6517805,Spread: Norway (-1.5),https://polymarket.com/market/unl-nor-wal-2026-11-14-spread-home-1pt5,,"Norway,Wales",2026-11-14T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6517815,Norway vs. Wales: O/U 0.5,https://polymarket.com/market/unl-nor-wal-2026-11-14-total-0pt5,,"Over,Under",2026-11-14T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6517816,Norway vs. Wales: O/U 1.5,https://polymarket.com/market/unl-nor-wal-2026-11-14-total-1pt5,,"Over,Under",2026-11-14T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6517818,Norway vs. Wales: O/U 3.5,https://polymarket.com/market/unl-nor-wal-2026-11-14-total-3pt5,,"Over,Under",2026-11-14T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6517877,Georgia vs. Hungary: O/U 2.5,https://polymarket.com/market/unl-geo-hun-2026-11-14-total-2pt5,,"Over,Under",2026-11-14T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6517937,Kosovo vs. Israel: O/U 2.5,https://polymarket.com/market/unl-kvx-isr-2026-11-14-total-2pt5,,"Over,Under",2026-11-14T14:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6545122,UD Almería vs. FC Andorra: O/U 3.5,https://polymarket.com/market/es2-alm-and-2026-11-14-total-3pt5,,"Over,Under",2026-11-14T17:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+6545169,Will Avaí FC win on 2026-11-14?,https://polymarket.com/market/bra2-afc-ava-2026-11-14-ava,,"Yes,No",2026-11-14T19:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+6567952,76ers vs. Nets,https://polymarket.com/market/nba-phi-bkn-2026-11-16,,"76ers,Nets",2026-11-17T00:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+6574801,Will Finland win on 2026-11-15?,https://polymarket.com/market/unl-fin-smr-2026-11-15-fin,,"Yes,No",2026-11-15T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6574907,Will Italy win on 2026-11-15?,https://polymarket.com/market/unl-bel-ita-2026-11-15-ita,,"Yes,No",2026-11-15T19:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+6602030,Northwestern vs. Ohio State,https://polymarket.com/market/cfb-nw-ohiost-2026-11-14,,"Northwestern,Ohio State",2026-11-14T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6602567,Syracuse vs. NC State,https://polymarket.com/market/cfb-syra-ncst-2026-11-14,,"Syracuse,NC State",2026-11-14T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6602879,Spread: Yale (-3.5),https://polymarket.com/market/cfb-prnce-yale-2026-11-14-spread-home-3pt5,,"Yale,Princeton",2026-11-14T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6603298,Nebraska vs. Rutgers: O/U 51.5,https://polymarket.com/market/cfb-nebr-rutger-2026-11-14-total-51pt5,,"Over,Under",2026-11-14T17:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+6605542,Utah vs. Arizona,https://polymarket.com/market/cfb-utah-arz-2026-11-14,,"Utah,Arizona",2026-11-15T03:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+6635022,Exact Score: China PR 3 - 0 Bahrain?,https://polymarket.com/market/fif-chn-bah1-2026-11-17-exact-score-3-0,,"Yes,No",2026-11-17T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6684984,Will FURIA Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-furia-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6684985,Will Vitality Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-vitality-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6684986,Will Spirit Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-spirit-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6684987,Will MOUZ Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-mouz-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6684988,Will Aurora Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-aurora-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6684989,Will Falcons Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-falcons-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6684990,Will BetBoom Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-betboom-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6684991,Will Legacy Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-legacy-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6684992,Will FUT Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-fut-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6684993,Will Nemiga Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-nemiga-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6684994,Will Natus Vincere Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-natus-vincere-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6684995,Will G2 Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-g2-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6684996,Will MIBR Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-mibr-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6684997,Will The MongolZ Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-the-mongolz-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6684998,Will 1win Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-1win-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6684999,Will Astralis Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-astralis-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6685000,Will PARIVISION Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-parivision-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6685001,Will 9z Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-9z-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6685002,Will Liquid Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-liquid-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6685003,Will FaZe Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-faze-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6685004,Will M80 Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-m80-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6685005,Will Eternal Fire Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-eternal-fire-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6685006,Will Ninjas in Pyjamas Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-ninjas-in-pyjamas-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6685007,Will HEROIC Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-heroic-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6685008,Will DENDELE Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-dendele-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6685009,Will 100 Thieves Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-100-thieves-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6685010,Will Wildcard Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-wildcard-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6685012,Will BC.Game Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-bcptgame-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6685013,Will Imperial Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-imperial-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6685015,Will Chinggis Warriors Win the PGL Major Singapore 2026?,https://polymarket.com/market/will-chinggis-warriors-win-the-pgl-major-singapore-2026-1793811600000,,"Yes,No",2026-12-15T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6766339,Will Vincent van Gogh's “Châtaigniers en fleurs” sell for between $200m and $225m at auction?,https://polymarket.com/market/will-van-gogh-chataigniers-en-fleurs-sell-for-between-200m-and-225m-at-auction,,"Yes,No",2026-11-19T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6771080,"Will Donald Trump post 20-39 Truth Social posts from November 10 to November 17, 2026?",https://polymarket.com/market/donald-trump-of-truth-social-posts-november-10-november-17-2026-20-39,,"Yes,No",2026-11-17T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6771083,"Will CZ post 20-39 posts from November 10 to November 17, 2026?",https://polymarket.com/market/cz-binance-of-tweets-november-10-november-17-2026-20-39,,"Yes,No",2026-11-17T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6771130,"Will Donald Trump post 140-159 Truth Social posts from November 10 to November 17, 2026?",https://polymarket.com/market/donald-trump-of-truth-social-posts-november-10-november-17-2026-140-159,,"Yes,No",2026-11-17T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6776232,Melbourne United vs. South East Melbourne Phoenix,https://polymarket.com/market/bknbl-mel-sou-2026-11-14,,"Melbourne United,South East Melbourne Phoenix",2026-11-21T08:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+6776259,Yokohama B-Corsairs vs. Shiga Lakestars,https://polymarket.com/market/bkjpn-yok-shi-2026-11-14,,"Yokohama B-Corsairs,Shiga Lakestars",2026-11-21T06:05:00+00:00,2026-11-14T11:05:05+00:00,0,
+6776260,Alvark Tokyo vs. Hiroshima Dragonflies,https://polymarket.com/market/bkjpn-alv-hir-2026-11-14,,"Alvark Tokyo,Hiroshima Dragonflies",2026-11-21T08:05:00+00:00,2026-11-14T11:05:05+00:00,0,
+6842907,Perth Wildcats vs. Illawarra Hawks,https://polymarket.com/market/bknbl-per-ill-2026-11-14,,"Perth Wildcats,Illawarra Hawks",2026-11-21T10:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+6842915,Enisey Krasnoyarsk vs. Uralmash,https://polymarket.com/market/bkvtb-eni-ura-2026-11-14,,"Enisey Krasnoyarsk,Uralmash",2026-11-21T09:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6842924,Bandirma Bordo vs. Karsiyaka,https://polymarket.com/market/bkbsl-ban-kar-2026-11-14,,"Bandirma Bordo,Karsiyaka",2026-11-21T17:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+6842925,Korfez Basket vs. Galatasaray,https://polymarket.com/market/bkbsl-man-gal-2026-11-14,,"Korfez Basket,Galatasaray",2026-11-21T15:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6864533,Honor of Kings: JD Gaming vs Weibo Gaming (BO7) - King Pro League Grand Finals Playoffs,https://polymarket.com/market/hok-jdg-wb-2026-11-14,,"JD Gaming,Weibo Gaming",2026-11-14T15:50:00+00:00,2026-11-14T11:05:05+00:00,0,
+6891319,"Will Ethereum dip to $1,400 November 9-15?",https://polymarket.com/market/will-ethereum-dip-to-1400-november-9-15-2026,,"Yes,No",2026-11-16T05:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6908111,Will Rory McIlroy win the 2026 DP World Tour Championship?,https://polymarket.com/market/dpwt-2026-dp-world-tour-championship-winner-rory-mcilroy-win,,"Yes,No",2026-11-16T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6909224,"Will the price of Bitcoin be above $70,000 on November 16?",https://polymarket.com/market/bitcoin-above-70k-on-november-16-2026,,"Yes,No",2026-11-16T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6909231,"Will the price of Bitcoin be above $72,000 on November 16?",https://polymarket.com/market/bitcoin-above-72k-on-november-16-2026,,"Yes,No",2026-11-16T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6909256,"Will the price of Bitcoin be above $82,000 on November 16?",https://polymarket.com/market/bitcoin-above-82k-on-november-16-2026,,"Yes,No",2026-11-16T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6913332,Will PAOK win on 2026-11-14?,https://polymarket.com/market/clf-pkt-vie-2026-11-14-pkt,,"Yes,No",2026-11-14T13:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6920132,"Will ""Victorian Psycho"" score at least 80 on the Rotten Tomatoes Tomatometer?",https://polymarket.com/market/will-victorian-psycho-score-at-least-80-on-the-rotten-tomatoes-tomatometer-20261116,,"Yes,No",2026-11-16T15:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6921874,"Will Elon Musk post 180-199 tweets from November 13 to November 20, 2026?",https://polymarket.com/market/elon-musk-of-tweets-november-13-november-20-2026-180-199,,"Yes,No",2026-11-20T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6921878,"Will Elon Musk post 200-219 tweets from November 13 to November 20, 2026?",https://polymarket.com/market/elon-musk-of-tweets-november-13-november-20-2026-200-219,,"Yes,No",2026-11-20T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6921923,"Will Elon Musk post 400-419 tweets from November 13 to November 20, 2026?",https://polymarket.com/market/elon-musk-of-tweets-november-13-november-20-2026-400-419,,"Yes,No",2026-11-20T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6921927,"Will Elon Musk post 420-439 tweets from November 13 to November 20, 2026?",https://polymarket.com/market/elon-musk-of-tweets-november-13-november-20-2026-420-439,,"Yes,No",2026-11-20T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6921937,"Will Elon Musk post 460-479 tweets from November 13 to November 20, 2026?",https://polymarket.com/market/elon-musk-of-tweets-november-13-november-20-2026-460-479,,"Yes,No",2026-11-20T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6921942,"Will Elon Musk post 480-499 tweets from November 13 to November 20, 2026?",https://polymarket.com/market/elon-musk-of-tweets-november-13-november-20-2026-480-499,,"Yes,No",2026-11-20T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6949313,"Will ""Black Doves: Season 2"" be the #2 global Netflix show this week?",https://polymarket.com/market/will-black-doves-season-2-be-the-2-global-netflix-show-this-week,,"Yes,No",2026-11-18T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+6957231,Seoul Thunders vs. Anyang,https://polymarket.com/market/bkkbl-seo2-any-2026-11-14,,"Seoul Thunders,Anyang",2026-11-21T07:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+6959781,"Big Bash League, Women: Perth Scorchers vs Adelaide Strikers",https://polymarket.com/market/cricwbbl-pes-ads-2026-11-14,,"Perth Scorchers,Adelaide Strikers",2026-11-21T08:10:00+00:00,2026-11-14T11:05:05+00:00,0,
+6967921,Dota 2: LGD Gaming vs LEGION - Game 1 Winner,https://polymarket.com/market/dota2-lgd-legion1-2026-11-12-game1,,"LGD Gaming,LEGION",2026-11-14T15:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6967922,Dota 2: LGD Gaming vs LEGION - Game 2 Winner,https://polymarket.com/market/dota2-lgd-legion1-2026-11-12-game2,,"LGD Gaming,LEGION",2026-11-14T15:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6973196,Dota 2: 1win vs Froglings (BO3) - 1win Essence Group D,https://polymarket.com/market/dota2-1win-frogli-2026-11-14,,"1win,Froglings",2026-11-15T02:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6974764,Dota 2: DO KONCA vs Yellow Submarine (BO3) - 1win Essence Group A,https://polymarket.com/market/dota2-konca-yes-2026-11-14,,"DO KONCA,Yellow Submarine",2026-11-14T17:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+6976218,"Will ""Godzilla Minus Zero"" 2nd Weekend Box Office be between 8m and 9m?",https://polymarket.com/market/will-godzilla-minus-zero-2nd-weekend-box-office-be-between-8m-and-9m,,"Yes,No",2026-11-15T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6980512,Will the lowest temperature in Hong Kong be 24°C on November 14?,https://polymarket.com/market/lowest-temperature-in-hong-kong-on-november-14-2026-24c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981038,Will the highest temperature in London be 9°C on November 14?,https://polymarket.com/market/highest-temperature-in-london-on-november-14-2026-9c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981083,Will the highest temperature in Wellington be 20°C on November 14?,https://polymarket.com/market/highest-temperature-in-wellington-on-november-14-2026-20c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981091,Will the highest temperature in Lucknow be 29°C on November 14?,https://polymarket.com/market/highest-temperature-in-lucknow-on-november-14-2026-29c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981092,Will the highest temperature in Lucknow be 30°C on November 14?,https://polymarket.com/market/highest-temperature-in-lucknow-on-november-14-2026-30c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981093,Will the highest temperature in Lucknow be 31°C on November 14?,https://polymarket.com/market/highest-temperature-in-lucknow-on-november-14-2026-31c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981115,Will the highest temperature in Tel Aviv be 27°C on November 14?,https://polymarket.com/market/highest-temperature-in-tel-aviv-on-november-14-2026-27c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981124,Will the highest temperature in Tokyo be 18°C on November 14?,https://polymarket.com/market/highest-temperature-in-tokyo-on-november-14-2026-18c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981126,Will the highest temperature in Tokyo be 20°C on November 14?,https://polymarket.com/market/highest-temperature-in-tokyo-on-november-14-2026-20c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981135,Will the highest temperature in Hong Kong be 26°C on November 14?,https://polymarket.com/market/highest-temperature-in-hong-kong-on-november-14-2026-26c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981136,Will the highest temperature in Hong Kong be 27°C on November 14?,https://polymarket.com/market/highest-temperature-in-hong-kong-on-november-14-2026-27c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981137,Will the highest temperature in Hong Kong be 28°C on November 14?,https://polymarket.com/market/highest-temperature-in-hong-kong-on-november-14-2026-28c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981157,Will the highest temperature in Singapore be 29°C on November 14?,https://polymarket.com/market/highest-temperature-in-singapore-on-november-14-2026-29c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981159,Will the highest temperature in Singapore be 31°C on November 14?,https://polymarket.com/market/highest-temperature-in-singapore-on-november-14-2026-31c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981160,Will the highest temperature in Singapore be 32°C on November 14?,https://polymarket.com/market/highest-temperature-in-singapore-on-november-14-2026-32c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981202,Will the highest temperature in Taipei be 28°C on November 14?,https://polymarket.com/market/highest-temperature-in-taipei-on-november-14-2026-28c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981213,Will the highest temperature in Chongqing be 20°C on November 14?,https://polymarket.com/market/highest-temperature-in-chongqing-on-november-14-2026-20c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981214,Will the highest temperature in Chongqing be 21°C on November 14?,https://polymarket.com/market/highest-temperature-in-chongqing-on-november-14-2026-21c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981216,Will the highest temperature in Chongqing be 23°C on November 14?,https://polymarket.com/market/highest-temperature-in-chongqing-on-november-14-2026-23c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981217,Will the highest temperature in Chongqing be 24°C on November 14?,https://polymarket.com/market/highest-temperature-in-chongqing-on-november-14-2026-24c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981223,Will the highest temperature in Beijing be 12°C on November 14?,https://polymarket.com/market/highest-temperature-in-beijing-on-november-14-2026-12c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981224,Will the highest temperature in Beijing be 13°C on November 14?,https://polymarket.com/market/highest-temperature-in-beijing-on-november-14-2026-13c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981245,Will the highest temperature in Chengdu be 17°C on November 14?,https://polymarket.com/market/highest-temperature-in-chengdu-on-november-14-2026-17c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981263,Will the highest temperature in Shenzhen be 23°C on November 14?,https://polymarket.com/market/highest-temperature-in-shenzhen-on-november-14-2026-23c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981275,Will the highest temperature in Moscow be 4°C on November 14?,https://polymarket.com/market/highest-temperature-in-moscow-on-november-14-2026-4c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981295,Will the highest temperature in Busan be 14°C on November 14?,https://polymarket.com/market/highest-temperature-in-busan-on-november-14-2026-14c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981320,Will the highest temperature in Helsinki be 2°C on November 14?,https://polymarket.com/market/highest-temperature-in-helsinki-on-november-14-2026-2c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981334,Will the highest temperature in Kuala Lumpur be 33°C on November 14?,https://polymarket.com/market/highest-temperature-in-kuala-lumpur-on-november-14-2026-33c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981367,Will the highest temperature in Guangzhou be 27°C on November 14?,https://polymarket.com/market/highest-temperature-in-guangzhou-on-november-14-2026-27c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6981368,Will the highest temperature in Guangzhou be 28°C on November 14?,https://polymarket.com/market/highest-temperature-in-guangzhou-on-november-14-2026-28c,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6983022,Will the highest temperature in Dallas be 57°F or below on November 14?,https://polymarket.com/market/highest-temperature-in-dallas-on-november-14-2026-57forbelow,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6983049,Will the highest temperature in Miami be between 70-71°F on November 14?,https://polymarket.com/market/highest-temperature-in-miami-on-november-14-2026-70-71f,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6984035,Exact Score: Any Other Score?,https://polymarket.com/market/itsb-man-are-2026-11-25-exact-score-any-other,,"Yes,No",2026-11-25T19:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6984078,Exact Score: Any Other Score?,https://polymarket.com/market/itsb-pad-sam-2026-11-25-exact-score-any-other,,"Yes,No",2026-11-25T19:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6984667,Will the highest temperature in Los Angeles be between 70-71°F on November 14?,https://polymarket.com/market/highest-temperature-in-los-angeles-on-november-14-2026-70-71f,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6984668,Will the highest temperature in Los Angeles be between 72-73°F on November 14?,https://polymarket.com/market/highest-temperature-in-los-angeles-on-november-14-2026-72-73f,,"Yes,No",2026-11-14T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6984691,"Bitcoin Up or Down - November 14, 5AM ET",https://polymarket.com/market/bitcoin-up-or-down-november-14-2026-5am-et,,"Up,Down",2026-11-14T11:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6990895,"Will the price of Ethereum be above $1,500 on November 19?",https://polymarket.com/market/ethereum-above-1500-on-november-19-2026,,"Yes,No",2026-11-19T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6990900,"Will the price of Ethereum be above $1,600 on November 19?",https://polymarket.com/market/ethereum-above-1600-on-november-19-2026,,"Yes,No",2026-11-19T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6990958,"Will the price of Bitcoin be above $66,000 on November 19?",https://polymarket.com/market/bitcoin-above-66k-on-november-19-2026,,"Yes,No",2026-11-19T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6992388,Twarde Pierniki Torun vs. Trefl Sopot: O/U 173.5,https://polymarket.com/market/bkplk-twa-tre-2026-11-14-total-173pt5,,"Over,Under",2026-11-14T14:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6993320,Dota 2: Inner Circle vs Nemiga Gaming - Game 1 Winner,https://polymarket.com/market/dota2-ic-nemiga-2026-11-14-game1,,"Inner Circle,Nemiga Gaming",2026-11-14T16:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6993322,Dota 2: Inner Circle vs Nemiga Gaming (BO3) - DreamLeague Division 2 Playoffs,https://polymarket.com/market/dota2-ic-nemiga-2026-11-14,,"Inner Circle,Nemiga Gaming",2026-11-14T16:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+6995432,Exact Score: Any Other Score?,https://polymarket.com/market/col-kai-ma-2026-11-26-exact-score-any-other,,"Yes,No",2026-11-26T15:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+6995660,Exact Score: Any Other Score?,https://polymarket.com/market/col-egn-lin-2026-11-26-exact-score-any-other,,"Yes,No",2026-11-26T17:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+6995706,Exact Score: Any Other Score?,https://polymarket.com/market/col-sab-get-2026-11-26-exact-score-any-other,,"Yes,No",2026-11-26T17:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+6995752,Exact Score: Any Other Score?,https://polymarket.com/market/col-kau-rfc1-2026-11-26-exact-score-any-other,,"Yes,No",2026-11-26T17:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+6995798,Exact Score: Any Other Score?,https://polymarket.com/market/col-bha-ucr-2026-11-26-exact-score-any-other,,"Yes,No",2026-11-26T17:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+6995844,Exact Score: Any Other Score?,https://polymarket.com/market/col-jab-lug-2026-11-26-exact-score-any-other,,"Yes,No",2026-11-26T17:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+6995890,Exact Score: Any Other Score?,https://polymarket.com/market/col-hmi-asm-2026-11-26-exact-score-any-other,,"Yes,No",2026-11-26T17:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+6996391,Maccabi Tel-Aviv vs. Hapoel Jerusalem,https://polymarket.com/market/bkisrsl-mac2-hap2-2026-11-14,,"Maccabi Tel-Aviv,Hapoel Jerusalem",2026-11-21T18:55:00+00:00,2026-11-14T11:05:05+00:00,0,
+7006888,Counter-Strike: Team Recrent vs Team cutierover (BO3) - Winline Star Series Group B,https://polymarket.com/market/cs2-recrent-cutier-2026-11-14,,"Team Recrent,Team cutierover",2026-11-14T16:15:00+00:00,2026-11-14T11:05:05+00:00,0,
+7009917,Counter-Strike: STATE vs EYEBALLERS - Map 2 Winner,https://polymarket.com/market/cs2-sta6-eye-2026-11-14-game2,,"STATE,EYEBALLERS",2026-11-14T15:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7009918,Counter-Strike: STATE vs EYEBALLERS (BO3) - United21 Playoffs,https://polymarket.com/market/cs2-sta6-eye-2026-11-14,,"STATE,EYEBALLERS",2026-11-14T15:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7011040,Victoria Women T20I: Namibia Women vs USA Women,https://polymarket.com/market/crint-namw-usaw-2026-11-14,,"Namibia Women,USA Women",2026-11-21T06:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+7011042,ACC Men's U19 Asia Cup: Pakistan Under-19s vs India Under-19s,https://polymarket.com/market/crint-paku19-indu19-2026-11-14,,"Pakistan Under-19s,India Under-19s",2026-11-21T05:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7011159,Counter-Strike: QUINTESSÊNCIA vs ex-Yawara (BO3) - CCT South America Playoffs,https://polymarket.com/market/cs2-quin-yawara-2026-11-14,,"QUINTESSÊNCIA,ex-Yawara",2026-11-15T01:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7012783,Map Handicap: VP (-1.5) vs BakS eSports (+1.5),https://polymarket.com/market/cs2-vp-baks-2026-11-14-map-handicap-away-1pt5,,"Virtus.pro,BakS eSports",2026-11-14T18:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7014753,Counter-Strike: FURIA vs Team Falcons - Map 1 Winner,https://polymarket.com/market/cs2-furia-fal2-2026-11-14-game1,,"FURIA,Team Falcons",2026-11-14T16:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+7014756,Games Total: O/U 2.5,https://polymarket.com/market/cs2-furia-fal2-2026-11-14-total-games-2pt5,,"Over,Under",2026-11-14T16:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+7014757,Map Handicap: FURIA (-1.5) vs Team Falcons (+1.5),https://polymarket.com/market/cs2-furia-fal2-2026-11-14-map-handicap-away-1pt5,,"FURIA,Team Falcons",2026-11-14T16:45:00+00:00,2026-11-14T11:05:05+00:00,0,
+7015767,M15 Antalya: Dmitry Popko vs Dragos Nicolae Madaras,https://polymarket.com/market/itf-popko1-madara1-2026-11-14,,"Dmitry Popko,Dragos Nicolae Madaras",2026-11-21T07:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7015768,M15 Antalya: Alan Wazny vs Stefan Adrian Andreescu,https://polymarket.com/market/itf-wazny1-andree2-2026-11-14,,"Alan Wazny,Stefan Adrian Andreescu",2026-11-21T07:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7015771,M15 Heraklion: Robert Guna vs Imanol Lopez Morillo,https://polymarket.com/market/itf-guna1-morill1-2026-11-14,,"Robert Guna,Imanol Lopez Morillo",2026-11-21T08:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7015773,M15 Monastir: Nikita Belozertsev vs Wissam Abderrahman,https://polymarket.com/market/itf-beloze1-abderr1-2026-11-14,,"Nikita Belozertsev,Wissam Abderrahman",2026-11-21T08:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+7015774,M15 Monastir: Liam Gavrielides vs Julien Penzlin,https://polymarket.com/market/itf-gavrie1-penzli1-2026-11-14,,"Liam Gavrielides,Julien Penzlin",2026-11-21T08:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+7016296,W35 Heraklion: Ane Mintegi Del Olmo vs Lucia Cortez Llorca,https://polymarket.com/market/itf-olmo1-llorca1-2026-11-14,,"Ane Mintegi Del Olmo,Lucia Cortez Llorca",2026-11-21T08:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7016300,W35 Heraklion: Alisa Oktiabreva vs Sapfo Sakellaridi,https://polymarket.com/market/itf-oktiab1-sakell1-2026-11-14,,"Alisa Oktiabreva,Sapfo Sakellaridi",2026-11-21T08:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7016301,W15 Nules: Aurora Corvi vs Maria Toma,https://polymarket.com/market/itf-corvi1-toma1-2026-11-14,,"Aurora Corvi,Maria Toma",2026-11-21T08:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+7018477,"Will the price of Bitcoin be above $60,000 on November 20?",https://polymarket.com/market/bitcoin-above-60k-on-november-20-2026,,"Yes,No",2026-11-20T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7018480,"Will the price of Bitcoin be above $66,000 on November 20?",https://polymarket.com/market/bitcoin-above-66k-on-november-20-2026,,"Yes,No",2026-11-20T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7019142,"Will Bitcoin dip to $58,000 November 9-15?",https://polymarket.com/market/will-bitcoin-dip-to-58k-november-9-15-2026,,"Yes,No",2026-11-16T05:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7019157,"Will Ethereum reach $2,000 November 9-15?",https://polymarket.com/market/will-ethereum-reach-2000-november-9-15-2026,,"Yes,No",2026-11-16T05:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7019194,Hersonissos 3: Francesco Maestrelli vs Philip Henning,https://polymarket.com/market/atp-maestre-henning-2026-11-14,,"Francesco Maestrelli,Philip Henning",2026-11-21T09:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+7019198,BNP Paribas Nordic Open: Taylor Fritz vs Thiago Agustin Tirante,https://polymarket.com/market/atp-fritz-tirante-2026-11-14,,"Taylor Fritz,Thiago Agustin Tirante",2026-11-21T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7019474,Fritz vs. Tirante: Match O/U 22.5,https://polymarket.com/market/atp-fritz-tirante-2026-11-14-match-total-22pt5,,"Over,Under",2026-11-21T12:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7022211,Counter-Strike: GenOne vs Balkan Outlaws - Map 1 Winner,https://polymarket.com/market/cs2-g1-bal2-2026-11-14-game1,,"GenOne,Balkan Outlaws",2026-11-14T15:15:00+00:00,2026-11-14T11:05:05+00:00,0,
+7022213,Counter-Strike: GenOne vs Balkan Outlaws (BO3) - European Pro League Playoffs,https://polymarket.com/market/cs2-g1-bal2-2026-11-14,,"GenOne,Balkan Outlaws",2026-11-14T15:15:00+00:00,2026-11-14T11:05:05+00:00,0,
+7022218,Counter-Strike: 9INE vs WRAITH PCIFIC (BO3) - European Pro League Playoffs,https://polymarket.com/market/cs2-9ine-wraith-2026-11-14,,"9INE,WRAITH PCIFIC",2026-11-14T17:30:00+00:00,2026-11-14T11:05:05+00:00,0,
+7023340,Spread: Grizzlies (-4.5),https://polymarket.com/market/nba-bkn-mem-2026-11-14-spread-home-4pt5,,"Grizzlies,Nets",2026-11-15T01:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7023382,Spread: Nuggets (-9.5),https://polymarket.com/market/nba-den-nop-2026-11-14-spread-away-9pt5,,"Nuggets,Pelicans",2026-11-15T00:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7023385,Spread: Grizzlies (-5.5),https://polymarket.com/market/nba-bkn-mem-2026-11-14-spread-home-5pt5,,"Grizzlies,Nets",2026-11-15T01:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7023423,Spread: Nuggets (-8.5),https://polymarket.com/market/nba-den-nop-2026-11-14-spread-away-8pt5,,"Nuggets,Pelicans",2026-11-15T00:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7023459,Spread: Nuggets (-7.5),https://polymarket.com/market/nba-den-nop-2026-11-14-spread-away-7pt5,,"Nuggets,Pelicans",2026-11-15T00:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7023807,Counter-Strike: FORZE Reload vs Nice Try - Map 2 Winner,https://polymarket.com/market/cs2-forzer-nicetr-2026-11-14-game2,,"FORZE Reload,Nice Try",2026-11-14T15:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7023808,Counter-Strike: FORZE Reload vs Nice Try (BO3) - NODWIN Clutch Series Group Stage,https://polymarket.com/market/cs2-forzer-nicetr-2026-11-14,,"FORZE Reload,Nice Try",2026-11-14T15:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7023817,Counter-Strike: LUNTIKI vs Spirit Academy (BO3) - NODWIN Clutch Series Group Stage,https://polymarket.com/market/cs2-lun-tsa-2026-11-14,,"LUNTIKI,Spirit Academy",2026-11-14T21:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7023822,Counter-Strike: Axorfy Gaming vs Turma do Pagode (BO3) - CCT South America Playoffs,https://polymarket.com/market/cs2-axorfy-tdp-2026-11-14,,"Axorfy Gaming,Turma do Pagode",2026-11-14T19:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7023827,Counter-Strike: 33 vs GenOne (BO3) - NODWIN Clutch Series Group Stage,https://polymarket.com/market/cs2-331-g1-2026-11-14,,"33,GenOne",2026-11-15T00:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7023983,Will it be confirmed that a software or configuration error caused the FAA's nationwide ground stop on November 13?,https://polymarket.com/market/faa-ground-stop-cause-software-or-configuration-error,,"Yes,No",2026-12-01T04:59:00+00:00,2026-11-14T11:05:05+00:00,0,
+7027049,Counter-Strike: ex-INOX Division vs Alliance (BO3) - ESL Challenger League Europe Cup #12 Playoffs,https://polymarket.com/market/cs2-inox1-all-2026-11-14,,"ex-INOX Division,Alliance",2026-11-14T20:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7027599,"WTA Finals, Group A: Jessica Pegula vs Mirra Andreeva",https://polymarket.com/market/wta-pegula-andreev-2026-11-14,,"Jessica Pegula,Mirra Andreeva",2026-11-21T20:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7030510,"Will Bitcoin reach $71,000 on November 14?",https://polymarket.com/market/will-bitcoin-reach-71k-on-november-14-2026,,"Yes,No",2026-11-15T05:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7030519,"Will Bitcoin reach $70,000 on November 14?",https://polymarket.com/market/will-bitcoin-reach-70k-on-november-14-2026,,"Yes,No",2026-11-15T05:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7030529,"Will Bitcoin reach $69,000 on November 14?",https://polymarket.com/market/will-bitcoin-reach-69k-on-november-14-2026,,"Yes,No",2026-11-15T05:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7030554,"Will Bitcoin dip to $66,000 on November 14?",https://polymarket.com/market/will-bitcoin-dip-to-66k-on-november-14-2026,,"Yes,No",2026-11-15T05:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7030563,"Will Bitcoin dip to $65,000 on November 14?",https://polymarket.com/market/will-bitcoin-dip-to-65k-on-november-14-2026,,"Yes,No",2026-11-15T05:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7030569,"Will Bitcoin dip to $64,000 on November 14?",https://polymarket.com/market/will-bitcoin-dip-to-64k-on-november-14-2026,,"Yes,No",2026-11-15T05:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7030573,"Will Bitcoin dip to $63,000 on November 14?",https://polymarket.com/market/will-bitcoin-dip-to-63k-on-november-14-2026,,"Yes,No",2026-11-15T05:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7030598,"Will Elon Musk post 500-519 tweets from November 17 to November 24, 2026?",https://polymarket.com/market/elon-musk-of-tweets-november-17-november-24-2026-500-519,,"Yes,No",2026-11-24T17:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7030606,"Will Ethereum reach $1,950 on November 14?",https://polymarket.com/market/will-ethereum-reach-1950-on-november-14-2026,,"Yes,No",2026-11-15T05:00:00+00:00,2026-11-14T11:05:05+00:00,0,
+7030609,"Will Ethereum dip to $1,850 on November 14?",https://polymarket.com/market/will-ethereum-dip-to-1850-on-november-14-2026,,"Yes,No",2026-11-15T05:00:00+00:00,2026-11-14T11:05:05+00:00,0,
